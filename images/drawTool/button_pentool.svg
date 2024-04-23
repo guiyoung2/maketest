@@ -1,0 +1,50 @@
+
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="none" x="0px" y="0px" width="80px" height="80px" viewBox="0 0 80 80">
+<defs>
+<g id="icon_tool_1_Layer1_0_MEMBER_0_FILL">
+<path fill="#000000" fill-opacity="0.00392156862745098" stroke="none" d="
+M 40 -40
+L -40 -40 -40 40 40 40 40 -40 Z"/>
+</g>
+
+<g id="icon_tool_1_Layer1_0_MEMBER_1_MEMBER_0_FILL">
+<path fill="#CCCCCC" stroke="none" d="
+M 17.7 -17.65
+Q 10.35 -25 0 -25 -10.35 -25 -17.65 -17.65 -25 -10.35 -25 0 -25 10.4 -17.65 17.7 -10.35 25 0 25 10.35 25 17.7 17.7 25 10.4 25 0 25 -10.35 17.7 -17.65 Z"/>
+</g>
+
+<g id="icon_tool_1_Layer0_0_MEMBER_0_FILL">
+<path fill="#999999" stroke="none" d="
+M 10.05 -4.75
+L 4.85 -9.95 -9.3 4.2 -9.9 10 -4.1 9.4 10.05 -4.75 Z"/>
+</g>
+
+<path id="icon_tool_1_Layer0_0_MEMBER_0_1_STROKES" stroke="#FFFFFF" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" fill="none" d="
+M -9.9 10
+L -4.1 9.4 10.05 -4.75 4.85 -9.95 -9.3 4.2 -9.9 10 Z"/>
+
+<path id="icon_tool_1_Layer0_0_MEMBER_1_1_STROKES" stroke="#FFFFFF" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" fill="none" d="
+M 1.9398010253906222 -6.3836242675781305
+L 6.289669799804685 -2.033755493164068"/>
+</defs>
+
+<g transform="matrix( 1, 0, 0, 1, 40,40) ">
+<g transform="matrix( 1, 0, 0, 1, 0,0) ">
+<use xlink:href="#icon_tool_1_Layer1_0_MEMBER_0_FILL"/>
+</g>
+
+<g transform="matrix( 1, 0, 0, 1, 0,0) ">
+<use xlink:href="#icon_tool_1_Layer1_0_MEMBER_1_MEMBER_0_FILL"/>
+</g>
+
+<g transform="matrix( 1, 0, 0, 1, 0,0) ">
+<use xlink:href="#icon_tool_1_Layer0_0_MEMBER_0_FILL"/>
+
+<use xlink:href="#icon_tool_1_Layer0_0_MEMBER_0_1_STROKES"/>
+</g>
+
+<g transform="matrix( 0.42437744140625, 0.42437744140625, -0.3397216796875, 0.3397216796875, 89.25,5.95) ">
+<use xlink:href="#icon_tool_1_Layer0_0_MEMBER_1_1_STROKES" transform="matrix( 1.178192138671875, -1.4717864990234375, 1.178192138671875, 1.4717864990234375, -112.15,122.6) "/>
+</g>
+</g>
+</svg>

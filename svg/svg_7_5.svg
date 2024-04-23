@@ -1,0 +1,70 @@
+
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="none" x="0px" y="0px" width="130px" height="115px" viewBox="0 0 130 115">
+<defs>
+<g id="icon_r_box_02_61_Layer3_0_FILL">
+<path fill="#FFFFFF" fill-opacity="0" stroke="none" d="
+M 65 -55
+L -65 -55 -65 25 65 25 65 -55 Z"/>
+</g>
+
+<g id="icon_r_box_02_61_Layer3_1_FILL">
+<path fill="#FFFFFF" fill-opacity="0" stroke="none" d="
+M 65.05 49.95
+L 65.05 24.95 -64.95 24.95 -64.95 49.95 65.05 49.95 Z"/>
+</g>
+
+<g id="icon_r_box_02_61_Layer3_2_FILL">
+<path fill="#FFFFFF" fill-opacity="0" stroke="none" d="
+M 65 -52.85
+L 65 -57.85 -65 -57.85 -65 -52.85 65 -52.85 Z"/>
+</g>
+
+<g id="icon_r_box_02_61_Layer3_3_FILL">
+<path fill="#FFFFFF" fill-opacity="0" stroke="none" d="
+M 65 54.95
+L 65 49.95 -65 49.95 -65 54.95 65 54.95 Z"/>
+</g>
+
+<path id="icon_r_box_02_61_Layer2_0_MEMBER_0_MEMBER_0_1_STROKES" stroke="#01A732" stroke-width="3" stroke-linejoin="round" stroke-linecap="round" fill="none" d="
+M 1.5 20.85
+L 1.5 9.85"/>
+
+<path id="icon_r_box_02_61_Layer2_0_MEMBER_0_MEMBER_1_1_STROKES" stroke="#01A732" stroke-width="3" stroke-linejoin="round" stroke-linecap="round" fill="none" d="
+M 10.35 1.5
+L 10.35 20.85"/>
+
+<path id="icon_r_box_02_61_Layer2_0_MEMBER_0_MEMBER_2_1_STROKES" stroke="#01A732" stroke-width="3" stroke-linejoin="round" stroke-linecap="round" fill="none" d="
+M 19.15 12.3
+L 19.15 20.85"/>
+</defs>
+
+<g transform="matrix( 1, 0, 0, 0.999603271484375, 65,60) ">
+<g transform="matrix( 1, 0, 0, 1, 0,0) ">
+<use xlink:href="#icon_r_box_02_61_Layer3_0_FILL"/>
+</g>
+
+<g transform="matrix( 1, 0, 0, 1, -0.05,0.05) ">
+<use xlink:href="#icon_r_box_02_61_Layer3_1_FILL"/>
+</g>
+
+<g transform="matrix( 1, 0, 0, 1, 0,-2.15) ">
+<use xlink:href="#icon_r_box_02_61_Layer3_2_FILL"/>
+</g>
+
+<g transform="matrix( 1, 0, 0, 1, 0,0.05) ">
+<use xlink:href="#icon_r_box_02_61_Layer3_3_FILL"/>
+</g>
+
+<g transform="matrix( 1, 0, 0, 1, -10.3,-26.2) ">
+<use xlink:href="#icon_r_box_02_61_Layer2_0_MEMBER_0_MEMBER_0_1_STROKES"/>
+</g>
+
+<g transform="matrix( 1, 0, 0, 1, -10.3,-26.2) ">
+<use xlink:href="#icon_r_box_02_61_Layer2_0_MEMBER_0_MEMBER_1_1_STROKES"/>
+</g>
+
+<g transform="matrix( 1, 0, 0, 1, -10.3,-26.2) ">
+<use xlink:href="#icon_r_box_02_61_Layer2_0_MEMBER_0_MEMBER_2_1_STROKES"/>
+</g>
+</g>
+</svg>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<root xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<location>
+		<name>울산광역시</name>
+		<id>map_07_0000</id>
+	</location>
+	<location>
+		<name>울산광역시 남구</name>
+		<id>map_07_0001</id>
+	</location>
+	<location>
+		<name>울산광역시 동구</name>
+		<id>map_07_0002</id>
+	</location>
+	<location>
+		<name>울산광역시 북구</name>
+		<id>map_07_0003</id>
+	</location>
+	<location>
+		<name>울산광역시 울주군</name>
+		<id>map_07_0004</id>
+	</location>
+	<location>
+		<name>울산광역시 중구</name>
+		<id>map_07_0005</id>
+	</location>
+</root>

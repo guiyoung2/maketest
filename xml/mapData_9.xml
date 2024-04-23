@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<root xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<location>
+		<name>강원특별자치도</name>
+		<id>map_10_0000</id>
+	</location>
+	<location>
+		<name>강원특별자치도 강릉시</name>
+		<id>map_10_0001</id>
+	</location>
+	<location>
+		<name>강원특별자치도 고성군</name>
+		<id>map_10_0002</id>
+	</location>
+	<location>
+		<name>강원특별자치도 동해시</name>
+		<id>map_10_0003</id>
+	</location>
+	<location>
+		<name>강원특별자치도 삼척시</name>
+		<id>map_10_0004</id>
+	</location>
+	<location>
+		<name>강원특별자치도 속초시</name>
+		<id>map_10_0005</id>
+	</location>
+	<location>
+		<name>강원특별자치도 양구군</name>
+		<id>map_10_0006</id>
+	</location>
+	<location>
+		<name>강원특별자치도 양양군</name>
+		<id>map_10_0007</id>
+	</location>
+	<location>
+		<name>강원특별자치도 영월군</name>
+		<id>map_10_0008</id>
+	</location>
+	<location>
+		<name>강원특별자치도 원주시</name>
+		<id>map_10_0009</id>
+	</location>
+	<location>
+		<name>강원특별자치도 인제군</name>
+		<id>map_10_0010</id>
+	</location>
+	<location>
+		<name>강원특별자치도 정선군</name>
+		<id>map_10_0011</id>
+	</location>
+	<location>
+		<name>강원특별자치도 철원군</name>
+		<id>map_10_0012</id>
+	</location>
+	<location>
+		<name>강원특별자치도 춘천시</name>
+		<id>map_10_0013</id>
+	</location>
+	<location>
+		<name>강원특별자치도 태백시</name>
+		<id>map_10_0014</id>
+	</location>
+	<location>
+		<name>강원특별자치도 평창군</name>
+		<id>map_10_0015</id>
+	</location>
+	<location>
+		<name>강원특별자치도 홍천군</name>
+		<id>map_10_0016</id>
+	</location>
+	<location>
+		<name>강원특별자치도 화천군</name>
+		<id>map_10_0017</id>
+	</location>
+	<location>
+		<name>강원특별자치도 횡성군</name>
+		<id>map_10_0018</id>
+	</location>
+</root>

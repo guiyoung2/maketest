@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<root xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<location>
+		<name>경기도</name>
+		<id>map_09_0000</id>
+	</location>
+	<location>
+		<name>경기도 가평군</name>
+		<id>map_09_0001</id>
+	</location>
+	<location>
+		<name>경기도 고양시</name>
+		<id>map_09_0002</id>
+	</location>
+	<location>
+		<name>경기도 과천시</name>
+		<id>map_09_0003</id>
+	</location>
+	<location>
+		<name>경기도 광명시</name>
+		<id>map_09_0004</id>
+	</location>
+	<location>
+		<name>경기도 광주시</name>
+		<id>map_09_0005</id>
+	</location>
+	<location>
+		<name>경기도 구리시</name>
+		<id>map_09_0006</id>
+	</location>
+	<location>
+		<name>경기도 군포시</name>
+		<id>map_09_0007</id>
+	</location>
+	<location>
+		<name>경기도 김포시</name>
+		<id>map_09_0008</id>
+	</location>
+	<location>
+		<name>경기도 남양주시</name>
+		<id>map_09_0009</id>
+	</location>
+	<location>
+		<name>경기도 동두천시</name>
+		<id>map_09_0010</id>
+	</location>
+	<location>
+		<name>경기도 부천시</name>
+		<id>map_09_0011</id>
+	</location>
+	<location>
+		<name>경기도 성남시</name>
+		<id>map_09_0012</id>
+	</location>
+	<location>
+		<name>경기도 수원시</name>
+		<id>map_09_0013</id>
+	</location>
+	<location>
+		<name>경기도 시흥시</name>
+		<id>map_09_0014</id>
+	</location>
+	<location>
+		<name>경기도 안산시</name>
+		<id>map_09_0015</id>
+	</location>
+	<location>
+		<name>경기도 안성시</name>
+		<id>map_09_0016</id>
+	</location>
+	<location>
+		<name>경기도 안양시</name>
+		<id>map_09_0017</id>
+	</location>
+	<location>
+		<name>경기도 양주시</name>
+		<id>map_09_0018</id>
+	</location>
+	<location>
+		<name>경기도 양평군</name>
+		<id>map_09_0019</id>
+	</location>
+	<location>
+		<name>경기도 여주시</name>
+		<id>map_09_0020</id>
+	</location>
+	<location>
+		<name>경기도 연천군</name>
+		<id>map_09_0021</id>
+	</location>
+	<location>
+		<name>경기도 오산시</name>
+		<id>map_09_0022</id>
+	</location>
+	<location>
+		<name>경기도 용인시</name>
+		<id>map_09_0023</id>
+	</location>
+	<location>
+		<name>경기도 의왕시</name>
+		<id>map_09_0024</id>
+	</location>
+	<location>
+		<name>경기도 의정부시</name>
+		<id>map_09_0025</id>
+	</location>
+	<location>
+		<name>경기도 이천시</name>
+		<id>map_09_0026</id>
+	</location>
+	<location>
+		<name>경기도 파주시</name>
+		<id>map_09_0027</id>
+	</location>
+	<location>
+		<name>경기도 평택시</name>
+		<id>map_09_0028</id>
+	</location>
+	<location>
+		<name>경기도 포천시</name>
+		<id>map_09_0029</id>
+	</location>
+	<location>
+		<name>경기도 하남시</name>
+		<id>map_09_0030</id>
+	</location>
+	<location>
+		<name>경기도 화성시</name>
+		<id>map_09_0031</id>
+	</location>
+</root>

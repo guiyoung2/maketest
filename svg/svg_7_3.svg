@@ -1,0 +1,80 @@
+
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="none" x="0px" y="0px" width="130px" height="115px" viewBox="0 0 130 115">
+<defs>
+<g id="icon_r_box_02_2_Layer3_0_FILL">
+<path fill="#FFFFFF" fill-opacity="0" stroke="none" d="
+M 65 -55
+L -65 -55 -65 25 65 25 65 -55 Z"/>
+</g>
+
+<g id="icon_r_box_02_2_Layer3_1_FILL">
+<path fill="#FFFFFF" fill-opacity="0" stroke="none" d="
+M 65.05 49.95
+L 65.05 24.95 -64.95 24.95 -64.95 49.95 65.05 49.95 Z"/>
+</g>
+
+<g id="icon_r_box_02_2_Layer3_2_FILL">
+<path fill="#FFFFFF" fill-opacity="0" stroke="none" d="
+M 65 -52.85
+L 65 -57.85 -65 -57.85 -65 -52.85 65 -52.85 Z"/>
+</g>
+
+<g id="icon_r_box_02_2_Layer3_3_FILL">
+<path fill="#FFFFFF" fill-opacity="0" stroke="none" d="
+M 65 54.95
+L 65 49.95 -65 49.95 -65 54.95 65 54.95 Z"/>
+</g>
+
+<g id="icon_r_box_02_2_Layer2_0_MEMBER_0_FILL">
+<path fill="#007FFF" stroke="none" d="
+M 41.3 1
+Q 41.3 0.6 41 0.3 40.7 0 40.3 0
+L 1 0
+Q 0.6 0 0.3 0.3 0 0.6 0 1 0 1.4 0.3 1.7 0.6 2 1 2
+L 40.3 2
+Q 40.7 2 41 1.7 41.3 1.4 41.3 1 Z"/>
+</g>
+
+<g id="icon_r_box_02_2_Layer2_0_MEMBER_1_FILL">
+<path fill="#007FFF" stroke="none" d="
+M 14.15 12.4
+Q 12.45 10.75 10.1 10.75 7.8 10.75 6.1 12.4 4.45 14.1 4.45 16.4 4.45 18.75 6.1 20.45 7.8 22.1 10.15 22.1 12.5 22.1 14.15 20.45 15.8 18.75 15.8 16.4 15.8 14.05 14.15 12.4 Z"/>
+</g>
+
+<g id="icon_r_box_02_2_Layer2_0_MEMBER_2_FILL">
+<path fill="#007FFF" stroke="none" d="
+M 35.2 12.4
+Q 33.55 10.7 31.2 10.75 28.85 10.75 27.15 12.4 25.5 14.05 25.5 16.4 25.5 18.75 27.15 20.45 28.85 22.1 31.2 22.05 33.55 22.05 35.2 20.4 36.85 18.75 36.85 16.4 36.85 14.05 35.2 12.4 Z"/>
+</g>
+</defs>
+
+<g transform="matrix( 1, 0, 0, 0.999603271484375, 65,60) ">
+<g transform="matrix( 1, 0, 0, 1, 0,0) ">
+<use xlink:href="#icon_r_box_02_2_Layer3_0_FILL"/>
+</g>
+
+<g transform="matrix( 1, 0, 0, 1, -0.05,0.05) ">
+<use xlink:href="#icon_r_box_02_2_Layer3_1_FILL"/>
+</g>
+
+<g transform="matrix( 1, 0, 0, 1, 0,-2.15) ">
+<use xlink:href="#icon_r_box_02_2_Layer3_2_FILL"/>
+</g>
+
+<g transform="matrix( 1, 0, 0, 1, 0,0.05) ">
+<use xlink:href="#icon_r_box_02_2_Layer3_3_FILL"/>
+</g>
+
+<g transform="matrix( 1, 0, 0, 1, -20.65,-19.65) ">
+<use xlink:href="#icon_r_box_02_2_Layer2_0_MEMBER_0_FILL"/>
+</g>
+
+<g transform="matrix( 1, 0, 0, 1, -20.65,-19.65) ">
+<use xlink:href="#icon_r_box_02_2_Layer2_0_MEMBER_1_FILL"/>
+</g>
+
+<g transform="matrix( 1, 0, 0, 1, -20.65,-19.65) ">
+<use xlink:href="#icon_r_box_02_2_Layer2_0_MEMBER_2_FILL"/>
+</g>
+</g>
+</svg>

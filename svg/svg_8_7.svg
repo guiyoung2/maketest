@@ -1,0 +1,226 @@
+
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="none" x="0px" y="0px" width="130px" height="115px" viewBox="0 0 130 115">
+<defs>
+<filter id="Filter_1" x="-22.203315860867015%" y="-26.11426773179373%" width="144.40663172173402%" height="152.22853546358746%" color-interpolation-filters="sRGB">
+<feFlood flood-color="#000000" flood-opacity="1" in="SourceGraphic" result="result1"/>
+
+<feGaussianBlur in="SourceGraphic" stdDeviation="1.6666666666666667,1.6666666666666667" result="result2"/>
+
+<feComposite in2="result2" in="result1" operator="in" result="result3"/>
+
+<feComposite in2="result3" in="SourceGraphic" operator="over" result="result4"/>
+</filter>
+
+<g id="icon_r_box_02_6_Layer3_0_FILL">
+<path fill="#FFFFFF" fill-opacity="0" stroke="none" d="
+M 65 -55
+L -65 -55 -65 25 65 25 65 -55 Z"/>
+</g>
+
+<g id="icon_r_box_02_6_Layer3_1_FILL">
+<path fill="#FFFFFF" fill-opacity="0" stroke="none" d="
+M 65.05 49.95
+L 65.05 24.95 -64.95 24.95 -64.95 49.95 65.05 49.95 Z"/>
+</g>
+
+<g id="icon_r_box_02_6_Layer3_2_FILL">
+<path fill="#FFFFFF" fill-opacity="0" stroke="none" d="
+M 65 -52.85
+L 65 -57.85 -65 -57.85 -65 -52.85 65 -52.85 Z"/>
+</g>
+
+<g id="icon_r_box_02_6_Layer3_3_FILL">
+<path fill="#FFFFFF" fill-opacity="0" stroke="none" d="
+M 65 54.95
+L 65 49.95 -65 49.95 -65 54.95 65 54.95 Z"/>
+</g>
+
+<g id="Duplicate_Items_Folder_zkapfk_0_Layer1_0_FILL">
+<path fill="#FFFFFF" stroke="none" d="
+M 95 56.95
+L 95 24
+Q 95 8.95 80 8.95
+L 60.45 8.95 57.4 0 37.65 0 34.55 8.95 15 8.95
+Q 0 8.95 0 24
+L 0 56.95
+Q 0 71.95 15 71.95
+L 80 71.95
+Q 95 71.95 95 56.95 Z"/>
+</g>
+
+<g id="Duplicate_Items_Folder_zkapfk_0_Layer0_0_FILL">
+<path fill="#A5BCCE" stroke="none" d="
+M 48.45 16.7
+L 43.7 30.35 77.8 30.35 73.1 16.7 48.45 16.7 Z"/>
+</g>
+
+<g id="Duplicate_Items_Folder_zkapfk_0_Layer0_1_FILL">
+<path fill="#1F5982" stroke="none" d="
+M 51.45 19.95
+L 47.8 30.35 73.65 30.35 70.1 19.95 51.45 19.95 Z"/>
+</g>
+
+<g id="Duplicate_Items_Folder_zkapfk_0_Layer0_2_FILL">
+<path fill="#199700" stroke="none" d="
+M 109.25 45.45
+Q 109.25 30.45 94.25 30.45
+L 29.25 30.45
+Q 14.25 30.45 14.25 45.45
+L 14.25 78.3
+Q 14.25 93.3 29.25 93.3
+L 94.25 93.3
+Q 109.25 93.3 109.25 78.3
+L 109.25 45.45 Z"/>
+</g>
+
+<g id="Duplicate_Items_Folder_zkapfk_0_Layer0_3_FILL">
+<path fill="#116F00" stroke="none" d="
+M 93.25 91
+Q 105.9806640625 91 107.9 80.2
+L 79 46.15 44.35 80.8 53 91 93.25 91 Z"/>
+</g>
+
+<g id="Duplicate_Items_Folder_zkapfk_0_Layer0_4_FILL">
+<path fill="#DBE6EE" stroke="none" d="
+M 108.25 43.05
+Q 108.25 28.4703125 94.15 28
+L 27.3 28
+Q 13.25 28.4703125 13.25 43.05
+L 13.25 50 108.25 50 108.25 43.05 Z"/>
+</g>
+
+<g id="Duplicate_Items_Folder_zkapfk_0_Layer0_5_FILL">
+<path fill="#FFFFFF" stroke="none" d="
+M 17 43
+Q 17 46 20 46
+L 32.75 46
+Q 32.877734375 46 33 46 36 46 36 43
+L 36 35.05
+Q 36 32 33 32
+L 26.25 32
+Q 26.1244140625 32 26 32 22.25 32 19.6 34.65 17 37.3 17 41.05
+L 17 43 Z"/>
+</g>
+
+<g id="Duplicate_Items_Folder_zkapfk_0_Layer0_6_FILL">
+<path fill="#A5BCCE" stroke="none" d="
+M 175.1 72.3
+Q 175.1 64.6 169.65 59.15 164.25 53.75 156.55 53.75 148.85 53.75 143.4 59.15 138 64.6 138 72.3 138 80 143.4 85.4 148.85 90.85 156.55 90.85 164.25 90.85 169.65 85.4 175.1 80 175.1 72.3 Z"/>
+</g>
+
+<g id="Duplicate_Items_Folder_zkapfk_0_Layer0_7_FILL">
+<path fill="#0A4977" stroke="none" d="
+M 47.8 77.25
+Q 53.2962890625 82.15 60.8 82.15 68.95 82.15 74.65 76.4 80.4 70.7 80.4 62.55 80.4 55.0451171875 75.5 49.55
+L 47.8 77.25 Z"/>
+
+<path fill="#003A65" stroke="none" d="
+M 74.65 48.65
+Q 68.95 42.95 60.8 42.95 52.65 42.95 46.9 48.65 41.2 54.4 41.2 62.55 41.2 70.7 46.9 76.4 47.3560546875 76.8560546875 47.8 77.25
+L 75.5 49.55
+Q 75.1052734375 49.1052734375 74.65 48.65 Z"/>
+</g>
+
+<g id="Duplicate_Items_Folder_zkapfk_0_Layer0_8_FILL">
+<path fill="#FFE040" stroke="none" d="
+M 103.45 53.55
+Q 103.45 52.35 102.6 51.5 101.8 50.7 100.6 50.7 99.4 50.7 98.55 51.5 97.75 52.35 97.75 53.55 97.75 54.75 98.55 55.55 99.4 56.4 100.6 56.4 101.8 56.4 102.6 55.55 103.45 54.75 103.45 53.55 Z"/>
+</g>
+
+<path id="Duplicate_Items_Folder_zkapfk_0_Layer1_0_1_STROKES" stroke="#FFFFFF" stroke-width="8" stroke-linejoin="round" stroke-linecap="round" fill="none" d="
+M 38.634770202636716 3.6
+L 56.40964965820312 3.6 59.17713088989258 11.654945373535154 76.74951171875 11.654945373535154
+Q 90.24942016601562 11.654945373535154 90.24942016601562 25.199853515625
+L 90.24942016601562 54.85465240478516
+Q 90.24942016601562 68.35456085205078 76.74951171875 68.35456085205078
+L 18.249908447265625 68.35456085205078
+Q 4.75 68.35456085205078 4.75 54.85465240478516
+L 4.75 25.199853515625
+Q 4.75 11.654945373535154 18.249908447265625 11.654945373535154
+L 35.84478912353515 11.654945373535154 38.634770202636716 3.6 Z"/>
+
+<path id="Duplicate_Items_Folder_zkapfk_0_Layer0_9_1_STROKES" stroke="#A5BCCE" stroke-opacity="0.13725490196078433" stroke-width="4" stroke-linejoin="round" stroke-linecap="round" fill="none" d="
+M 56.39303588867187 42.67162475585937
+Q 56.39303588867187 46.3322265625 53.80209045410157 48.89940185546875 51.23491516113281 51.490347290039054 47.5743133544922 51.490347290039054 43.913711547851555 51.490347290039054 41.322766113281254 48.89940185546875 38.7555908203125 46.3322265625 38.7555908203125 42.67162475585937 38.7555908203125 39.01102294921875 41.322766113281254 36.42007751464844 43.913711547851555 33.852902221679685 47.5743133544922 33.852902221679685 51.23491516113281 33.852902221679685 53.80209045410157 36.42007751464844 56.39303588867187 39.01102294921875 56.39303588867187 42.67162475585937 Z"/>
+
+<path id="Duplicate_Items_Folder_zkapfk_0_Layer0_10_1_STROKES" stroke="#FFF6E2" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" fill="none" d="
+M 11.569873046875001 21.46476287841797
+L 22.549798583984376 21.46476287841797
+M 14.719851684570314 17.999786376953125
+L 22.549798583984376 17.999786376953125
+M 10.8498779296875 24.97473907470703
+L 22.549798583984376 24.97473907470703"/>
+</defs>
+
+<g transform="matrix( 1, 0, 0, 0.999603271484375, 65,60) ">
+<g transform="matrix( 1, 0, 0, 1, 0,0) ">
+<use xlink:href="#icon_r_box_02_6_Layer3_0_FILL"/>
+</g>
+
+<g transform="matrix( 1, 0, 0, 1, -0.05,0.05) ">
+<use xlink:href="#icon_r_box_02_6_Layer3_1_FILL"/>
+</g>
+
+<g transform="matrix( 1, 0, 0, 1, 0,-2.15) ">
+<use xlink:href="#icon_r_box_02_6_Layer3_2_FILL"/>
+</g>
+
+<g transform="matrix( 1, 0, 0, 1, 0,0.05) ">
+<use xlink:href="#icon_r_box_02_6_Layer3_3_FILL"/>
+</g>
+
+<g filter="url(#Filter_1)" transform="matrix( 0.9999847412109375, 0, 0, 1.000396728515625, -65,-60) ">
+<g transform="matrix( 0.75, 0, 0, 0.74969482421875, 28.4,14.05) ">
+<g transform="matrix( 0.899993896484375, 0, 0, 0.899993896484375, 4.75,3.6) ">
+<use xlink:href="#Duplicate_Items_Folder_zkapfk_0_Layer1_0_FILL"/>
+
+<use xlink:href="#Duplicate_Items_Folder_zkapfk_0_Layer1_0_1_STROKES" transform="matrix( 1.111114501953125, 0, 0, 1.111114501953125, -5.25,-4) "/>
+</g>
+
+<g transform="matrix( 0.719970703125, 0, 0, 0.719970703125, 3.75,-8.4) ">
+<use xlink:href="#Duplicate_Items_Folder_zkapfk_0_Layer0_0_FILL"/>
+</g>
+
+<g transform="matrix( 0.575927734375, 0, 0, 0.575927734375, 12.45,-4.35) ">
+<use xlink:href="#Duplicate_Items_Folder_zkapfk_0_Layer0_1_FILL"/>
+</g>
+
+<g transform="matrix( 0.899993896484375, 0, 0, 0.90203857421875, -8.05,-15.75) ">
+<use xlink:href="#Duplicate_Items_Folder_zkapfk_0_Layer0_2_FILL"/>
+</g>
+
+<g transform="matrix( 0.899993896484375, 0, 0, 0.899993896484375, -7.15,-13.5) ">
+<use xlink:href="#Duplicate_Items_Folder_zkapfk_0_Layer0_3_FILL"/>
+</g>
+
+<g transform="matrix( 0.899993896484375, 0, 0, 0.899993896484375, -7.15,-13.5) ">
+<use xlink:href="#Duplicate_Items_Folder_zkapfk_0_Layer0_4_FILL"/>
+</g>
+
+<g transform="matrix( 0.899993896484375, 0, 0, 0.899993896484375, -7.15,-13.5) ">
+<use xlink:href="#Duplicate_Items_Folder_zkapfk_0_Layer0_5_FILL"/>
+</g>
+
+<g transform="matrix( 1.1886444091796875, 0, 0, 1.1886444091796875, -138.55,-43.2) ">
+<use xlink:href="#Duplicate_Items_Folder_zkapfk_0_Layer0_6_FILL"/>
+</g>
+
+<g transform="matrix( 0.899993896484375, 0, 0, 0.899993896484375, -7.15,-13.5) ">
+<use xlink:href="#Duplicate_Items_Folder_zkapfk_0_Layer0_7_FILL"/>
+</g>
+
+<g transform="matrix( 0.899993896484375, 0, 0, 0.899993896484375, -78.45,-10.6) ">
+<use xlink:href="#Duplicate_Items_Folder_zkapfk_0_Layer0_8_FILL"/>
+</g>
+
+<g transform="matrix( 0.47540283203125, 0, 0, 0.47540283203125, -26.85,8.3) ">
+<use xlink:href="#Duplicate_Items_Folder_zkapfk_0_Layer0_9_1_STROKES" transform="matrix( 2.1034698486328125, 0, 0, 2.1034698486328125, 56.45,-17.45) "/>
+</g>
+
+<g transform="matrix( 0.899993896484375, 0, 0, 0.899993896484375, -7.15,-13.5) ">
+<use xlink:href="#Duplicate_Items_Folder_zkapfk_0_Layer0_10_1_STROKES" transform="matrix( 1.111114501953125, 0, 0, 1.111114501953125, 7.9,15) "/>
+</g>
+</g>
+</g>
+</g>
+</svg>

@@ -1,0 +1,82 @@
+@charset "utf-8";
+/* font */
+@font-face {
+  font-family: 'NanumGothicR';
+  src: url('../fonts/NanumGothic-Regular.woff') format('woff');
+}
+@font-face {
+  font-family: 'NanumGothicB';
+  src: url('../fonts/NanumGothic-Bold.woff') format('woff');
+}
+@font-face {
+  font-family: 'NanumGothicEB';
+  src: url('../fonts/NanumGothic-ExtraBold.woff') format('woff');
+}
+@font-face {
+  font-family: 'NanumSquareRoundB';
+  src: url('../fonts/NanumSquareRoundB.ttf');
+}
+@font-face {
+  font-family: 'NanumSquareRoundEB';
+  src: url('../fonts/NanumSquareRoundEB.ttf');
+}
+@font-face {
+  font-family: 'NanumSquareRoundR';
+  src: url('../fonts/NanumSquareRoundR.ttf');
+}
+
+/* layout */
+body {
+  position: fixed !important;
+  overflow: hidden;
+}
+#wrap {
+  width: 1280px;
+  height: 720px;
+  background-color: white;
+}
+
+/* 공통 */
+.disable {
+  pointer-events: none !important;
+}
+.remove {
+  display: none !important;
+}
+.hide {
+  visibility: hidden;
+}
+.hide-alpha {
+  opacity: 0;
+  pointer-events: none;
+}
+
+.inline {
+  position: static !important;
+  display: inline-block !important;
+  vertical-align: top;
+}
+
+/* ie 입력창 X 제거 */
+input[type='text']::-ms-clear {
+  display: none;
+}
+
+.t-a-center {
+  text-align: center;
+}
+.t-a-left {
+  text-align: left;
+}
+.t-a-right {
+  text-align: right;
+}
+.t-a-justify {
+  text-align: justify;
+}
+
+.align-cc {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

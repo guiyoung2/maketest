@@ -1,0 +1,370 @@
+@charset "utf-8";
+/* 툴 - 각도기 */
+.app-angle-tool {
+  pointer-events: none;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+}
+.app-angle-tool .tool-container {
+  display: none !important;
+  position: absolute;
+  width: 270px;
+  height: 120px;
+  top: 104px;
+  right: 20px;
+}
+.app-angle-tool .drawing-content {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.app-angle-tool .drawing-cont {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  visibility: hidden;
+}
+.app-angle-tool .ico-info {
+  z-index: 1; /* 스케일 조절 될때 사라지는 현상 제거 */
+  pointer-events: all;
+  cursor: pointer;
+  position: absolute;
+}
+.app-angle-tool .ico-info {
+  background-color: #00acb1;
+}
+.app-angle-tool .ico-info > .ico-arr {
+  position: relative;
+  display: inline-block;
+  margin: 0 5px;
+  width: 15px;
+  height: 13px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-color: #00acb1;
+  /* background-image: url(../images/ico-triangle_0001.png); */
+}
+
+.app-angle-tool .tool-box {
+  z-index: 1; /* 스케일 조절 될때 사라지는 현상 제거 */
+  position: absolute;
+  left: -12px;
+  top: 44px;
+  width: 283px;
+  height: 73px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-color: #579cff;
+  /* background-image: url(../images/app_angle_tool/tool_bg_box.png); */
+  visibility: hidden;
+}
+.app-angle-tool .tool-box .list {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-wrap: wrap;
+
+  width: 100%;
+  height: 100%;
+  padding: 17px 0 0 2px;
+}
+.app-angle-tool .tool-box .list .btn- {
+  pointer-events: all;
+  position: relative;
+  width: 54px;
+  height: 54px;
+
+  margin: 0 0px;
+}
+.app-angle-tool .tool-box .list .btn-::before {
+  pointer-events: none;
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: blue;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.app-angle-tool .tool-box .list .btn-:nth-child(1):before {
+  background-image: url(../images/app_angle_tool/tool_item_1_0001.png);
+}
+.app-angle-tool .tool-box .list .btn-:nth-child(2):before {
+  background-image: url(../images/app_angle_tool/tool_item_1_0002.png);
+}
+.app-angle-tool .tool-box .list .btn-:nth-child(3):before {
+  background-image: url(../images/app_angle_tool/tool_item_1_0003.png);
+}
+.app-angle-tool .tool-box .list .btn-:nth-child(4):before {
+  background-image: url(../images/app_angle_tool/tool_item_1_0004.png);
+}
+.app-angle-tool .tool-box .list .btn-:nth-child(5):before {
+  background-image: url(../images/app_angle_tool/tool_item_1_0005.png);
+}
+
+.app-angle-tool .tool-box .list .btn-.hover:nth-child(1):before {
+  background-image: url(../images/app_angle_tool/tool_item_2_0001.png);
+}
+.app-angle-tool .tool-box .list .btn-.hover:nth-child(2):before {
+  background-image: url(../images/app_angle_tool/tool_item_2_0002.png);
+}
+.app-angle-tool .tool-box .list .btn-.hover:nth-child(3):before {
+  background-image: url(../images/app_angle_tool/tool_item_2_0003.png);
+}
+.app-angle-tool .tool-box .list .btn-.hover:nth-child(4):before {
+  background-image: url(../images/app_angle_tool/tool_item_2_0004.png);
+}
+.app-angle-tool .tool-box .list .btn-.hover:nth-child(5):before {
+  background-image: url(../images/app_angle_tool/tool_item_2_0005.png);
+}
+
+.app-angle-tool .tool-box .list .btn-.active:nth-child(1):before {
+  background-image: url(../images/app_angle_tool/tool_item_2_0001.png);
+}
+
+.app-angle-tool .tool-box .select-btn:after {
+  pointer-events: none;
+  content: '';
+  position: absolute;
+  left: -25px;
+  top: 52px;
+  width: 102px;
+  height: 43px;
+
+  background-repeat: no-repeat;
+  background-size: contain;
+
+  visibility: hidden;
+}
+.app-angle-tool .tool-box .select-btn.hover:after {
+  visibility: visible;
+}
+.app-angle-tool .tool-box .select-btn:nth-child(1):after {
+  background-image: url(../images/app_angle_tool/tool_tip_0001.png);
+}
+.app-angle-tool .tool-box .select-btn:nth-child(2):after {
+  background-image: url(../images/app_angle_tool/tool_tip_0002.png);
+}
+.app-angle-tool .tool-box .select-btn:nth-child(3):after {
+  background-image: url(../images/app_angle_tool/tool_tip_0003.png);
+}
+.app-angle-tool .tool-box .select-btn:nth-child(4):after {
+  background-image: url(../images/app_angle_tool/tool_tip_0004.png);
+}
+.app-angle-tool .tool-box .select-btn:nth-child(5):after {
+  background-image: url(../images/app_angle_tool/tool_tip_0005.png);
+}
+
+.app-angle-tool .not-obj {
+  pointer-events: all;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 660px;
+}
+.bg-control .app-angle-tool .not-obj {
+  pointer-events: none;
+}
+.app-angle-tool .obj {
+  position: absolute;
+  /* transform: translate(300px, 360px); */
+  /* transform-origin: 50% 50%; */
+}
+/*  
+.app-angle-tool .obj.protractor {
+	width: 620px;
+	height: 337px;
+	transform: translate(310px, 220px);
+}
+.app-angle-tool .obj.ruller {
+	width: 906px;
+	height: 161px;
+	transform: translate(190px, 310px);
+}
+.app-angle-tool .obj.triangle {
+	width: 522px;
+	height: 308px;
+	transform: translate(380px, 240px);
+}
+.app-angle-tool .obj > img {
+	width: 100%;
+	height: auto;
+}
+*/
+/* .app-angle-tool .obj.select { */
+  /* border: 1px solid #000; */
+/* } */
+.app-angle-tool .obj > .rect {
+  pointer-events: all;
+  cursor: pointer;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  border: 2px solid #0C5BB8;
+  opacity: 0;
+}
+.app-angle-tool .obj > .rect::before {
+  content: "";
+  width: 30px;
+  height: 2px;
+  border-top: 2px solid #0C5BB8;
+  position: absolute;
+  left: -30px;
+  top: 50%;
+}
+.app-angle-tool .obj.select > .btn-del {  /*임시 생성*/
+  pointer-events: all;
+  position: absolute;
+  /* left: -15px; */
+  right: -12px;
+  top: -12px;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  /* background-color: #EF5711; */
+  background: #EF5711 url("../images/delete-btn.png") no-repeat center center;
+  border: 2px solid #0C5BB8;
+  transform-origin: 50% 50%;
+  opacity: 0;
+  font-size: 20px;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.app-angle-tool .obj.select > .btn-del > span {
+  width: 25px;
+  height: 25px;
+  text-align: center;
+}
+.app-angle-tool .obj.select > .rotate {   /*버튼 위치 임시 수정*/
+  pointer-events: all;
+  position: absolute;
+  /* right: -10px; */
+  left: -45px;
+  /* top: -10px; */
+  top: 50%;
+  transform: translateY(-50%);
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  /* background-color: #fff; */
+  background:#fff url("../images/rotate-bg.png") no-repeat center center;
+  background-size: 17px 15px;
+  border: 2px solid #0C5BB8;
+  transform-origin: 50% 50%;
+  opacity: 0;
+}
+
+.app-angle-tool .obj.select > .scale {
+  pointer-events: all;
+  position: absolute;
+  right: -5px;
+  bottom: -5px;
+  width: 10px;
+  height: 10px;
+  background-color: #fff;
+  border: 2px solid #0C5BB8;
+  transform-origin: 50% 50%;
+  opacity: 0;
+}
+.app-angle-tool .obj.select > .scale2{
+  left: -5px;
+  top: -5px;
+}
+.app-angle-tool .obj.select > .scale3{
+  bottom: -5px;
+  left: -5px;
+}
+
+
+.app-angle-tool .obj.select > .btn-del {  /* 임시 생성*/
+  cursor: pointer;
+}
+.app-angle-tool .obj.select > .rect {
+  cursor: move;
+}
+.app-angle-tool .obj.select > .rotate {
+  cursor: pointer;
+}
+.app-angle-tool .obj.select > .scale {
+  cursor: nwse-resize;
+}
+.app-angle-tool .obj.select > .scale3 {
+  cursor: nesw-resize;
+}
+.app-angle-tool .obj.select > .btn-del {  /*임시 생성*/
+  opacity: 1;
+}
+.app-angle-tool .obj.select > .rect,
+.app-angle-tool .obj.select > .scale,
+.app-angle-tool .obj.select > .rotate {
+  opacity: 1;
+}
+.app-angle-tool svg.lines > .rect {
+  pointer-events: none;
+}
+
+.app-angle-tool .obj-text {
+  padding: 10px;
+  font-family: 'NanumGothicB';
+  font-size: 20px !important;
+  word-wrap: break-all;
+  max-width: 360px;
+  text-align: center;
+}
+
+/* 툴 - 각도기 :: 오픈됐을 때 */
+/* .app-angle-tool.open { */
+/* } */
+.app-angle-tool.open .tool-box {
+  visibility: visible;
+}
+.app-angle-tool.open .drawing-cont {
+  visibility: visible;
+}
+.app-angle-tool.open .ico-info {
+  background-color: #579cff;
+}
+.app-angle-tool.open .ico-info > .ico-arr {
+  background-image: url(../images/ico-triangle_0002.png);
+}
+.app-angle-tool.open svg.lines {
+  pointer-events: none;
+  position: absolute;
+}
+.app-angle-tool.open svg.lines > .rect {
+  pointer-events: all;
+  opacity: 0;
+  cursor: pointer;
+}
+.app-angle-tool.open svg.lines.select > .rect {
+  cursor: move;
+  opacity: 1;
+}
+
+/* 포인트 테스트 */
+.test-point {
+  pointer-events: none;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 4px;
+  height: 4px;
+  background-color: red;
+  z-index: 999;
+}
+.test-point.p-02 {
+  background-color: blue;
+}

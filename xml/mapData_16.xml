@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<root xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<location>
+		<name>제주특별자치도</name>
+		<id>map_17_0000</id>
+	</location>
+	<location>
+		<name>제주특별자치도 서귀포시</name>
+		<id>map_17_0001</id>
+	</location>
+	<location>
+		<name>제주특별자치도 제주시</name>
+		<id>map_17_0002</id>
+	</location>
+</root>

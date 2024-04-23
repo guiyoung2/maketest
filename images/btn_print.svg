@@ -1,0 +1,94 @@
+
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="none" x="0px" y="0px" width="40px" height="40px" viewBox="0 0 40 40">
+<defs>
+<g id="Layer5_0_MEMBER_0_FILL">
+<path fill="#FFFFFF" stroke="none" d="
+M 1067.85 -45.35
+L 1067.85 -31.35 1092.85 -31.35 1092.85 -45.35 1067.85 -45.35 Z"/>
+</g>
+
+<g id="Layer5_0_MEMBER_1_FILL">
+<path fill="#FFFFFF" stroke="none" d="
+M 1133.05 -59.3
+L 1120.2 -59.3 1120.2 -46.2 1133.05 -46.2 1133.05 -59.3 Z"/>
+</g>
+
+<g id="Layer5_0_MEMBER_3_FILL">
+<path fill="#000000" stroke="none" d="
+M 1090.85 -41.85
+Q 1090.85 -42.35 1090.45 -42.7 1090.1 -43.1 1089.6 -43.1 1089.1 -43.1 1088.7 -42.7 1088.35 -42.35 1088.35 -41.85 1088.35 -41.35 1088.7 -40.95 1089.1 -40.6 1089.6 -40.6 1090.1 -40.6 1090.45 -40.95 1090.85 -41.35 1090.85 -41.85 Z"/>
+</g>
+
+<g id="Layer5_0_MEMBER_7_FILL">
+<path fill="#FFFFFF" stroke="none" d="
+M 1085.95 -51.2
+L 1074.8 -51.2 1074.8 -45.4 1085.95 -45.4 1085.95 -51.2 Z"/>
+</g>
+
+<path id="Layer5_0_MEMBER_0_1_STROKES" stroke="#000000" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" fill="none" d="
+M 1067.85 -45.35
+L 1092.85 -45.35 1092.85 -31.35 1067.85 -31.35 1067.85 -45.35 Z"/>
+
+<path id="Layer5_0_MEMBER_1_1_STROKES" stroke="#000000" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" fill="none" d="
+M 1120.2 -59.3
+L 1133.05 -59.3 1133.05 -46.2 1120.2 -46.2 1120.2 -59.3 Z"/>
+
+<path id="Layer5_0_MEMBER_2_1_STROKES" stroke="#000000" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" fill="none" d="
+M 1071.85 -36.9
+L 1088.85 -36.9"/>
+
+<path id="Layer5_0_MEMBER_4_MEMBER_0_1_STROKES" stroke="#000000" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" fill="none" d="
+M 1435.35 678
+L 1441.65 678"/>
+
+<path id="Layer5_0_MEMBER_5_MEMBER_0_1_STROKES" stroke="#000000" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" fill="none" d="
+M 1435.35 678
+L 1441.65 678"/>
+
+<path id="Layer5_0_MEMBER_6_MEMBER_0_1_STROKES" stroke="#000000" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" fill="none" d="
+M 1435.35 678
+L 1441.65 678"/>
+
+<path id="Layer5_0_MEMBER_7_1_STROKES" stroke="#000000" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" fill="none" d="
+M 1074.8 -51.2
+L 1085.95 -51.2 1085.95 -45.4 1074.8 -45.4 1074.8 -51.2 Z"/>
+</defs>
+
+<g transform="matrix( 1, 0, 0, 1, -1060.35,57.5) ">
+<use xlink:href="#Layer5_0_MEMBER_0_FILL"/>
+
+<use xlink:href="#Layer5_0_MEMBER_0_1_STROKES"/>
+</g>
+
+<g transform="matrix( 1, 0, 0, 1, -1106.65,79.9) ">
+<use xlink:href="#Layer5_0_MEMBER_1_FILL"/>
+
+<use xlink:href="#Layer5_0_MEMBER_1_1_STROKES"/>
+</g>
+
+<g transform="matrix( 1, 0, 0, 1, -1060.35,57.5) ">
+<use xlink:href="#Layer5_0_MEMBER_2_1_STROKES"/>
+</g>
+
+<g transform="matrix( 1, 0, 0, 1, -1060.35,57.5) ">
+<use xlink:href="#Layer5_0_MEMBER_3_FILL"/>
+</g>
+
+<g transform="matrix( 1, 0, 0, 1, -1418.5,-653.35) ">
+<use xlink:href="#Layer5_0_MEMBER_4_MEMBER_0_1_STROKES"/>
+</g>
+
+<g transform="matrix( 1, 0, 0, 1, -1418.5,-650.35) ">
+<use xlink:href="#Layer5_0_MEMBER_5_MEMBER_0_1_STROKES"/>
+</g>
+
+<g transform="matrix( 1, 0, 0, 1, -1418.5,-647.35) ">
+<use xlink:href="#Layer5_0_MEMBER_6_MEMBER_0_1_STROKES"/>
+</g>
+
+<g transform="matrix( 1, 0, 0, 1, -1060.35,57.5) ">
+<use xlink:href="#Layer5_0_MEMBER_7_FILL"/>
+
+<use xlink:href="#Layer5_0_MEMBER_7_1_STROKES"/>
+</g>
+</svg>

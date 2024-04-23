@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<root xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<location>
+		<name>충청북도</name>
+		<id>map_11_0000</id>
+	</location>
+	<location>
+		<name>충청북도 괴산군</name>
+		<id>map_11_0001</id>
+	</location>
+	<location>
+		<name>충청북도 단양군</name>
+		<id>map_11_0002</id>
+	</location>
+	<location>
+		<name>충청북도 보은군</name>
+		<id>map_11_0003</id>
+	</location>
+	<location>
+		<name>충청북도 영동군</name>
+		<id>map_11_0004</id>
+	</location>
+	<location>
+		<name>충청북도 옥천군</name>
+		<id>map_11_0005</id>
+	</location>
+	<location>
+		<name>충청북도 음성군</name>
+		<id>map_11_0006</id>
+	</location>
+	<location>
+		<name>충청북도 제천시</name>
+		<id>map_11_0007</id>
+	</location>
+	<location>
+		<name>충청북도 증평군</name>
+		<id>map_11_0008</id>
+	</location>
+	<location>
+		<name>충청북도 진천군</name>
+		<id>map_11_0009</id>
+	</location>
+	<location>
+		<name>충청북도 청주시</name>
+		<id>map_11_0010</id>
+	</location>
+	<location>
+		<name>충청북도 충주시</name>
+		<id>map_11_0011</id>
+	</location>
+</root>

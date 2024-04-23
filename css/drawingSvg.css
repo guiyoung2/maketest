@@ -1,0 +1,240 @@
+@charset "utf-8";
+
+.save .button-pentool,
+.save #draw-tool .controller,
+.print .button-pentool,
+.print #draw-tool .controller,
+.save .select-box.open .list-box,
+.print .select-box.open .list-box,
+.save .select-box.open .list,
+.print .select-box.open .list {
+  display: none;
+}
+
+.button .rollout,
+.button .rollover {
+  position: absolute;
+  left: 8px;
+  top: 10px;
+}
+.button {
+  cursor: pointer;
+}
+.button img {
+  pointer-events: none;
+}
+.button .rollover {
+  visibility: hidden;
+}
+.button.on .rollover {
+  visibility: inherit;
+}
+.button.over .rollover {
+  visibility: inherit;
+}
+.button-pentool, .insert-text , .aside-button-cont .btn-file {
+  position: relative;
+  width: 80px;
+  height: 84px;
+  /* left: 0; */
+  /* bottom: 0; */
+  pointer-events: all;
+  font-size: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-family: 'NanumGothicR';
+  font-weight: 500;
+}
+.button-pentool .rollout, .button-pentool .rollover 
+, .insert-text .rollout, .insert-text .rollover,
+ .aside-button-cont .btn-file .rollout
+ , .aside-button-cont .btn-file .rollover{
+  top: 0px;
+  left: 10px;
+}
+.button-pentool span,
+.insert-text span ,
+ .aside-button-cont .btn-file span{
+  position: absolute;
+  bottom: 0;
+}
+#draw-tool {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+}
+#sketch {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 980px;
+  height: 650px;
+  pointer-events: none;
+  /* border: 1px solid red; */
+}
+#draw-tool > .controller {
+  position: absolute;
+  /* left: 565px; */
+  left: 568px;
+  bottom: 12px;
+  width: 400px;
+  height: 220px;
+  border-radius: 10px;
+  background-color: #ffffff;
+  border: 1px solid #cccccc;
+  z-index: 2;
+  pointer-events: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 15px;
+}
+#draw-tool > .controller .tool-box {
+  display: flex;
+  position: relative;
+  background: none;
+  visibility: inherit;
+  width: auto;
+  left: 0;
+  top: 0;
+  align-items: center;
+  justify-content: center;
+}
+#draw-tool .tool-box > div {
+  cursor: pointer;
+}
+
+#draw-tool .color-box {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  justify-items: center;
+  grid-row-gap: 15px;
+  top: 0px;
+  position: relative;
+}
+#draw-tool .color-box > div {
+  cursor: pointer;
+}
+.button-pencil {
+  position: relative;
+  width: 80px;
+  height: 80px;
+}
+.button-pencil img{
+  margin-left:  auto;
+  margin-right:  auto;
+}
+.button-pen {
+  position: relative;
+  width: 80px;
+  height: 80px;
+}
+.button-highlight {
+  position: relative;
+  width: 80px;
+  height: 80px;
+}
+.button-erase {
+  position: relative;
+  width: 80px;
+  height: 80px;
+}
+.button-clear {
+  position: relative;
+  top: 0px;
+  width: 80px;
+  height: 80px;
+}
+.button-clear:hover .rollout {
+  visibility: hidden;
+}
+/* .button-pencil {
+  position: absolute;
+  left: 60px;
+  top: 30px;
+  width: 80px;
+  height: 80px;
+}
+.button-pen {
+  position: absolute;
+  left: 60px;
+  top: 110px;
+  width: 80px;
+  height: 80px;
+}
+.button-erase {
+  position: absolute;
+  left: 60px;
+  top: 190px;
+  width: 80px;
+  height: 80px;
+}
+.button-clear {
+  position: absolute;
+  left: 60px;
+  top: 270px;
+  width: 80px;
+  height: 80px;
+} */
+
+#draw-tool .color-box .color {
+  position: relative;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 1px solid #999999;
+}
+#draw-tool .color-box .color.on,
+#draw-tool .color-box .color.over {
+  border: 3px solid #000000;
+}
+
+.color-0 {
+  /* left: 20px; */
+  background-color: #000000;
+}
+.color-1 {
+  /* left: 90px; */
+  background-color: #ff2525;
+}
+.color-2 {
+  /* left: 150px; */
+  background-color: #ffa800;
+}
+.color-3 {
+  /* left: 210px; */
+  background-color: #FFE900;
+}
+.color-4 {
+  /* left: 270px; */
+  background-color: #8CD900;
+}
+.color-5 {
+  /* left: 20px; */
+  background-color: #00A20F;
+}
+
+.color-6 {
+  /* left: 90px; */
+  background-color: #00DBFF;
+}
+
+.color-7 {
+  /* left: 150px; */
+  background-color: #275DBE;
+}
+
+.color-8 {
+  /* left: 210px; */
+  background-color: #FF82FE;
+}
+
+.color-9 {
+  /* left: 270px; */
+  background-color: #632CAE;
+}

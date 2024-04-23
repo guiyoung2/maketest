@@ -1,0 +1,96 @@
+
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="none" x="0px" y="0px" width="130px" height="115px" viewBox="0 0 130 115">
+<defs>
+<filter id="Filter_1" x="-23.674108514840505%" y="-26.130863270137493%" width="147.348217029681%" height="152.261726540275%" color-interpolation-filters="sRGB">
+<feFlood flood-color="#000000" flood-opacity="1" in="SourceGraphic" result="result1"/>
+
+<feGaussianBlur in="SourceGraphic" stdDeviation="1.6666666666666667,1.6666666666666667" result="result2"/>
+
+<feComposite in2="result2" in="result1" operator="in" result="result3"/>
+
+<feComposite in2="result3" in="SourceGraphic" operator="over" result="result4"/>
+</filter>
+
+<g id="icon_r_box_02_4_Layer3_0_FILL">
+<path fill="#FFFFFF" fill-opacity="0" stroke="none" d="
+M 65 -55
+L -65 -55 -65 25 65 25 65 -55 Z"/>
+</g>
+
+<g id="icon_r_box_02_4_Layer3_1_FILL">
+<path fill="#FFFFFF" fill-opacity="0" stroke="none" d="
+M 65.05 49.95
+L 65.05 24.95 -64.95 24.95 -64.95 49.95 65.05 49.95 Z"/>
+</g>
+
+<g id="icon_r_box_02_4_Layer3_2_FILL">
+<path fill="#FFFFFF" fill-opacity="0" stroke="none" d="
+M 65 -52.85
+L 65 -57.85 -65 -57.85 -65 -52.85 65 -52.85 Z"/>
+</g>
+
+<g id="icon_r_box_02_4_Layer3_3_FILL">
+<path fill="#FFFFFF" fill-opacity="0" stroke="none" d="
+M 65 54.95
+L 65 49.95 -65 49.95 -65 54.95 65 54.95 Z"/>
+</g>
+
+<g id="Duplicate_Items_Folder_whddl_qlgodrl_0_Layer1_0_FILL">
+<path fill="#FFFFFF" stroke="none" d="
+M 58.1 69.1
+L 76.75 92 79.75 54 105.75 37 11.5 12.05 30.2 88.25 58.1 69.1 Z"/>
+</g>
+
+<g id="Duplicate_Items_Folder_whddl_qlgodrl_0_Layer0_0_FILL">
+<path fill="#FFDE00" stroke="none" d="
+M 11.5 12.05
+L 79.75 54 105.75 37 11.5 12.05
+M 58.1 69.1
+L 65.5 64.05 11.5 12.05 30.2 88.25 58.1 69.1 Z"/>
+
+<path fill="#F1930B" stroke="none" d="
+M 76.75 92
+L 65.5 64.05 58.1 69.1 76.75 92 Z"/>
+
+<path fill="#FFC000" stroke="none" d="
+M 76.75 92
+L 79.75 54 11.5 12.05 65.5 64.05 76.75 92 Z"/>
+</g>
+
+<path id="Duplicate_Items_Folder_whddl_qlgodrl_0_Layer1_0_1_STROKES" stroke="#FFFFFF" stroke-width="8" stroke-linejoin="round" stroke-linecap="butt" fill="none" d="
+M 57.11614151000977 68.36837158203124
+L 59.54608840942383 37.589044189453126 80.6056282043457 23.81934509277344 4.264796447753906 3.6102867126464844 19.43171501159668 65.33093795776367 42.00997161865235 49.840026473999025 57.11614151000977 68.36837158203124 Z"/>
+</defs>
+
+<g transform="matrix( 1, 0, 0, 0.999603271484375, 65,60) ">
+<g transform="matrix( 1, 0, 0, 1, 0,0) ">
+<use xlink:href="#icon_r_box_02_4_Layer3_0_FILL"/>
+</g>
+
+<g transform="matrix( 1, 0, 0, 1, -0.05,0.05) ">
+<use xlink:href="#icon_r_box_02_4_Layer3_1_FILL"/>
+</g>
+
+<g transform="matrix( 1, 0, 0, 1, 0,-2.15) ">
+<use xlink:href="#icon_r_box_02_4_Layer3_2_FILL"/>
+</g>
+
+<g transform="matrix( 1, 0, 0, 1, 0,0.05) ">
+<use xlink:href="#icon_r_box_02_4_Layer3_3_FILL"/>
+</g>
+
+<g filter="url(#Filter_1)" transform="matrix( 0.9999847412109375, 0, 0, 1.000396728515625, -65,-60) ">
+<g transform="matrix( 0.75, 0, 0, 0.74969482421875, 32.2,14.05) ">
+<g transform="matrix( 0.8099822998046875, 0, 0, 0.8099822998046875, -5.05,-6.15) ">
+<use xlink:href="#Duplicate_Items_Folder_whddl_qlgodrl_0_Layer1_0_FILL"/>
+
+<use xlink:href="#Duplicate_Items_Folder_whddl_qlgodrl_0_Layer1_0_1_STROKES" transform="matrix( 1.234588623046875, 0, 0, 1.234588623046875, 6.2,7.55) "/>
+</g>
+
+<g transform="matrix( 0.8099822998046875, 0, 0, 0.8099822998046875, -5.05,-6.15) ">
+<use xlink:href="#Duplicate_Items_Folder_whddl_qlgodrl_0_Layer0_0_FILL"/>
+</g>
+</g>
+</g>
+</g>
+</svg>

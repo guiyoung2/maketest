@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<root xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<location>
+		<name>세계</name>
+		<id>map_01_0000</id>
+	</location>
+	<location>
+		<name>아시아</name>
+		<id>map_01_0001</id>
+	</location>
+	<location>
+		<name>유럽</name>
+		<id>map_01_0002</id>
+	</location>
+	<location>
+		<name>아프리카</name>
+		<id>map_01_0003</id>
+	</location>
+	<location>
+		<name>아메리카</name>
+		<id>map_01_0004</id>
+	</location>
+	<location>
+		<name>오세아니아</name>
+		<id>map_01_0005</id>
+	</location>
+	<location>
+		<name>북극권</name>
+		<id>map_01_0006</id>
+	</location>
+	<location>
+		<name>남극권</name>
+		<id>map_01_0007</id>
+	</location>
+	<!-- <location> -->
+		<!-- <name>서울특별시 광진구</name> -->
+		<!-- <id>map_01_0006</id> -->
+	<!-- </location> -->
+	<!-- <location> -->
+		<!-- <name>서울특별시 구로구</name> -->
+		<!-- <id>map_01_0007</id> -->
+	<!-- </location> -->
+	<!-- <location> -->
+		<!-- <name>서울특별시 금천구</name> -->
+		<!-- <id>map_01_0008</id> -->
+	<!-- </location> -->
+	<!-- <location> -->
+		<!-- <name>서울특별시 노원구</name> -->
+		<!-- <id>map_01_0009</id> -->
+	<!-- </location> -->
+	<!-- <location> -->
+		<!-- <name>서울특별시 도봉구</name> -->
+		<!-- <id>map_01_0010</id> -->
+	<!-- </location> -->
+	<!-- <location> -->
+		<!-- <name>서울특별시 동대문구</name> -->
+		<!-- <id>map_01_0011</id> -->
+	<!-- </location> -->
+	<!-- <location> -->
+		<!-- <name>서울특별시 동작구</name> -->
+		<!-- <id>map_01_0012</id> -->
+	<!-- </location> -->
+	<!-- <location> -->
+		<!-- <name>서울특별시 마포구</name> -->
+		<!-- <id>map_01_0013</id> -->
+	<!-- </location> -->
+	<!-- <location> -->
+		<!-- <name>서울특별시 서대문구</name> -->
+		<!-- <id>map_01_0014</id> -->
+	<!-- </location> -->
+	<!-- <location> -->
+		<!-- <name>서울특별시 서초구</name> -->
+		<!-- <id>map_01_0015</id> -->
+	<!-- </location> -->
+	<!-- <location> -->
+		<!-- <name>서울특별시 성동구</name> -->
+		<!-- <id>map_01_0016</id> -->
+	<!-- </location> -->
+	<!-- <location> -->
+		<!-- <name>서울특별시 성북구</name> -->
+		<!-- <id>map_01_0017</id> -->
+	<!-- </location> -->
+	<!-- <location> -->
+		<!-- <name>서울특별시 송파구</name> -->
+		<!-- <id>map_01_0018</id> -->
+	<!-- </location> -->
+	<!-- <location> -->
+		<!-- <name>서울특별시 양천구</name> -->
+		<!-- <id>map_01_0019</id> -->
+	<!-- </location> -->
+	<!-- <location> -->
+		<!-- <name>서울특별시 영등포구</name> -->
+		<!-- <id>map_01_0020</id> -->
+	<!-- </location> -->
+	<!-- <location> -->
+		<!-- <name>서울특별시 용산구</name> -->
+		<!-- <id>map_01_0021</id> -->
+	<!-- </location> -->
+	<!-- <location> -->
+		<!-- <name>서울특별시 은평구</name> -->
+		<!-- <id>map_01_0022</id> -->
+	<!-- </location> -->
+	<!-- <location> -->
+		<!-- <name>서울특별시 종로구</name> -->
+		<!-- <id>map_01_0023</id> -->
+	<!-- </location> -->
+	<!-- <location> -->
+		<!-- <name>서울특별시 중구</name> -->
+		<!-- <id>map_01_0024</id> -->
+	<!-- </location> -->
+	<!-- <location> -->
+		<!-- <name>서울특별시 중랑구</name> -->
+		<!-- <id>map_01_0025</id> -->
+	<!-- </location> -->
+</root>

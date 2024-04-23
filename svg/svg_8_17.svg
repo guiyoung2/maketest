@@ -1,0 +1,862 @@
+
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="none" x="0px" y="0px" width="130px" height="115px" viewBox="0 0 130 115">
+<defs>
+<filter id="Filter_1" x="-30.493264724466464%" y="-20.590309827791415%" width="160.9865294489329%" height="141.18061965558283%" color-interpolation-filters="sRGB">
+<feFlood flood-color="#000000" flood-opacity="1" in="SourceGraphic" result="result1"/>
+
+<feGaussianBlur in="SourceGraphic" stdDeviation="1.6666666666666667,1.6666666666666667" result="result2"/>
+
+<feComposite in2="result2" in="result1" operator="in" result="result3"/>
+
+<feComposite in2="result3" in="SourceGraphic" operator="over" result="result4"/>
+</filter>
+
+<g id="icon_r_box_02_16_Layer3_0_FILL">
+<path fill="#FFFFFF" fill-opacity="0" stroke="none" d="
+M 65 -55
+L -65 -55 -65 25 65 25 65 -55 Z"/>
+</g>
+
+<g id="icon_r_box_02_16_Layer3_1_FILL">
+<path fill="#FFFFFF" fill-opacity="0" stroke="none" d="
+M 65.05 49.95
+L 65.05 24.95 -64.95 24.95 -64.95 49.95 65.05 49.95 Z"/>
+</g>
+
+<g id="icon_r_box_02_16_Layer3_2_FILL">
+<path fill="#FFFFFF" fill-opacity="0" stroke="none" d="
+M 65 -52.85
+L 65 -57.85 -65 -57.85 -65 -52.85 65 -52.85 Z"/>
+</g>
+
+<g id="icon_r_box_02_16_Layer3_3_FILL">
+<path fill="#FFFFFF" fill-opacity="0" stroke="none" d="
+M 65 54.95
+L 65 49.95 -65 49.95 -65 54.95 65 54.95 Z"/>
+</g>
+
+<g id="Duplicate_Items_Folder_dffggfgdfgg_0_Layer1_0_FILL">
+<path fill="#FFFFFF" stroke="none" d="
+M 24.85 -41.25
+Q 24.85 -43.65 23.15 -45.4 21.45 -47.05 19.05 -47.05 16.6 -47.05 14.85 -45.4 14.27734375 -44.792578125 13.9 -44.1 12.45703125 -44.5486328125 10.6 -44.75 5.9 -45.25 1.6 -42.85 -3.5 -40.05 -4.9 -36.15 -6.05 -32.9 -5.25 -30.35 -5 -29.65 -4.45 -29 -3.9064453125 -28.3576171875 -3.4 -28.15
+L -3.85 -25.25
+Q -4.6 -20.6 -2.35 -18.3 -0.75 -16.65 1.15 -16 2.1 -15.65 3.15 -15.45 3.95 -15.3 4.9 -15.25 5.175 -15.2224609375 5.45 -15.2
+L 5.45 -14.15
+Q 5.0759765625 -14.16640625 4.7 -14.2
+L 4.7 -12.65
+Q 4.6634765625 -12.6521484375 4.6 -12.65 4.4177734375 -12.647265625 4.25 -12.5 4.184765625 -12.3947265625 4.15 -12.3
+L 3.3 -12.1
+Q 2.6 -11.95 1.85 -11.7
+L 1.85 -11.7
+Q 1.3400390625 -11.5087890625 0.8 -11.3
+L 0.8 -11.3
+Q -0.35546875 -10.776171875 -1.05 -10.05
+L -6 -3.45 -13.75 -6.7 -14.05 -5.95
+Q -14.4794921875 -6.4677734375 -15.15 -6.75 -16.05 -7.25 -16.15 -7.45 -16.55 -8.1 -16.75 -9 -16.9 -9.75 -17.15 -9.85 -17.6 -10 -18.05 -9.35 -18.5 -8.6 -17.95 -7.4 -17.8671875 -7.2068359375 -17.8 -7.05 -18.608984375 -6.969921875 -19 -7 -20.05 -7.05 -21.2 -7.5 -22.15 -7.8 -22.9 -7.7 -23.15 -7.65 -23.25 -7.25 -23.3 -7.05 -23.3 -6.85
+L -23.75 -6.75
+Q -24.2 -6.6 -24.25 -6 -24.3 -5.75 -24.25 -5.45 -24.55 -5.3 -24.75 -4.95 -24.919140625 -4.48515625 -24.65 -3.9 -24.6802734375 -3.866015625 -24.7 -3.85 -24.7841796875 -3.7822265625 -24.8 -3.7 -24.81328125 -3.577734375 -24.75 -3.5 -24.84375 -3.287890625 -24.75 -2.85 -24.75 -2.3 -23.85 -1.75 -23.05 -1.15 -21.75 -0.8 -18.446484375 0.1498046875 -16.3 -0.15
+L -16.8 1.25 -6.35 4.7 -6.15 4.75
+Q -5.05 5.15 -3.9 4.85 -2.75 4.5 -2.05 3.6
+L -0.95 2.2 -1.15 3.55
+Q -1.7712890625 3.61171875 -2.45 4.2 -3.05 4.65 -7.6 7.7 -12.15 10.75 -13 11.55 -13.85 12.4 -12.5 14.4 -11.15 16.4 -10.5 18.45 -9.3 22.2 -8.9 27.35 -8.9 27.45 -8.9 27.5 -8.8 27.5 -8.8 27.6
+L -8.7 27.6 -7.35 27
+Q -7.2412109375 27.6974609375 -7.2 28.35
+L -0.25 25.05 0.45 44.45
+Q 0.587890625 44.4802734375 0.7 44.5 -0.398046875 45.2330078125 -1.7 45.4 -4.5 45.75 -5.55 47 -6.6 48.3 -6.05 51.1 -4.85 52.05 9.75 51.1 9.9 49.3 9.45 46.25
+L 9.15 44.5
+Q 9.3541015625 44.49296875 9.55 44.45
+L 10.05 29.9 10.55 44.45
+Q 10.64921875 44.471875 10.75 44.5
+L 10.45 46.25
+Q 10 49.3 10.15 51.1 24.75 52.05 25.95 51.1 26.5 48.3 25.45 47 24.4 45.75 21.6 45.4 20.32578125 45.23671875 19.2 44.55 19.436328125 44.496875 19.65 44.45
+L 20.6 16.9
+Q 21.546484375 16.709375 22.5 16.5
+L 21.55 9.05 22.45 8.75
+Q 23.05 8.5 23.95 7.95 24.74375 7.4208984375 24.65 6.05
+L 24.7 6.05
+Q 23.95 -1.85 23.25 -5.1 22.6 -7.9 21.3 -9.4 20.1 -10.8 18.8 -11.4
+L 18.8 -11.4
+Q 16.909375 -12.24609375 15.05 -12.45 15.0029296875 -12.4322265625 14.95 -12.45 14.93359375 -12.4833984375 14.9 -12.55 14.7794921875 -12.7044921875 14.55 -12.75
+L 14.5 -12.75 14.5 -14.2
+Q 14.2255859375 -14.1740234375 13.95 -14.15
+L 13.95 -16.8 14.25 -16.95
+Q 15.7 -17.6 16.7 -18.5 17.011328125 -18.7421875 17.55 -19.3 17.976171875 -19.50703125 18.35 -19.8
+L 19.1 -19.6
+Q 20.4 -19.35 21.65 -19.7 23.3 -20.1 24.2 -21.15 25.25 -22.5 25.1 -24.4 24.95546875 -25.8083984375 24.1 -26.6 24.924609375 -28.2689453125 25.05 -30.25 25.0771484375 -30.6859375 25.05 -31.1 25.1748046875 -32.6220703125 24.8 -35.05 24.616796875 -36.907421875 24 -38.25 24.85 -39.54765625 24.85 -41.25 Z"/>
+</g>
+
+<g id="Mask_Duplicate_Items_Folder_Symbol_6_0_2_MASK_0_FILL">
+<path fill="#FFFFFF" stroke="none" d="
+M 29.45 -38.65
+Q 29.45 -40.95 27.8 -42.6 26.2 -44.2 23.9 -44.2 21.6 -44.2 19.95 -42.6 18.35 -40.95 18.35 -38.65 18.35 -36.35 19.95 -34.75 21.6 -33.1 23.9 -33.1 26.2 -33.1 27.8 -34.75 29.45 -36.35 29.45 -38.65 Z"/>
+</g>
+
+<g id="Duplicate_Items_Folder_Symbol_6_0_Layer2_0_FILL">
+<path fill="#773217" stroke="none" d="
+M 29.45 -38.65
+Q 29.45 -40.95 27.8 -42.6 26.2 -44.2 23.9 -44.2 21.6 -44.2 19.95 -42.6 18.35 -40.95 18.35 -38.65 18.35 -36.35 19.95 -34.75 21.6 -33.1 23.9 -33.1 26.2 -33.1 27.8 -34.75 29.45 -36.35 29.45 -38.65 Z"/>
+</g>
+
+<g id="Duplicate_Items_Folder_dffggfgdfgg_0_Layer0_1_FILL">
+<path fill="#82361A" stroke="none" d="
+M 29.3 -38.7
+Q 29.453515625 -40.95546875 27.8 -42.6 26.2 -44.2 23.9 -44.2 21.6 -44.2 19.95 -42.6 18.35 -40.95 18.35 -38.65 18.35 -36.35 19.95 -34.75 21.603515625 -33.10546875 23.75 -33.15 25.8837890625 -33.1322265625 27.5 -34.75 29.1337890625 -36.3822265625 29.3 -38.7 Z"/>
+</g>
+
+<g id="Duplicate_Items_Folder_dffggfgdfgg_0_Layer0_2_FILL">
+<path fill="#252D56" stroke="none" d="
+M 56.45 88.9
+Q 55 90.3 53.15 90.55 50.5 90.9 49.55 92.05 48.55 93.3 49.05 95.9 50.2 96.8 63.95 95.9 64.05 94.2 63.65 91.35
+L 63.2 88.85
+Q 59.8720703125 89.674609375 56.45 88.9 Z"/>
+</g>
+
+<g id="Duplicate_Items_Folder_dffggfgdfgg_0_Layer0_3_FILL">
+<path fill="#252D56" stroke="none" d="
+M 56.45 88.9
+Q 55 90.3 53.15 90.55 50.5 90.9 49.55 92.05 48.55 93.3 49.05 95.9 50.2 96.8 63.95 95.9 64.05 94.2 63.65 91.35
+L 63.2 88.85
+Q 59.8720703125 89.674609375 56.45 88.9 Z"/>
+</g>
+
+<g id="Duplicate_Items_Folder_dffggfgdfgg_0_Layer0_4_FILL">
+<path fill="#FFE8B1" stroke="none" d="
+M 50.95 58.8
+L 50.8 90.15
+Q 54.12890625 90.6375 57.55 90.7 60.9041015625 90.6375 64.3 90.15
+L 64.05 58.8 50.95 58.8 Z"/>
+</g>
+
+<g id="Duplicate_Items_Folder_dffggfgdfgg_0_Layer0_5_FILL">
+<path fill="#FFE8B1" stroke="none" d="
+M 11 12.75
+L 10.9 44.15
+Q 12.65 44.6 14.4 44.65 16.1 44.6 17.9 44.15
+L 17.75 12.75 11 12.75 Z"/>
+</g>
+
+<g id="Duplicate_Items_Folder_dffggfgdfgg_0_Layer0_6_MEMBER_0_FILL">
+<path fill="#D68649" stroke="none" d="
+M 30.8 36.2
+L 35.95 36.2
+Q 35.3 35.15 34.15 34.6 33 34 32.85 33.75 32.35 32.95 32.1 31.8 31.95 30.9 31.65 30.75 31.05 30.55 30.5 31.35 29.95 32.3 30.65 33.8 31.2 35.15 31.1 35.8 31 36.15 30.8 36.2 Z"/>
+</g>
+
+<g id="Duplicate_Items_Folder_dffggfgdfgg_0_Layer0_6_MEMBER_1_FILL">
+<path fill="#D68649" stroke="none" d="
+M 36.25 36.55
+Q 34.45 34.25 32.35 34.1 30.15 34.35 29.3 34.3 28 34.25 26.55 33.7 25.4 33.3 24.45 33.45 24.1 33.5 24 34 23.95 34.25 23.95 34.5
+L 23.35 34.6
+Q 22.8 34.8 22.75 35.55 22.7 35.9 22.75 36.25 22.4 36.45 22.15 36.9 21.9 37.55 22.4 38.5 21.95 38.65 22.1 39.5 22.15 40.2 23.25 40.9 24.25 41.6 25.85 42.05 30.85 43.5 33.8 42.7
+L 35.2 38.7 36.25 36.55 Z"/>
+</g>
+
+<g id="Duplicate_Items_Folder_dffggfgdfgg_0_Layer0_7_FILL">
+<path fill="#C56F2D" stroke="none" d="
+M 58.3 26.35
+L 58.3 33.65 65.6 33.65 65.6 26.35 58.3 26.35 Z"/>
+</g>
+
+<g id="Duplicate_Items_Folder_dffggfgdfgg_0_Layer0_8_FILL">
+<path fill="#D68649" stroke="none" d="
+M 75.05 11.5
+Q 73.8 9.3 71.4 7.3 68.95 5.25 66.9 3.55
+L 64.9 1.9
+Q 62.35 1.85 59.3 2.55 53.15 3.9 50.5 7.55
+L 48.9 17.15
+Q 48.05 22.35 50.55 24.9 52.35 26.7 54.45 27.45 55.5 27.85 56.65 28.05 57.55 28.2 58.6 28.3 59.15 28.35 59.7 28.4 62.15 28.4 64.75 27.8 66.7 27.3 68.15 26.8
+L 69 26.4
+Q 70.6 25.65 71.75 24.65 72.2 24.3 73.25 23.15
+L 74.4 23.45
+Q 75.85 23.7 77.2 23.35 79.05 22.9 80.05 21.7 81.25 20.25 81.05 18.1 80.85 15.95 79.15 15.15 77.6 14.45 75.85 15.1 76.3 13.7 75.05 11.5 Z"/>
+</g>
+
+<g id="Duplicate_Items_Folder_dffggfgdfgg_0_Layer0_9_FILL">
+<path fill="#BD6D2F" stroke="none" d="
+M 195.15 15.85
+Q 194.65 18.3 193.6 20.15 196.9 20.7 197.75 18.95 198.45 17.6 197.75 16.5 197.05 15.35 195.15 15.85 Z"/>
+</g>
+
+<g id="Duplicate_Items_Folder_dffggfgdfgg_0_Layer0_10_FILL">
+<path fill="#FFE3A2" stroke="none" d="
+M 19.1 -10.9
+Q 10.35 -13.4 1 -10.9
+L -1.25 15.25 21.35 15.25 19.1 -10.9 Z"/>
+</g>
+
+<g id="Duplicate_Items_Folder_dffggfgdfgg_0_Layer0_11_FILL">
+<path fill="#3E53B1" stroke="none" d="
+M 0.45 44.45
+Q 5 45.45 9.55 44.45
+L 10.9 5.45 -0.9 5.45 0.45 44.45 Z"/>
+</g>
+
+<g id="Duplicate_Items_Folder_dffggfgdfgg_0_Layer0_12_FILL">
+<path fill="#3E53B1" stroke="none" d="
+M 63.05 53.95
+L 64.4 85.45
+Q 68.95 86.25 73.5 85.45
+L 74.85 53.95 63.05 53.95 Z"/>
+</g>
+
+<g id="Duplicate_Items_Folder_dffggfgdfgg_0_Layer0_13_MEMBER_0_STROKES_1_FILL">
+<path fill="#82361A" stroke="none" d="
+M 17.95 14.55
+L 17.85 14.5 17.7 14.5 17.65 14.45 16.9 14.45 16.6 14.5 16.5 14.55 16.35 14.6 15.9 14.8 15.75 14.95 15.65 15 15.5 15.15 15.45 15.25
+Q 15.15 15.75 15.6 16 15.7 16.1 16 16.1
+L 16.1 16.05 16.35 16.05 16.5 16 16.55 16 16.65 15.95 16.8 15.9 16.9 15.9 17 15.85 17.15 15.8 17.25 15.8 17.35 15.75 17.8 15.6 18 15.5 18.05 15.5
+Q 18.55 15.3 18.35 14.85 18.15 14.55 17.95 14.55 Z"/>
+</g>
+
+<g id="Duplicate_Items_Folder_dffggfgdfgg_0_Layer0_13_MEMBER_1_FILL">
+<path fill="#CC6F28" stroke="none" d="
+M 26.95 26.65
+Q 26.95 25.95 26 25.45 25.1 25 23.75 25 22.4 25 21.45 25.45 20.55 25.95 20.55 26.65 20.55 27.35 21.45 27.8 22.4 28.3 23.75 28.3 25.1 28.3 26 27.8 26.95 27.35 26.95 26.65 Z"/>
+</g>
+
+<g id="Duplicate_Items_Folder_dffggfgdfgg_0_Layer0_13_MEMBER_2_FILL">
+<path fill="#000000" stroke="none" d="
+M 18.9 22.25
+Q 18.9 21.3 18.55 20.6 18.2 19.9 17.7 19.9 17.2 19.9 16.85 20.6 16.5 21.3 16.5 22.25 16.5 23.2 16.85 23.9 17.2 24.6 17.7 24.6 18.2 24.6 18.55 23.9 18.9 23.2 18.9 22.25 Z"/>
+</g>
+
+<g id="Duplicate_Items_Folder_dffggfgdfgg_0_Layer0_13_MEMBER_3_FILL">
+<path fill="#CC6F28" stroke="none" d="
+M 7.95 25.25
+Q 7.95 24.7 7.25 24.35 6.6 24 5.55 24 4.9126953125 24 4.4 24.1
+L 4.4 24.15
+Q 4.2171875 25.26796875 4.2 26.25 4.787890625 26.5 5.55 26.5 6.6 26.5 7.25 26.1 7.95 25.75 7.95 25.25 Z"/>
+</g>
+
+<g id="Duplicate_Items_Folder_dffggfgdfgg_0_Layer0_13_MEMBER_4_FILL">
+<path fill="#000000" stroke="none" d="
+M 10.05 22.9
+Q 10.05 21.9 9.6 21.15 9.15 20.4 8.55 20.4 7.9 20.4 7.45 21.15 7.05 21.9 7.05 22.9 7.05 23.95 7.45 24.65 7.9 25.4 8.55 25.4 9.15 25.4 9.6 24.65 10.05 23.95 10.05 22.9 Z"/>
+</g>
+
+<g id="Duplicate_Items_Folder_dffggfgdfgg_0_Layer0_13_MEMBER_6_FILL">
+<path fill="#E71818" stroke="none" d="
+M 60.95 21.25
+Q 60.9 21.1 60.8 21.05 60.65 20.95 60.5 20.95 60.35 20.95 60.25 21.05 60 21.15 58.75 21.75 57.55 22.25 55.95 22.3 55.8 22.3 55.7 22.4 55.55 22.45 55.5 22.6 55.45 22.7 55.45 22.85 55.55 23.9 56.3 24.6 57.15 25.5 58.35 25.5 59.55 25.5 60.45 24.6
+L 60.4 24.6
+Q 61.25 23.75 61.25 22.55 61.25 21.85 60.95 21.25 Z"/>
+</g>
+
+<g id="Duplicate_Items_Folder_dffggfgdfgg_0_Layer0_13_MEMBER_7_FILL">
+<path fill="#FF5454" stroke="none" d="
+M 13.55 18.8
+Q 14.25 19.4 15.25 19.4 16.45 19.4 17.35 18.5
+L 17.3 18.5
+Q 17.7 18.1 17.9 17.65 15.3 16.8 13.55 18.8 Z"/>
+</g>
+
+<g id="Duplicate_Items_Folder_dffggfgdfgg_0_Layer0_14_FILL">
+<path fill="#4B62C7" stroke="none" d="
+M -6 -3.45
+L -13.75 -6.7 -16.8 1.25 -6.35 4.7 -6.15 4.75
+Q -5.05 5.15 -3.9 4.85 -2.75 4.5 -2.05 3.6
+L 6 -6.55 2.3 -11.8
+Q 0.05 -11.2 -1.05 -10.05
+L -6 -3.45 Z"/>
+</g>
+
+<g id="Duplicate_Items_Folder_dffggfgdfgg_0_Layer0_15_FILL">
+<path fill="#FFE3A2" stroke="none" d="
+M 56.95 29
+L 56.9 34.9 66.75 34.9 66.75 29
+Q 62 29.45 56.95 29 Z"/>
+</g>
+
+<g id="Duplicate_Items_Folder_dffggfgdfgg_0_Layer0_16_FILL">
+<path fill="#4B62C7" stroke="none" d="
+M 18.95 -11.3
+Q 16.75 -12.35 14.6 -12.45 14.9201171875 -5.5302734375 9.25 2.25 4.4 -6.95 4.65 -12.35 3 -12.15 0.8 -11.3
+L -2.8 16.5
+Q 9.75 19.3 22.5 16.5
+L 18.95 -11.3 Z"/>
+</g>
+
+<g id="Duplicate_Items_Folder_dffggfgdfgg_0_Layer0_17_FILL">
+<path fill="#4B62C7" stroke="none" d="
+M 23.25 -5.1
+Q 22.6 -7.9 21.3 -9.4 20.1 -10.8 18.8 -11.4
+L 18.25 5.15
+Q 20.1 6.65 21.4 7.25 23.25 8.05 24.7 6.05 23.95 -1.85 23.25 -5.1 Z"/>
+</g>
+
+<g id="Duplicate_Items_Folder_dffggfgdfgg_0_Layer0_18_FILL">
+<path fill="#722E15" stroke="none" d="
+M 108.4 41.15
+Q 107.15 41 105.75 40.7 106.6 43.45 105.8 46 107.15 44.9 107.9 42.9
+L 108.4 41.15 Z"/>
+</g>
+
+<g id="Duplicate_Items_Folder_dffggfgdfgg_0_Layer0_19_FILL">
+<path fill="#82361A" stroke="none" d="
+M 22.9 -28.35
+Q 24.85 -29.5 25 -30.5 25.25 -32.1 24.8 -35.05 24.5 -37.95 23.25 -39.55 22.1 -41.1 20.55 -41.9 19.1 -42.65 16.85 -42.65 14.75 -44.3 10.6 -44.75 5.9 -45.25 1.6 -42.85 -3.5 -40.05 -4.9 -36.15 -6.05 -32.9 -5.25 -30.35 -5 -29.65 -4.45 -29 -3.9 -28.35 -3.35 -28.15 -1.45 -28.8 1.35 -30.2 6.9 -33 11.25 -36.65 11.3 -35.4 12.25 -33.7 14.25 -30.3 19.1 -27.85 20.7 -27.05 22.9 -28.35 Z"/>
+</g>
+
+<g id="Duplicate_Items_Folder_dffggfgdfgg_0_Layer0_20_MEMBER_1_FILL">
+<path fill="#363636" stroke="none" d="
+M 105.95 20.65
+Q 105.3 20 104.4 20 103.5 20 102.85 20.65 102.2 21.3 102.2 22.2
+L 102.2 23.85
+Q 102.2 24.75 102.85 25.4 103.5 26.05 104.4 26.05 105.3 26.05 105.95 25.4 106.6 24.75 106.6 23.85
+L 106.6 22.2
+Q 106.6 21.3 105.95 20.65 Z"/>
+</g>
+
+<g id="Duplicate_Items_Folder_dffggfgdfgg_0_Layer0_20_MEMBER_2_FILL">
+<path fill="#4B4B4B" stroke="none" d="
+M 105.95 20.65
+Q 105.3 20 104.4 20 103.5 20 102.85 20.65 102.2 21.3 102.2 22.2
+L 102.2 23.85
+Q 102.2 24.75 102.85 25.4 103.5 26.05 104.4 26.05 105.3 26.05 105.95 25.4 106.6 24.75 106.6 23.85
+L 106.6 22.2
+Q 106.6 21.3 105.95 20.65 Z"/>
+</g>
+
+<g id="Duplicate_Items_Folder_dffggfgdfgg_0_Layer0_20_MEMBER_3_FILL">
+<path fill="#363636" stroke="none" d="
+M 65.3 23.1
+Q 64.9 23.1 64.6 23.4 64.3 23.7 64.3 24.1 64.3 24.5 64.6 24.8 64.9 25.1 65.3 25.1
+L 66.8 25.1
+Q 67.014453125 25.1 67.2 25 67.3607421875 24.9392578125 67.5 24.8 67.8 24.5 67.8 24.1 67.8 23.7 67.5 23.4 67.4736328125 23.3736328125 67.45 23.35 67.1740234375 23.1078125 66.8 23.1
+L 65.3 23.1 Z"/>
+</g>
+
+<g id="Duplicate_Items_Folder_dffggfgdfgg_0_Layer0_21_FILL">
+<path fill="#4157B4" stroke="none" d="
+M 4.65 -12.45
+Q 3.4 -12.3 1.9 -11.8
+L 1.3 -7.65 4 -6.15 2.55 -3.95
+Q 3.1 -3 6 -0.3 8.55 2.05 9.2 2.45 9.25 2.45 8.3 0.15 7.1 -2.85 6.5 -4.75 5 -9.55 4.65 -12.45 Z"/>
+</g>
+
+<g id="Duplicate_Items_Folder_dffggfgdfgg_0_Layer0_24_FILL">
+<path fill="#A34928" stroke="none" d="
+M -8.15 -50.05
+Q -9.55 -51.2 -10.45 -52.55 -12.2 -51.1 -13.15 -49.45 -9.4 -48.35 -5.85 -48.55 -6.9 -49 -8.15 -50.05 Z"/>
+</g>
+
+<g id="Duplicate_Items_Folder_dffggfgdfgg_0_Layer0_25_MEMBER_0_FILL">
+<path fill="#9DBFD3" stroke="none" d="
+M 1.35 4.85
+Q 0.96953125 4.5357421875 0.25 4.05 -0.464453125 3.5607421875 -1.35 3.7 -2.1923828125 3.8486328125 -2.55 5.75 -2.7 6.7 -2.6 7.6
+L 1.35 4.85 Z"/>
+</g>
+
+<g id="Duplicate_Items_Folder_dffggfgdfgg_0_Layer0_25_MEMBER_1_FILL">
+<path fill="#FF71D0" stroke="none" d="
+M 0.75 5.95
+L 0.75 5.9 -6.4 10
+Q -6.773046875 10.27421875 -6.75 10.6 -6.77578125 10.8671875 -6.45 11.15
+L -6.45 11.2 2.45 18.9 2.45 18.85
+Q 3.123828125 19.4677734375 3.75 19.05
+L 10.9 14.95
+Q 11.3298828125 14.7015625 11.3 14.4 11.376171875 14.09921875 11 13.75
+L 2.1 6.05 2.1 6.05
+Q 1.4822265625 5.4958984375 0.75 5.95 Z"/>
+</g>
+
+<g id="Duplicate_Items_Folder_dffggfgdfgg_0_Layer0_25_MEMBER_2_FILL">
+<path fill="#FF9DDE" stroke="none" d="
+M 0.6 5.05
+L 0.6 5.1
+Q -0.15 4.35 -1 4.9
+L -9.55 9.8
+Q -10 10.05 -10 10.5 -10.1 10.75 -9.6 11.2
+L 1 20.4
+Q 1.75 21.05 2.6 20.65
+L 11.15 15.65
+Q 11.65 15.4 11.65 15.05 11.65 14.65 11.25 14.3
+L 0.6 5.05 Z"/>
+</g>
+
+<g id="Duplicate_Items_Folder_dffggfgdfgg_0_Layer0_25_MEMBER_3_MEMBER_0_FILL">
+<path fill="#D68649" stroke="none" d="
+M 3.35 7.05
+Q 2.6400390625 6.7697265625 2.65 7.1
+L 4.35 8.55
+Q 4.511328125 8.637109375 4.7 8.7 5.0642578125 8.88203125 5 9.15 5.008984375 9.1732421875 5 9.2 4.85 9.55 2.7 10.35 0.95 11 0.75 11.3 0.55 11.5 0.6 11.9 0.6 12.2 0.85 12.45 1 12.65 1.4 12.6 1.1 12.65 0.85 12.9 0.65 13.2 0.75 13.5 0.8 13.8 1.05 14.05 1.2 14.15 1.45 14.2 1.35 14.35 1.35 14.65 1.35 15 1.65 15.25 1.9 15.45 2.2 15.4
+L 2.4 15.4
+Q 2.2 15.65 2.35 15.85 2.4 16.2 2.7 16.35 2.9 16.5 3.3 16.45 7.9619140625 15.49140625 10.1 13.55 10.436328125 13.2587890625 10.7 12.95 12.3 10.3 8.85 7.4 7.95 7.05 6.95 7.15 5.9013671875 7.3439453125 5 7.3 4.10078125 7.319921875 3.35 7.05 Z"/>
+</g>
+
+<g id="Duplicate_Items_Folder_dffggfgdfgg_0_Layer0_25_MEMBER_4_FILL">
+<path fill="#4B62C7" stroke="none" d="
+M 10.1 5.8
+Q 12 8.55 12.55 12.35
+L 22.45 8.75
+Q 23.05 8.5 23.95 7.95 24.85 7.35 24.65 5.7 24.4 4.05 23.6 3.1 22.7 2.2 21.35 2.15
+L 19.8 2.15 10.1 5.8 Z"/>
+</g>
+
+<g id="Duplicate_Items_Folder_dffggfgdfgg_0_Layer0_25_MEMBER_7_FILL">
+<path fill="#BDE0F6" stroke="none" d="
+M 5 23.25
+Q 4.2728515625 17.2869140625 1.5 13.5 -1.2224609375 9.758203125 -3.1 6.05 -4.982421875 2.4001953125 -1.85 3.65 -2.0396484375 2.817578125 -4.4 3.25 -4.8669921875 3.841015625 -8.35 6.65 -12.9443359375 10.44921875 -15.15 13.5 -14 16.05 -12.85 19.4 -10.5 26.05 -10.25 30.45
+L 5 23.25 Z"/>
+</g>
+
+<g id="Duplicate_Items_Folder_dffggfgdfgg_0_Layer0_25_MEMBER_8_FILL">
+<path fill="#E0F3FF" stroke="none" d="
+M 5.15 21.35
+Q 4.6 15.75 1.65 11.65 -1.85 6.55 -2.1 5.25 -2.25 3.9 -1.05 3.8 -0.6 3.75 0.05 4.05
+L 0.65 4.35
+Q -0.1 3.55 -1 3.55 -1.7 3.55 -2.45 4.2 -3.05 4.65 -7.6 7.7 -12.15 10.75 -13 11.55 -13.85 12.4 -12.5 14.4 -11.15 16.4 -10.5 18.45 -9.3 22.2 -8.9 27.35 -8.9 27.45 -8.9 27.5 -8.8 27.5 -8.8 27.6
+L -8.7 27.6 5.05 21.45 5.15 21.35 Z"/>
+</g>
+
+<g id="Duplicate_Items_Folder_dffggfgdfgg_0_Layer0_27_FILL">
+<path fill="#4157B4" stroke="none" d="
+M 17.3 -11.95
+Q 15.8 -12.45 14.55 -12.6 14.2 -9.7 12.7 -4.9 11.65 -1.55 9.35 2.05 10.75 1.3 12.35 0.2 15.6 -2.1 16.65 -4.1
+L 15.2 -6.3 17.9 -7.8 17.3 -11.95 Z"/>
+</g>
+
+<g id="Duplicate_Items_Folder_dffggfgdfgg_0_Layer0_29_FILL">
+<path fill="#FFFFFF" stroke="none" d="
+M 7.25 -1.35
+Q 6.8 -1.35 6.8 -0.9
+L 6.8 5.45
+Q 6.8 5.85 7.25 5.85
+L 11.65 5.85
+Q 12.1 5.85 12.1 5.45
+L 12.1 -0.9
+Q 12.1 -1.35 11.65 -1.35
+L 7.25 -1.35 Z"/>
+</g>
+
+<g id="Duplicate_Items_Folder_dffggfgdfgg_0_Layer0_31_FILL">
+<path fill="#DBF0F3" stroke="none" d="
+M 11.05 -0.35
+L 7.85 -0.35
+Q 7.5 -0.35 7.5 0
+L 7.5 2.65
+Q 7.5 2.95 7.85 2.95
+L 11.05 2.95
+Q 11.35 2.95 11.35 2.65
+L 11.35 0
+Q 11.35 -0.35 11.05 -0.35 Z"/>
+</g>
+
+<path id="Duplicate_Items_Folder_dffggfgdfgg_0_Layer1_0_1_STROKES" stroke="#FFFFFF" stroke-width="8" stroke-linejoin="round" stroke-linecap="round" fill="none" d="
+M 24.85 -41.25
+Q 24.85 -39.54765625 24.025 -38.225 24.616796875 -36.907421875 24.825 -35.05 25.1748046875 -32.6220703125 25.075 -31.1 25.0771484375 -30.6859375 25.05 -30.25 24.924609375 -28.2689453125 24.125 -26.575 24.95546875 -25.8083984375 25.1 -24.4 25.25 -22.5 24.2 -21.15 23.3 -20.1 21.65 -19.7 20.4 -19.35 19.1 -19.6
+L 18.35 -19.775
+Q 17.976171875 -19.50703125 17.55 -19.3 17.011328125 -18.7421875 16.7 -18.5 15.7 -17.6 14.25 -16.95
+L 13.95 -16.8 13.95 -14.15
+Q 14.2255859375 -14.1740234375 14.5 -14.2
+L 14.525 -12.75 14.575 -12.75
+Q 14.7794921875 -12.7044921875 14.9 -12.525 14.93359375 -12.4833984375 14.95 -12.45 15.0029296875 -12.4322265625 15.05 -12.425 16.909375 -12.24609375 18.8 -11.375
+L 18.8 -11.4
+Q 20.1 -10.8 21.3 -9.4 22.6 -7.9 23.25 -5.1 23.95 -1.85 24.7 6.05
+L 24.675 6.075
+Q 24.74375 7.4208984375 23.95 7.95 23.05 8.5 22.45 8.75
+L 21.55 9.075 22.5 16.5
+Q 21.546484375 16.709375 20.6 16.9
+L 19.65 44.45
+Q 19.436328125 44.496875 19.225 44.55 20.32578125 45.23671875 21.6 45.4 24.4 45.75 25.45 47 26.5 48.3 25.95 51.1 24.75 52.05 10.15 51.1 10 49.3 10.45 46.25
+L 10.75 44.5
+Q 10.64921875 44.471875 10.55 44.45
+L 10.05 29.925 9.55 44.45
+Q 9.3541015625 44.49296875 9.15 44.525
+L 9.45 46.25
+Q 9.9 49.3 9.75 51.1 -4.85 52.05 -6.05 51.1 -6.6 48.3 -5.55 47 -4.5 45.75 -1.7 45.4 -0.398046875 45.2330078125 0.725 44.5 0.587890625 44.4802734375 0.45 44.45
+L -0.225 25.05 -7.2 28.35
+Q -7.2412109375 27.6974609375 -7.325 27
+L -8.7 27.6 -8.8 27.6
+Q -8.8 27.5 -8.9 27.5 -8.9 27.45 -8.9 27.35 -9.3 22.2 -10.5 18.45 -11.15 16.4 -12.5 14.4 -13.85 12.4 -13 11.55 -12.15 10.75 -7.6 7.7 -3.05 4.65 -2.45 4.2 -1.7712890625 3.61171875 -1.125 3.55
+L -0.95 2.225 -2.05 3.6
+Q -2.75 4.5 -3.9 4.85 -5.05 5.15 -6.15 4.75
+L -6.35 4.7 -16.8 1.25 -16.275 -0.125
+Q -18.446484375 0.1498046875 -21.75 -0.8 -23.05 -1.15 -23.85 -1.75 -24.75 -2.3 -24.75 -2.85 -24.84375 -3.287890625 -24.75 -3.5 -24.81328125 -3.577734375 -24.8 -3.675 -24.7841796875 -3.7822265625 -24.7 -3.85 -24.6802734375 -3.866015625 -24.65 -3.875 -24.919140625 -4.48515625 -24.75 -4.95 -24.55 -5.3 -24.25 -5.45 -24.3 -5.75 -24.25 -6 -24.2 -6.6 -23.75 -6.75
+L -23.3 -6.85
+Q -23.3 -7.05 -23.25 -7.25 -23.15 -7.65 -22.9 -7.7 -22.15 -7.8 -21.2 -7.5 -20.05 -7.05 -19 -7 -18.608984375 -6.969921875 -17.8 -7.025 -17.8671875 -7.2068359375 -17.95 -7.4 -18.5 -8.6 -18.05 -9.35 -17.6 -10 -17.15 -9.85 -16.9 -9.75 -16.75 -9 -16.55 -8.1 -16.15 -7.45 -16.05 -7.25 -15.15 -6.75 -14.4794921875 -6.4677734375 -14.025 -5.95
+L -13.75 -6.7 -6 -3.45 -1.05 -10.05
+Q -0.35546875 -10.776171875 0.8 -11.275
+L 0.8 -11.3
+Q 1.3400390625 -11.5087890625 1.85 -11.675
+L 1.85 -11.7
+Q 2.6 -11.95 3.3 -12.1
+L 4.15 -12.275
+Q 4.184765625 -12.3947265625 4.275 -12.5 4.4177734375 -12.647265625 4.625 -12.65 4.6634765625 -12.6521484375 4.7 -12.65
+L 4.7 -14.2
+Q 5.0759765625 -14.16640625 5.45 -14.15
+L 5.45 -15.2
+Q 5.175 -15.2224609375 4.9 -15.25 3.95 -15.3 3.15 -15.45 2.1 -15.65 1.15 -16 -0.75 -16.65 -2.35 -18.3 -4.6 -20.6 -3.85 -25.25
+L -3.375 -28.15
+Q -3.9064453125 -28.3576171875 -4.45 -29 -5 -29.65 -5.25 -30.35 -6.05 -32.9 -4.9 -36.15 -3.5 -40.05 1.6 -42.85 5.9 -45.25 10.6 -44.75 12.45703125 -44.5486328125 13.9 -44.1 14.27734375 -44.792578125 14.85 -45.4 16.6 -47.05 19.05 -47.05 21.45 -47.05 23.15 -45.4 24.85 -43.65 24.85 -41.25 Z"/>
+
+<path id="Duplicate_Items_Folder_Symbol_6_0_Layer1_0_1_STROKES" stroke="#5E2A16" stroke-width="1" stroke-linejoin="round" stroke-linecap="round" fill="none" d="
+M -11.055735778808593 3.0170494079589845
+Q -2.3242286682128905 -9.210204315185548 9.428250122070313 -0.6956756591796875
+M -11.200991821289062 6.21526107788086
+Q -2.4694847106933593 -6.011992645263672 9.282994079589844 2.5025360107421877
+M -10.715829467773437 9.30140609741211
+Q -1.984322357177734 -2.9258476257324215 9.768156433105469 5.588681030273438"/>
+
+<path id="Duplicate_Items_Folder_Symbol_6_0_Layer1_1_1_STROKES" stroke="#5E2A16" stroke-width="1" stroke-linejoin="round" stroke-linecap="round" fill="none" d="
+M -10.921351623535157 -8.213632202148437
+Q 2.4661361694335935 -1.3941635131835934 -4.209240722656251 11.491616821289064
+M -7.941517639160158 -9.151510620117188
+Q 5.445970153808593 -2.332041931152344 -1.22940673828125 10.553738403320313
+M -4.757283020019532 -9.482611083984375
+Q 8.630204772949218 -2.6631423950195314 1.954827880859375 10.222637939453126"/>
+
+<path id="Duplicate_Items_Folder_dffggfgdfgg_0_Layer0_6_MEMBER_2_1_STROKES" stroke="#BE6B2A" stroke-width="0.5" stroke-linejoin="round" stroke-linecap="round" fill="none" d="
+M -24.33047103881836 -3.7110519409179723
+L -22.33053970336914 -3.3110656738281286
+Q -20.981211030483244 -2.997326445579528 -20.05061798095703 -2.951078033447267"/>
+
+<path id="Duplicate_Items_Folder_dffggfgdfgg_0_Layer0_6_MEMBER_3_1_STROKES" stroke="#BE6B2A" stroke-width="0.5" stroke-linejoin="round" stroke-linecap="round" fill="none" d="
+M -23.940493011474608 -5.490994262695313
+Q -22.158054208755487 -4.6175867497921 -19.18065643310547 -4.491028594970704"/>
+
+<path id="Duplicate_Items_Folder_dffggfgdfgg_0_Layer0_6_MEMBER_4_1_STROKES" stroke="#BE6B2A" stroke-width="0.5" stroke-linejoin="round" stroke-linecap="round" fill="none" d="
+M -22.890541076660156 -6.650954437255862
+Q -20.850298625230785 -5.9939457446336775 -18.810681152343747 -5.850981903076175"/>
+
+<path id="Duplicate_Items_Folder_dffggfgdfgg_0_Layer0_6_MEMBER_5_1_STROKES" stroke="#BE6B2A" stroke-width="0.5" stroke-linejoin="round" stroke-linecap="round" fill="none" d="
+M -17.634484100341798 -6.770870971679688
+Q -17.81794284880161 -4.770730960369111 -16.335282897949217 -3.9305656433105476"/>
+
+<path id="Duplicate_Items_Folder_dffggfgdfgg_0_Layer0_13_MEMBER_5_1_STROKES" stroke="#BE6B2A" stroke-width="1" stroke-linejoin="round" stroke-linecap="round" fill="none" d="
+M 3.4593566894531245 -25.85619583129883
+Q 2.5144111633300783 -26.126180267333986 1.8394500732421877 -25.58621139526367 1.2544837951660144 -25.136237335205077 1.2544837951660144 -24.37128143310547 1.2544837951660144 -23.60632553100586 1.7494552612304686 -23.111354064941406 2.2444267272949228 -22.616382598876957 3.0543800354003894 -22.706377410888674"/>
+
+<path id="Duplicate_Items_Folder_dffggfgdfgg_0_Layer0_20_MEMBER_0_1_STROKES" stroke="#4B4B4B" stroke-width="1" stroke-linejoin="round" stroke-linecap="round" fill="none" d="
+M 11.588432312011719 -19.104000854492185
+Q 19.04433472156525 -18.347760328650473 19.95681457519531 -23.46815719604492"/>
+
+<path id="Duplicate_Items_Folder_dffggfgdfgg_0_Layer0_22_1_STROKES" stroke="#FFD574" stroke-width="1" stroke-linejoin="round" stroke-linecap="round" fill="none" d="
+M 6.2 -10.55
+Q 9.0248046875 -9.68828125 12.95 -10.475"/>
+
+<path id="Duplicate_Items_Folder_dffggfgdfgg_0_Layer0_23_1_STROKES" stroke="#6F2C13" stroke-width="1" stroke-linejoin="round" stroke-linecap="round" fill="none" d="
+M 16 -42.4
+Q 12.8380859375 -41.223828125 11.45 -38.25"/>
+
+<path id="Duplicate_Items_Folder_dffggfgdfgg_0_Layer0_25_MEMBER_3_MEMBER_1_1_STROKES" stroke="#BE6B2A" stroke-width="0.5" stroke-linejoin="round" stroke-linecap="round" fill="none" d="
+M 2.9442565917968793 12.638580322265625
+Q 4.761794626712799 12.362067198753358 7.020623779296876 11.007579040527343"/>
+
+<path id="Duplicate_Items_Folder_dffggfgdfgg_0_Layer0_25_MEMBER_3_MEMBER_2_1_STROKES" stroke="#BE6B2A" stroke-width="0.5" stroke-linejoin="round" stroke-linecap="round" fill="none" d="
+M 3.0442565917968807 14.188580322265624
+Q 4.8617946267128005 13.912067198753357 7.120623779296878 12.557579040527342"/>
+
+<path id="Duplicate_Items_Folder_dffggfgdfgg_0_Layer0_25_MEMBER_3_MEMBER_3_1_STROKES" stroke="#BE6B2A" stroke-width="0.5" stroke-linejoin="round" stroke-linecap="round" fill="none" d="
+M 4.044256591796881 15.388580322265625
+Q 5.8617946267128005 15.112067198753358 8.120623779296878 13.757579040527343"/>
+
+<path id="Duplicate_Items_Folder_dffggfgdfgg_0_Layer0_25_MEMBER_5_1_STROKES" stroke="#3C52B6" stroke-width="1" stroke-linejoin="round" stroke-linecap="round" fill="none" d="
+M 10.1 6.3
+L 17.9 3 17.9 -5"/>
+
+<path id="Duplicate_Items_Folder_dffggfgdfgg_0_Layer0_25_MEMBER_6_1_STROKES" stroke="#3C52B6" stroke-width="1" stroke-linejoin="round" stroke-linecap="round" fill="none" d="
+M 13.3 12.4
+L 21.05 9.4"/>
+
+<path id="Duplicate_Items_Folder_dffggfgdfgg_0_Layer0_26_1_STROKES" stroke="#3C52B6" stroke-width="1" stroke-linejoin="round" stroke-linecap="round" fill="none" d="
+M -0.9 1.05
+L -0.05 -5.1"/>
+
+<path id="Duplicate_Items_Folder_dffggfgdfgg_0_Layer0_28_1_STROKES" stroke="#59C0FF" stroke-width="1" stroke-linejoin="round" stroke-linecap="round" fill="none" d="
+M 4.5 -11.65
+Q 5.15 -6.54140625 9.45 -1.875 13.530859375 -5.603515625 14.6 -11.75"/>
+
+<path id="Duplicate_Items_Folder_dffggfgdfgg_0_Layer0_30_1_STROKES" stroke="#858585" stroke-width="1" stroke-linejoin="round" stroke-linecap="round" fill="none" d="
+M 9.45 -2
+L 9.45 -0.6"/>
+
+<path id="Duplicate_Items_Folder_dffggfgdfgg_0_Layer0_32_1_STROKES" stroke="#2B409D" stroke-width="1" stroke-linejoin="round" stroke-linecap="round" fill="none" d="
+M 10.1 18.35
+L 10.1 28.5"/>
+</defs>
+
+<g transform="matrix( 1, 0, 0, 0.999603271484375, 65,60) ">
+<g transform="matrix( 1, 0, 0, 1, 0,0) ">
+<use xlink:href="#icon_r_box_02_16_Layer3_0_FILL"/>
+</g>
+
+<g transform="matrix( 1, 0, 0, 1, -0.05,0.05) ">
+<use xlink:href="#icon_r_box_02_16_Layer3_1_FILL"/>
+</g>
+
+<g transform="matrix( 1, 0, 0, 1, 0,-2.15) ">
+<use xlink:href="#icon_r_box_02_16_Layer3_2_FILL"/>
+</g>
+
+<g transform="matrix( 1, 0, 0, 1, 0,0.05) ">
+<use xlink:href="#icon_r_box_02_16_Layer3_3_FILL"/>
+</g>
+
+<g filter="url(#Filter_1)" transform="matrix( 0.9999847412109375, 0, 0, 1.000396728515625, -65,-60) ">
+<g transform="matrix( 0.7499847412109375, 0, 0, 0.7496795654296875, 57.8,39.35) ">
+<g transform="matrix( 1, 0, 0, 1, 0,0) ">
+<use xlink:href="#Duplicate_Items_Folder_dffggfgdfgg_0_Layer1_0_FILL"/>
+
+<use xlink:href="#Duplicate_Items_Folder_dffggfgdfgg_0_Layer1_0_1_STROKES"/>
+</g>
+
+<g transform="matrix( 1, 0, 0, 1, 19,-41.2) ">
+<mask id="Mask_Mask_1">
+<g transform="matrix( 1.051361083984375, 0, 0, 1.051361083984375, -25.1,40.6) ">
+<use xlink:href="#Mask_Duplicate_Items_Folder_Symbol_6_0_2_MASK_0_FILL"/>
+</g>
+</mask>
+
+<g mask="url(#Mask_Mask_1)">
+<g transform="matrix( 1.051361083984375, 0, 0, 1.051361083984375, -25.1,40.6) ">
+<use xlink:href="#Duplicate_Items_Folder_Symbol_6_0_Layer2_0_FILL"/>
+</g>
+</g>
+
+<g mask="url(#Mask_Mask_1)">
+<g transform="matrix( 0.6594696044921875, -0.751708984375, 0.751708984375, 0.6594696044921875, -0.45,-0.05) ">
+<use xlink:href="#Duplicate_Items_Folder_Symbol_6_0_Layer1_0_1_STROKES" transform="matrix( 0.65948486328125, 0.7517242431640625, -0.7517242431640625, 0.65948486328125, 0.25,0.35) "/>
+</g>
+
+<g transform="matrix( 0.84124755859375, 0.540557861328125, -0.540557861328125, 0.84124755859375, -0.15,0.55) ">
+<use xlink:href="#Duplicate_Items_Folder_Symbol_6_0_Layer1_1_1_STROKES" transform="matrix( 0.8413238525390625, -0.5406036376953125, 0.5406036376953125, 0.8413238525390625, -0.15,-0.5) "/>
+</g>
+</g>
+</g>
+
+<g transform="matrix( 1.74774169921875, 0, 0, 1.74774169921875, -26.15,37.3) ">
+<use xlink:href="#Duplicate_Items_Folder_dffggfgdfgg_0_Layer0_1_FILL"/>
+</g>
+
+<g transform="matrix( 1.06292724609375, 0, 0, 1.06292724609375, -58.2,-50.85) ">
+<use xlink:href="#Duplicate_Items_Folder_dffggfgdfgg_0_Layer0_2_FILL"/>
+</g>
+
+<g transform="matrix( -1.06292724609375, 0, 0, 1.06292724609375, 78.1,-50.85) ">
+<use xlink:href="#Duplicate_Items_Folder_dffggfgdfgg_0_Layer0_3_FILL"/>
+</g>
+
+<g transform="matrix( 0.5159759521484375, 0, 0, 1, -24.25,-46.05) ">
+<use xlink:href="#Duplicate_Items_Folder_dffggfgdfgg_0_Layer0_4_FILL"/>
+</g>
+
+<g transform="matrix( 1, 0, 0, 1, 0,0) ">
+<use xlink:href="#Duplicate_Items_Folder_dffggfgdfgg_0_Layer0_5_FILL"/>
+</g>
+
+<g transform="matrix( 0.7999725341796875, 0, 0, 0.7999725341796875, -42.45,-34.45) ">
+<use xlink:href="#Duplicate_Items_Folder_dffggfgdfgg_0_Layer0_6_MEMBER_0_FILL"/>
+</g>
+
+<g transform="matrix( 0.7999725341796875, 0, 0, 0.7999725341796875, -42.45,-34.45) ">
+<use xlink:href="#Duplicate_Items_Folder_dffggfgdfgg_0_Layer0_6_MEMBER_1_FILL"/>
+</g>
+
+<g transform="matrix( 0.7999725341796875, 0, 0, 0.7999725341796875, -38.05,-34.35) ">
+<use xlink:href="#Duplicate_Items_Folder_dffggfgdfgg_0_Layer0_6_MEMBER_2_1_STROKES" transform="matrix( 1.250030517578125, 0, 0, 1.250030517578125, 47.55,42.9) "/>
+</g>
+
+<g transform="matrix( 0.7999725341796875, 0, 0, 0.7999725341796875, -38.3,-34.45) ">
+<use xlink:href="#Duplicate_Items_Folder_dffggfgdfgg_0_Layer0_6_MEMBER_3_1_STROKES" transform="matrix( 1.250030517578125, 0, 0, 1.250030517578125, 47.85,43.05) "/>
+</g>
+
+<g transform="matrix( 0.7999725341796875, 0, 0, 0.7999725341796875, -38.65,-34.45) ">
+<use xlink:href="#Duplicate_Items_Folder_dffggfgdfgg_0_Layer0_6_MEMBER_4_1_STROKES" transform="matrix( 1.250030517578125, 0, 0, 1.250030517578125, 48.3,43.05) "/>
+</g>
+
+<g transform="matrix( 0.7726898193359375, -0.207000732421875, 0.207000732421875, 0.7726898193359375, -45.6,-27.85) ">
+<use xlink:href="#Duplicate_Items_Folder_dffggfgdfgg_0_Layer0_6_MEMBER_5_1_STROKES" transform="matrix( 1.2075042724609375, 0.323486328125, -0.323486328125, 1.2075042724609375, 46.05,48.35) "/>
+</g>
+
+<g transform="matrix( 1.16436767578125, 0, 0, 1, -62.45,-44.2) ">
+<use xlink:href="#Duplicate_Items_Folder_dffggfgdfgg_0_Layer0_7_FILL"/>
+</g>
+
+<g transform="matrix( 0.899993896484375, 0, 0, 0.899993896484375, -47.85,-40.7) ">
+<use xlink:href="#Duplicate_Items_Folder_dffggfgdfgg_0_Layer0_8_FILL"/>
+</g>
+
+<g transform="matrix( 0.899993896484375, 0, 0, 0.899993896484375, -155.05,-39.6) ">
+<use xlink:href="#Duplicate_Items_Folder_dffggfgdfgg_0_Layer0_9_FILL"/>
+</g>
+
+<g transform="matrix( 1, 0, 0, 1, 0,0) ">
+<use xlink:href="#Duplicate_Items_Folder_dffggfgdfgg_0_Layer0_10_FILL"/>
+</g>
+
+<g transform="matrix( 1, 0, 0, 1, 0,0) ">
+<use xlink:href="#Duplicate_Items_Folder_dffggfgdfgg_0_Layer0_11_FILL"/>
+</g>
+
+<g transform="matrix( 1, 0, 0, 1.23822021484375, -53.85,-61.35) ">
+<use xlink:href="#Duplicate_Items_Folder_dffggfgdfgg_0_Layer0_12_FILL"/>
+</g>
+
+<g transform="matrix( 0.709136962890625, 0.5540008544921875, -0.5540008544921875, 0.709136962890625, 5.15,-51.55) ">
+<use xlink:href="#Duplicate_Items_Folder_dffggfgdfgg_0_Layer0_13_MEMBER_0_STROKES_1_FILL"/>
+</g>
+
+<g transform="matrix( 0.674957275390625, 0, 0, 0.674957275390625, -5.2,-42.5) ">
+<use xlink:href="#Duplicate_Items_Folder_dffggfgdfgg_0_Layer0_13_MEMBER_1_FILL"/>
+</g>
+
+<g transform="matrix( 1.1249237060546875, 0, 0, 0.957275390625, -11.85,-47.75) ">
+<use xlink:href="#Duplicate_Items_Folder_dffggfgdfgg_0_Layer0_13_MEMBER_2_FILL"/>
+</g>
+
+<g transform="matrix( 0.8999481201171875, 0, 0, 0.8999481201171875, -7.7,-47.3) ">
+<use xlink:href="#Duplicate_Items_Folder_dffggfgdfgg_0_Layer0_13_MEMBER_3_FILL"/>
+</g>
+
+<g transform="matrix( 0.897796630859375, 0.0622100830078125, -0.0622100830078125, 0.897796630859375, -6.25,-47.45) ">
+<use xlink:href="#Duplicate_Items_Folder_dffggfgdfgg_0_Layer0_13_MEMBER_4_FILL"/>
+</g>
+
+<g transform="matrix( 0.8999481201171875, 0, 0, 0.8999481201171875, -7.7,-46.6) ">
+<use xlink:href="#Duplicate_Items_Folder_dffggfgdfgg_0_Layer0_13_MEMBER_5_1_STROKES" transform="matrix( 1.1111602783203125, 0, 0, 1.1111602783203125, 8.55,51.75) "/>
+</g>
+
+<g transform="matrix( 0.89996337890625, 0, 0, 0.89996337890625, -47.8,-40.65) ">
+<use xlink:href="#Duplicate_Items_Folder_dffggfgdfgg_0_Layer0_13_MEMBER_6_FILL"/>
+</g>
+
+<g transform="matrix( 0.89996337890625, 0, 0, 0.89996337890625, -9,-35.15) ">
+<use xlink:href="#Duplicate_Items_Folder_dffggfgdfgg_0_Layer0_13_MEMBER_7_FILL"/>
+</g>
+
+<g transform="matrix( 1, 0, 0, 1, 0,0) ">
+<use xlink:href="#Duplicate_Items_Folder_dffggfgdfgg_0_Layer0_14_FILL"/>
+</g>
+
+<g transform="matrix( 1, 0, 0, 1, -52.25,-43.2) ">
+<use xlink:href="#Duplicate_Items_Folder_dffggfgdfgg_0_Layer0_15_FILL"/>
+</g>
+
+<g transform="matrix( 1, 0, 0, 1, 0,0) ">
+<use xlink:href="#Duplicate_Items_Folder_dffggfgdfgg_0_Layer0_16_FILL"/>
+</g>
+
+<g transform="matrix( 1, 0, 0, 1, 0,0) ">
+<use xlink:href="#Duplicate_Items_Folder_dffggfgdfgg_0_Layer0_17_FILL"/>
+</g>
+
+<g transform="matrix( 0.899993896484375, 0, 0, 0.899993896484375, -75.95,-65.5) ">
+<use xlink:href="#Duplicate_Items_Folder_dffggfgdfgg_0_Layer0_18_FILL"/>
+</g>
+
+<g transform="matrix( 1, 0, 0, 1, 0,0) ">
+<use xlink:href="#Duplicate_Items_Folder_dffggfgdfgg_0_Layer0_19_FILL"/>
+</g>
+
+<g transform="matrix( 0.8998260498046875, 0, 0, 0.8998260498046875, -48.25,-39.8) ">
+<use xlink:href="#Duplicate_Items_Folder_dffggfgdfgg_0_Layer0_20_MEMBER_0_1_STROKES" transform="matrix( 1.1113128662109375, 0, 0, 1.1113128662109375, 53.6,44.2) "/>
+</g>
+
+<g transform="matrix( 0.6598358154296875, 0, 0, 0.6598358154296875, -49.15,-39.8) ">
+<use xlink:href="#Duplicate_Items_Folder_dffggfgdfgg_0_Layer0_20_MEMBER_1_FILL"/>
+</g>
+
+<g transform="matrix( 0.6598358154296875, 0, 0, 0.6598358154296875, -48.7,-39.8) ">
+<use xlink:href="#Duplicate_Items_Folder_dffggfgdfgg_0_Layer0_20_MEMBER_2_FILL"/>
+</g>
+
+<g transform="matrix( 0.8998260498046875, 0, 0, 0.8998260498046875, -47.85,-40.7) ">
+<use xlink:href="#Duplicate_Items_Folder_dffggfgdfgg_0_Layer0_20_MEMBER_3_FILL"/>
+</g>
+
+<g transform="matrix( 1, 0, 0, 1, -0.05,0.1) ">
+<use xlink:href="#Duplicate_Items_Folder_dffggfgdfgg_0_Layer0_21_FILL"/>
+</g>
+
+<g transform="matrix( 1, 0, 0, 1, 0,0) ">
+<use xlink:href="#Duplicate_Items_Folder_dffggfgdfgg_0_Layer0_22_1_STROKES"/>
+</g>
+
+<g transform="matrix( 1, 0, 0, 1, 0,0) ">
+<use xlink:href="#Duplicate_Items_Folder_dffggfgdfgg_0_Layer0_23_1_STROKES"/>
+</g>
+
+<g transform="matrix( 1, 0, 0, 1, 9,11.75) ">
+<use xlink:href="#Duplicate_Items_Folder_dffggfgdfgg_0_Layer0_24_FILL"/>
+</g>
+
+<g transform="matrix( 1, 0, 0, 1, 0,0) ">
+<use xlink:href="#Duplicate_Items_Folder_dffggfgdfgg_0_Layer0_25_MEMBER_0_FILL"/>
+</g>
+
+<g transform="matrix( 1.19580078125, 0, 0, 1.19580078125, -1.2,-2.6) ">
+<use xlink:href="#Duplicate_Items_Folder_dffggfgdfgg_0_Layer0_25_MEMBER_1_FILL"/>
+</g>
+
+<g transform="matrix( 1, 0, 0, 1, 0,0) ">
+<use xlink:href="#Duplicate_Items_Folder_dffggfgdfgg_0_Layer0_25_MEMBER_2_FILL"/>
+</g>
+
+<g transform="matrix( 1, 0, 0, 1, 1.5,0) ">
+<use xlink:href="#Duplicate_Items_Folder_dffggfgdfgg_0_Layer0_25_MEMBER_3_MEMBER_0_FILL"/>
+</g>
+
+<g transform="matrix( 0.65765380859375, -0.4554443359375, 0.4554443359375, 0.65765380859375, -33.75,-10.7) ">
+<use xlink:href="#Duplicate_Items_Folder_dffggfgdfgg_0_Layer0_25_MEMBER_3_MEMBER_1_1_STROKES" transform="matrix( 1.027679443359375, 0.711700439453125, -0.711700439453125, 1.027679443359375, 27.05,35) "/>
+</g>
+
+<g transform="matrix( 0.65765380859375, -0.4554443359375, 0.4554443359375, 0.65765380859375, -33.65,-9.15) ">
+<use xlink:href="#Duplicate_Items_Folder_dffggfgdfgg_0_Layer0_25_MEMBER_3_MEMBER_2_1_STROKES" transform="matrix( 1.027679443359375, 0.711700439453125, -0.711700439453125, 1.027679443359375, 28.05,33.35) "/>
+</g>
+
+<g transform="matrix( 0.65765380859375, -0.4554443359375, 0.4554443359375, 0.65765380859375, -32.65,-7.95) ">
+<use xlink:href="#Duplicate_Items_Folder_dffggfgdfgg_0_Layer0_25_MEMBER_3_MEMBER_3_1_STROKES" transform="matrix( 1.027679443359375, 0.711700439453125, -0.711700439453125, 1.027679443359375, 27.85,31.4) "/>
+</g>
+
+<g transform="matrix( 1, 0, 0, 1, 0,0) ">
+<use xlink:href="#Duplicate_Items_Folder_dffggfgdfgg_0_Layer0_25_MEMBER_4_FILL"/>
+</g>
+
+<g transform="matrix( 1, 0, 0, 1, 0,0) ">
+<use xlink:href="#Duplicate_Items_Folder_dffggfgdfgg_0_Layer0_25_MEMBER_5_1_STROKES"/>
+</g>
+
+<g transform="matrix( 1, 0, 0, 1, 0,0) ">
+<use xlink:href="#Duplicate_Items_Folder_dffggfgdfgg_0_Layer0_25_MEMBER_6_1_STROKES"/>
+</g>
+
+<g transform="matrix( 0.899993896484375, 0, 0, 0.899993896484375, 2,0.95) ">
+<use xlink:href="#Duplicate_Items_Folder_dffggfgdfgg_0_Layer0_25_MEMBER_7_FILL"/>
+</g>
+
+<g transform="matrix( 1, 0, 0, 1, 0,0) ">
+<use xlink:href="#Duplicate_Items_Folder_dffggfgdfgg_0_Layer0_25_MEMBER_8_FILL"/>
+</g>
+
+<g transform="matrix( 1, 0, 0, 1, 0,0) ">
+<use xlink:href="#Duplicate_Items_Folder_dffggfgdfgg_0_Layer0_26_1_STROKES"/>
+</g>
+
+<g transform="matrix( 1, 0, 0, 1, -0.05,0.1) ">
+<use xlink:href="#Duplicate_Items_Folder_dffggfgdfgg_0_Layer0_27_FILL"/>
+</g>
+
+<g transform="matrix( 1, 0, 0, 1, 0,-0.5) ">
+<use xlink:href="#Duplicate_Items_Folder_dffggfgdfgg_0_Layer0_28_1_STROKES"/>
+</g>
+
+<g transform="matrix( 1, 0, 0, 1, 0,0) ">
+<use xlink:href="#Duplicate_Items_Folder_dffggfgdfgg_0_Layer0_29_FILL"/>
+</g>
+
+<g transform="matrix( 1, 0, 0, 1, 0,-0.65) ">
+<use xlink:href="#Duplicate_Items_Folder_dffggfgdfgg_0_Layer0_30_1_STROKES"/>
+</g>
+
+<g transform="matrix( 1, 0, 0, 1, 0,0) ">
+<use xlink:href="#Duplicate_Items_Folder_dffggfgdfgg_0_Layer0_31_FILL"/>
+</g>
+
+<g transform="matrix( 1, 0, 0, 1, 0,0) ">
+<use xlink:href="#Duplicate_Items_Folder_dffggfgdfgg_0_Layer0_32_1_STROKES"/>
+</g>
+</g>
+</g>
+</g>
+</svg>

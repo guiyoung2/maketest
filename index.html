@@ -1,0 +1,773 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0 user-scalable=0"
+    />
+
+    <title>디지털 제작 활동 되돌리기</title>
+
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/common.css" />
+    <link rel="stylesheet" href="./css/OverlayScrollbars.css" />
+    <link rel="stylesheet" href="./css/angle.css" />
+    <link rel="stylesheet" href="./css/makeMapSvg.css" />
+    <link rel="stylesheet" href="./css/drawingSvg.css" />
+  </head>
+
+  <body>
+    <div
+      id="wrap"
+      data-ui="resize-window"
+      data-option='{"resize":true, "offsetTop":"0px"}'
+    >
+      <div class="mask remove"></div>
+      <div class="bg"></div>
+
+      <header>
+        <div class="left-cont">
+          <div class="ico"></div>
+          <div class="title">
+            <span>디지털 제작 활동</span>
+          </div>
+        </div>
+
+        <div class="select-cont">
+          <div class="select-box-cont dep1">
+            <div class="select-box" data-value="">
+              <div class="select">
+                <span class="text">바탕 이미지 선택</span>
+                <span class="ico"></span>
+              </div>
+              <div class="list-box scroll-box">
+                <ul class="list">
+                  <!-- <li class="active">
+                    <span class="text">선택</span>
+                    <span class="ico"></span>
+                  </li> -->
+                </ul>
+                <div class="btn-file">
+                  <span>파일 불러오기</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="select-box-cont dep2">
+            <div class="select-box" data-value="">
+              <!-- <div class="select">
+                <span class="text">상세 선택</span>
+                <span class="ico"></span>
+              </div> -->
+              <div class="list-box scroll-box">
+                <ul class="list">
+                  <!-- <li class="active">
+                    <span class="text">선택</span>
+                    <span class="ico"></span>
+                  </li> -->
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="right-cont">
+          <!-- <div class="link-manual-btn remove"></div> -->
+          <div class="link-manual-btn"></div>
+          <div class="btn-print-save btn-save" data-type="save">저장하기</div>
+          <div class="btn-print-save btn-print" data-type="print">인쇄하기</div>
+          <!-- <div class="btn-reset">
+            <span>다시 하기</span>
+          </div> -->
+        </div>
+      </header>
+
+      <div class="content_container">
+        <!-- App: make-map-svg -->
+        <div
+          class="make-map-svg"
+          data-ui="make-map-svg"
+          data-option='{"width":980, "height":650}'
+        >
+          <div
+            class="app-angle-tool open"
+            data-ui="app-angle-tool"
+            data-option="{}"
+          >
+            <div class="bg-text"></div>
+            <div class="test-point p-01"></div>
+            <div class="test-point p-02"></div>
+            <div class="drawing-content">
+              <div class="drawing-cont">
+                <div class="not-obj"></div>
+              </div>
+              <div id="draw-tool">
+                <div id="sketch"></div>
+                <div class="controller hide">
+                  <div class="tool-box">
+                    <div class="button button-pencil">
+                      <img
+                        class="rollout"
+                        src="./images/drawTool/pencil.png"
+                        alt=""
+                      />
+                      <img
+                        class="rollover"
+                        src="./images/drawTool/pencil_over.png"
+                        alt=""
+                      />
+                    </div>
+                    <div class="button button-pen">
+                      <img
+                        class="rollout"
+                        src="./images/drawTool/pen.png"
+                        alt=""
+                      />
+                      <img
+                        class="rollover"
+                        src="./images/drawTool/pen_over.png"
+                        alt=""
+                      />
+                    </div>
+                    <div class="button button-highlight">
+                      <img
+                        class="rollout"
+                        src="./images/drawTool/highlight.png"
+                        alt=""
+                      />
+                      <img
+                        class="rollover"
+                        src="./images/drawTool/highlight_over.png"
+                        alt=""
+                      />
+                      
+                    </div>
+                    <div class="button button-erase">
+                      <img
+                        class="rollout"
+                        src="./images/drawTool/erase.png"
+                        alt=""
+                      />
+                      <img
+                        class="rollover"
+                        src="./images/drawTool/erase_over.png"
+                        alt=""
+                      />
+                    </div>
+                    <div class="button button-clear">
+                      <img
+                        class="rollout"
+                        src="./images/drawTool/clear.png"
+                        alt=""
+                      />
+                      <img
+                        class="rollover"
+                        src="./images/drawTool/clear_over.png"
+                        alt=""
+                      />
+                    </div>
+                  </div>
+                  <div class="color-box">
+                    <div class="color color-0"></div>
+                    <div class="color color-1"></div>
+                    <div class="color color-2"></div>
+                    <div class="color color-3"></div>
+                    <div class="color color-4"></div>
+
+                    <div class="color color-5"></div>
+                    <div class="color color-6"></div>
+                    <div class="color color-7"></div>
+                    <div class="color color-8"></div>
+                    <div class="color color-9"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="button button-opacity">
+              <!-- <div class="rollout"></div> -->
+            </div>
+
+            <!-- <div id="opacity-tool" class="remove"> -->
+            <div id="opacity-tool">
+              <div class="title">지도 중첩</div>
+              <div class="tool-wrap">
+
+              
+              <div class="tool">
+                <input type="checkbox" name="" id="" data-index="1" />
+                <span>주요 지명</span>
+              </div>
+              <div class="tool">
+                <input type="checkbox" name="" id="" data-index="2" />
+                <span>지형 음영</span>
+                <input
+                type="range"
+                value="50"
+                name=""
+                id=""
+                data-img="bg-2"
+                min="0"
+                max="100"
+                disabled
+                />
+              </div>
+              <div class="tool">
+                <input type="checkbox" name="" id="" data-index="3" />
+                <span>기후 분포</span>
+                <input
+                type="range"
+                value="50"
+                name=""
+                id=""
+                data-img="bg-3"
+                min="0"
+                max="100"
+                disabled
+                />
+              </div>
+              <div class="tool">
+                <input type="checkbox" name="" id="" data-index="4" />
+                <span>인문 환경</span>
+              </div>
+            </div>
+              <div class="opacity-close-btn"><span class="close-arrow"></span></div>
+            </div>
+          </div>
+        </div>
+        <!-- //App: make-map-svg -->
+      </div>
+
+      <aside class="aside-right">
+        <div class="select-box-cont">
+          <div class="select-box" data-value="">
+            <div class="select">
+              <span class="text"></span>
+              <span class="ico"></span>
+            </div>
+            <div class="list-box scroll-box">
+              <ul class="list">
+                <!-- <li class="active">
+                  <span class="text">자연</span>
+                  <span class="ico"></span>
+                </li> -->
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="svg-list">
+          <ul class="list">
+            <!-- <li>
+              <img src="./svg/svg_1_1.svg" alt="" />
+              <span>병원</span>
+            </li> -->
+          </ul>
+        </div>
+
+        <div class="aside-button-cont">
+          <div class="button button-pentool">
+            <!-- <img
+              class="rollout"
+              src="./images/drawTool/button_pentool.svg"
+              alt=""
+            /> -->
+            <img
+              class="rollout"
+              src="./images/drawTool/button_pentool_over.png"
+              alt=""
+            />
+            <img
+              class="rollover"
+              src="./images/drawTool/button_pentool.png"
+              alt=""
+            />
+            <span>펜</span>
+          </div>
+          <div class="button insert-text btn-text">
+            <!-- <div class="btn-text"> -->
+              <!-- <img src="./images/btn_text.png" alt="" /> -->
+              <!-- 텍스트 삽입 -->
+            <!-- </div> -->
+            <img
+              class="rollout"
+              src="./images/drawTool/button_text_over.png"
+              alt=""
+            />
+            <img
+              class="rollover"
+              src="./images/drawTool/button_text.png"
+              alt=""
+            />
+            <span>텍스트 삽입</span>
+          </div>
+          <div class="button btn-file">
+            <img
+              class="rollout"
+              src="./images/drawTool/button_file_over.png"
+              alt=""
+            />
+            <img
+              class="rollover"
+              src="./images/drawTool/button_file.png"
+              alt=""
+            />
+            <span>내 사진 삽입</span>
+          </div>
+        </div>
+
+        <div class="slide-controls">
+          <div class="btn-prev"></div>
+          <div class="tabs">
+            <div class="tab btn active"></div>
+          </div>
+          <div class="btn-next"></div>
+        </div>
+
+        <div class="btns-etc">
+          <!-- <div class="btn btn-del-select">
+            <span>선택 삭제</span>
+          </div> -->
+          <div class="btn undo-btn not-undo" >
+            <span>되돌리기</span>
+          </div>
+          <div class="btn btn-del-all">
+            <span>전체 삭제</span>
+          </div>
+        </div>
+      </aside>
+
+      <div class="add-text-box remove">
+        <div class="cont">
+          <div class="title">텍스트를 입력하세요.</div>
+          <div class="align-cc">
+            <input class="input" type="text" />
+            <div class="color-select-box" data-value="">
+              <div class="color-select" data-color="#000000">
+                <span class="text"></span>
+                <!-- <span class="ico"></span> -->
+              </div>
+              <div class="list-box">
+                <div class="list active" data-color="#000000"></div>
+                <div class="list" data-color="#FF2525"></div>
+                <div class="list" data-color="#FFA800"></div>
+                <div class="list" data-color="#FFE900"></div>
+                <div class="list" data-color="#8CD900"></div>
+                <div class="list" data-color="#00A20F"></div>
+                <div class="list" data-color="#00DBFF"></div>
+                <div class="list" data-color="#275DBE"></div>
+                <div class="list" data-color="#FF82FE"></div>
+                <div class="list" data-color="#632CAE"></div>
+
+                <!-- <div class="list" data-color="#EA6EE4">T</div>
+                <div class="list" data-color="#FF0000">T</div>
+                <div class="list" data-color="#FFD91C">T</div>
+                <div class="list" data-color="#FF8120">T</div>
+                <div class="list" data-color="#08A500">T</div>
+                <div class="list" data-color="#05AFAB">T</div>
+                <div class="list" data-color="#9A0BD1">T</div>
+                <div class="list" data-color="#003CC5">T</div>
+                <div class="list" data-color="#000C6F">T</div>
+                <div class="list active" data-color="#000000">T</div> -->
+              </div>
+            </div>
+          </div>
+          <div class="btns">
+            <div class="button cancel-button">취소</div>
+            <div class="button enter-button">확인</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="add-file remove">
+        <div class="cont">
+          <div class="top">
+            <span><span class="file-image"></span>사진 삽입</span>
+            <span class="close">X</span>
+          </div>
+          <div class="main">
+            <div
+              style="
+                width: 100%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                gap: 8px;
+              "
+            >
+              <span>파일 찾기:</span>
+              <input
+                type="text"
+                class="upload-name"
+                value=""
+                placeholder="첨부파일"
+              />
+            </div>
+            <div class="file-explain">
+              <span>내 컴퓨터에 저장된 JPG, PNG이미지 파일을 올릴 수 있습니다.</span>
+              <span>N MB까지 올리기 가능합니다.</span>
+            </div>
+            <input type="button" id="file-input" class="file-input" />
+            <input
+              type="file"
+              id="file-find"
+              class="file-find"
+              accept=".jpg, .jpeg, .png, .gif"
+            />
+            <label for="file-input">넣기</label>
+            <label for="file-find"></label>
+          </div>
+        </div>
+      </div>
+
+      <div class="popup-scale">
+        <div class="cont">
+          <div class="title">
+            <span>바탕 이미지의 크기를 조졍하여<br>확인을 눌러주세요.</span>
+          </div>
+
+          <div class="controls">
+            <div class="select-box-cont">
+              <div class="select-box" data-value="">
+                <div class="select">
+                  <span class="text">100%</span>
+                  <span class="ico"></span>
+                </div>
+                <div class="list-box">
+                  <ul class="list">
+                    <li class="active">
+                      <span class="text">50%</span>
+                      <span class="ico"></span>
+                    </li>
+                    <li class="">
+                      <span class="text">100%</span>
+                      <span class="ico"></span>
+                    </li>
+                    <li class="">
+                      <span class="text">150%</span>
+                      <span class="ico"></span>
+                    </li>
+                    <li class="">
+                      <span class="text">200%</span>
+                      <span class="ico"></span>
+                    </li>
+                    <li class="">
+                      <span class="text">250%</span>
+                      <span class="ico"></span>
+                    </li>
+                    <li class="">
+                      <span class="text">300%</span>
+                      <span class="ico"></span>
+                    </li>
+                    <li class="">
+                      <span class="text">350%</span>
+                      <span class="ico"></span>
+                    </li>
+                    <li class="">
+                      <span class="text">400%</span>
+                      <span class="ico"></span>
+                    </li>
+                    <!-- <li class="">
+                      <span class="text">190%</span>
+                      <span class="ico"></span>
+                    </li>
+                    <li class="">
+                      <span class="text">200%</span>
+                      <span class="ico"></span>
+                    </li> -->
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="btns-zoom">
+              <div class="btn up" data-type="up"></div>
+              <div class="btn down" data-type="down"></div>
+            </div>
+          </div>
+
+          <div class="btns">
+            <div class="btn btn-cancel" data-type="cancel">취소</div>
+            <div class="btn btn-submit" data-type="submit">확인</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="debug"></div>
+
+      <!-- 이미지 저장용 canvas, svg -->
+      <div class="img-debug">
+        <img src="" alt="" />
+      </div>
+
+      <canvas class="save-canvas" width="980" height="650"></canvas>
+      <!-- <svg id="svg-save" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="980" height="650"></svg> -->
+    </div>
+
+    <div
+      class="save-popup remove"
+      data-ui="resize-window"
+      data-option='{"resize":true, "offsetTop":"0px"}'
+    >
+      <div class="bg"></div>
+      <input class="input" type="text" placeholder="임시파일명" />
+      <div class="btns">
+        <div class="button cancel-button">취소</div>
+        <div class="button enter-button">확인</div>
+      </div>
+    </div>
+
+    <!-- common -->
+    <script src="./js/plugins/d3.js"></script>
+    <script src="./js/plugins/jquery-2.2.4.min.js"></script>
+    <script src="./js/plugins/TweenMax.min.js"></script>
+    <script src="./js/plugins/plugins.js"></script>
+    <script src="./js/plugins/jquery.overlayScrollbars.min.js"></script>
+    <script src="./js/plugins/unserscore-min-1.9.2.js"></script>
+
+    <script src="./js/plugins/snap.svg-min.js"></script>
+    <script src="./js/plugins/raphael.min.js"></script>
+    <script src="./js/plugins/raphael-shapes.js"></script>
+    <script src="./js/plugins/raphael-svg-import.js"></script>
+    <script src="./js/plugins/raphael.free_transform.min.js"></script>
+    <script src="./js/plugins/dom-to-image.js"></script>
+    <!-- html2canvas :: ie11 promise 오류 관련 처리 -->
+    <!-- <script src="./js/plugins/es6-promise.auto.js"></script> -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/es6-promise/4.1.1/es6-promise.auto.js"></script>
+
+    <!-- <script src="./js/plugins/FileSaver.js"></script> -->
+
+    <script src="./js/common.js"></script>
+    <script src="./js/mapData.js"></script>
+    <script src="./js/app/angle.js"></script>
+    <script src="./js/app/makeMapSvg.js"></script>
+    <script src="./js/app/simplify.js"></script>
+    <script src="./js/app/drawingSvg.js"></script>
+    <script>
+      $(window).on('load', function () {
+        var mapApp = $('.make-map-svg').data('instance');
+
+        // 텍스트 넣기
+        $('.btn-text').on(touchstart, function (e) {
+          GlobalAudio.play('button');
+
+          $('.add-text-box').removeClass('remove');
+          $('.add-text-box').find('input').focus();
+        });
+
+        $('.add-text-box')
+          .find('.cancel-button')
+          .on(touchend, function () {
+            GlobalAudio.play('button');
+
+            var str = $('.add-text-box').find('input').val('');
+            $('.add-text-box').addClass('remove');
+            $('.add-text-box .color-select-box').removeClass('open');
+          });
+
+        $('.add-text-box')
+          .find('.enter-button')
+          .on(touchend, function () {
+            GlobalAudio.play('button');
+
+            var str = $('.add-text-box').find('input').val();
+            if (str == null || str == '') {
+              return;
+            }
+            var dataColor = $(
+              '.add-text-box .color-select-box .color-select'
+            )[0].dataset.color;
+            mapApp.addText(str, dataColor);
+          });
+
+        $('.add-text-box .color-select-box .color-select').on(
+          'click',
+          function () {
+            GlobalAudio.play('button');
+
+            var selectBox = $(this).parents('.color-select-box');
+            if (selectBox.hasClass('open')) {
+              selectBox.removeClass('open');
+            } else {
+              selectBox.addClass('open');
+            }
+          }
+        );
+
+        $('.add-text-box .color-select-box .list-box .list').on(
+          'click',
+          function () {
+            GlobalAudio.play('button');
+
+            var selectBox = $(this).parents('.color-select-box');
+            var colorSelect = $(selectBox).find('.color-select');
+            var selectColorBg = $(selectBox).find('.color-select .text');
+            var dataColor = $(this).data('color');
+            $('.add-text-box .color-select-box .list-box .list').removeClass(
+              'active'
+            );
+            $(this).addClass('active');
+            $(colorSelect).css('color', dataColor);
+            $(selectColorBg).css('background', `url("./images/c_${dataColor.slice(1,7)}.png")`);
+            $(selectColorBg).css('background-repeat', "no-repeat");
+            $(selectColorBg).css('background-position', "center");
+            $(colorSelect)[0].dataset.color = dataColor;
+            selectBox.removeClass('open');
+            // console.log("색깔바뀌기");
+          }
+        );
+
+        // 다시 하기
+        $('.btn-reset').on(touchstart, function (e) {
+          GlobalAudio.play('button');
+
+          mapApp.reset();
+        });
+
+        $('.link-manual-btn').on(touchstart, function () {
+          GlobalAudio.play('button');
+
+          console.log('manual');
+          var url = '백지도 활동 방법.pdf';
+
+          var pathData = window.jj ? '../../../data/' : '../../../data/';
+          var src = pathData + url;
+
+          // window.alert("src :: "+"/resource/"+url);
+
+          if (window.jj && jj.native && jj.native.exe)
+            window.jj.native.exe(src);
+          else window.open(src, '_blank');
+        });
+
+        // 저장, 인쇄
+        $('.btn-print-save').on(touchstart, function () {
+          GlobalAudio.play('button');
+
+          mapApp.endBgControl();
+          mapApp.unselectObj();
+
+          var type = $(this).attr('data-type');
+          console.log(type);
+          if (type == 'save') {
+            saveImgPopup();
+          } else if (type == 'print') {
+            var target = $('.draw-container');
+            printDiv(target);
+          }
+        });
+
+        $('.save-popup')
+          .find('.cancel-button')
+          .on(touchend, function () {
+            GlobalAudio.play('button');
+
+            var str = $('.save-popup').find('input').val('');
+            $('body').removeClass('save');
+            $('.save-popup').addClass('remove');
+          });
+
+        $('.save-popup')
+          .find('.enter-button')
+          .on(touchend, function () {
+            GlobalAudio.play('button');
+
+            var str = $('.save-popup').find('input').val();
+            try {
+              console.log('support Blob!!');
+              var isFileSaverSupported = !!new Blob();
+            } catch (e) {
+              console.log('!! Not support Blob!!');
+            }
+
+            var name = 'map_' + Date.now();
+            var newName = $('.save-popup').find('input').val();
+            if (newName == null || newName == '') {
+              return;
+            }
+            mapApp.saveImage(newName);
+          });
+
+        function saveImgPopup() {
+          $('body').addClass('save');
+          $('.save-popup').removeClass('remove');
+          $('.save-popup').find('input').focus();
+        }
+      });
+
+      function printDiv(target) {
+        const beforePrint = () => {
+          document.body.classList.toggle('print', true);
+        };
+
+        const afterPrint = () => {
+          document.body.classList.toggle('print', false);
+          document.body.classList.toggle('map', false);
+        };
+
+        if ('matchMedia' in window) {
+          window.matchMedia('print').addListener(function (mql) {
+            if (mql.matches) {
+              beforePrint();
+            } else {
+              afterPrint();
+            }
+          });
+        } else {
+          window.onbeforeprint = beforePrint;
+          window.onafterprint = afterPrint;
+        }
+
+        window.print();
+
+        return;
+      }
+    </script>
+    <!-- 레이어 투명도 조절 슬라이더 -->
+    <script>
+      // opacity-tool
+
+      const opacityTool = $('#opacity-tool');
+      const opacityToolCheck = opacityTool.find('input[type="checkbox"]');
+      const opacityToolRange = opacityTool.find('input[type="range"]');
+
+    //   $("#tool_toggle").on("click", function(){  // 레이어 토글
+    //   $("#opacity-tool").toggle()
+    // })
+
+      let img;
+
+
+      opacityToolCheck.on('change', function (e) {
+        const index = this.dataset.index;
+        const check = $(this).prop('checked');
+
+        if (check) {
+          img = $(`.bg-${index}`);
+          img.removeClass('remove');
+        } else if (!check) {
+          img = $(`.bg-${index}`);
+          img.addClass('remove');
+        }
+
+        if (index != 1 && check) {
+          opacityToolRange.eq(index - 2).prop('disabled', false);
+        } else if (index != 1 && !check) {
+          opacityToolRange.eq(index - 2).prop('disabled', true);
+        }
+      });
+
+      opacityToolRange.on('input', function (e) {
+        const cn = this.dataset.img;
+        img = $(`.${cn}`);
+
+        const value = $(this).val();
+        img.css('opacity', value / 100);
+      });
+
+    
+      
+    </script>
+  </body>
+</html>

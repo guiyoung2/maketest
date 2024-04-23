@@ -1,0 +1,96 @@
+
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="none" x="0px" y="0px" width="130px" height="115px" viewBox="0 0 130 115">
+<defs>
+<g id="icon_r_box_02_52_Layer3_0_FILL">
+<path fill="#FFFFFF" fill-opacity="0" stroke="none" d="
+M 65 -55
+L -65 -55 -65 25 65 25 65 -55 Z"/>
+</g>
+
+<g id="icon_r_box_02_52_Layer3_1_FILL">
+<path fill="#FFFFFF" fill-opacity="0" stroke="none" d="
+M 65.05 49.95
+L 65.05 24.95 -64.95 24.95 -64.95 49.95 65.05 49.95 Z"/>
+</g>
+
+<g id="icon_r_box_02_52_Layer3_2_FILL">
+<path fill="#FFFFFF" fill-opacity="0" stroke="none" d="
+M 65 -52.85
+L 65 -57.85 -65 -57.85 -65 -52.85 65 -52.85 Z"/>
+</g>
+
+<g id="icon_r_box_02_52_Layer3_3_FILL">
+<path fill="#FFFFFF" fill-opacity="0" stroke="none" d="
+M 65 54.95
+L 65 49.95 -65 49.95 -65 54.95 65 54.95 Z"/>
+</g>
+
+<g id="icon_r_box_02_52_Layer2_0_MEMBER_0_MEMBER_0_FILL">
+<path fill="#FFD252" stroke="none" d="
+M 35.8 6.95
+Q 29.85 1 21.4 1 12.95 1 7 6.95 1 12.9 1 21.35 1 29.8 7 35.8 12.95 41.75 21.4 41.75 29.85 41.75 35.8 35.8 41.75 29.8 41.75 21.35 41.75 12.9 35.8 6.95 Z"/>
+</g>
+
+<g id="icon_r_box_02_52_Layer2_0_MEMBER_0_MEMBER_2_FILL">
+<path fill="#E26B85" stroke="none" d="
+M 35 24.45
+L 7.75 24.45
+Q 7.75 29.15 11.75 32.45 15.75 35.75 21.4 35.75 27.05 35.75 31 32.45 35 29.15 35 24.45 Z"/>
+</g>
+
+<path id="icon_r_box_02_52_Layer2_0_MEMBER_0_MEMBER_0_1_STROKES" stroke="#000000" stroke-width="2" stroke-linejoin="miter" stroke-linecap="round" stroke-miterlimit="10" fill="none" d="
+M 41.75 21.35
+Q 41.75 29.8 35.8 35.8 29.85 41.75 21.4 41.75 12.95 41.75 7 35.8 1 29.8 1 21.35 1 12.9 7 6.95 12.95 1 21.4 1 29.85 1 35.8 6.95 41.75 12.9 41.75 21.35 Z"/>
+
+<path id="icon_r_box_02_52_Layer2_0_MEMBER_0_MEMBER_1_MEMBER_0_1_STROKES" stroke="#000000" stroke-width="2" stroke-linejoin="miter" stroke-linecap="round" stroke-miterlimit="10" fill="none" d="
+M 12.55 19.4
+Q 12.55 17.85 13.35 16.8 14.15 15.75 15.3 15.75 16.45 15.75 17.2 16.8 18 17.85 18 19.4"/>
+
+<path id="icon_r_box_02_52_Layer2_0_MEMBER_0_MEMBER_1_MEMBER_1_1_STROKES" stroke="#000000" stroke-width="2" stroke-linejoin="miter" stroke-linecap="round" stroke-miterlimit="10" fill="none" d="
+M 24.75 19.4
+Q 24.75 17.85 25.55 16.8 26.35 15.75 27.5 15.75 28.65 15.75 29.4 16.8 30.2 17.85 30.2 19.4"/>
+
+<path id="icon_r_box_02_52_Layer2_0_MEMBER_0_MEMBER_2_1_STROKES" stroke="#000000" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" fill="none" d="
+M 35 24.45
+Q 35 29.15 31 32.45 27.05 35.75 21.4 35.75 15.75 35.75 11.75 32.45 7.75 29.15 7.75 24.45
+L 35 24.45 Z"/>
+</defs>
+
+<g transform="matrix( 1, 0, 0, 0.999603271484375, 65,60) ">
+<g transform="matrix( 1, 0, 0, 1, 0,0) ">
+<use xlink:href="#icon_r_box_02_52_Layer3_0_FILL"/>
+</g>
+
+<g transform="matrix( 1, 0, 0, 1, -0.05,0.05) ">
+<use xlink:href="#icon_r_box_02_52_Layer3_1_FILL"/>
+</g>
+
+<g transform="matrix( 1, 0, 0, 1, 0,-2.15) ">
+<use xlink:href="#icon_r_box_02_52_Layer3_2_FILL"/>
+</g>
+
+<g transform="matrix( 1, 0, 0, 1, 0,0.05) ">
+<use xlink:href="#icon_r_box_02_52_Layer3_3_FILL"/>
+</g>
+
+<g transform="matrix( 1, 0, 0, 1, -21.35,-36.4) ">
+<use xlink:href="#icon_r_box_02_52_Layer2_0_MEMBER_0_MEMBER_0_FILL"/>
+
+<use xlink:href="#icon_r_box_02_52_Layer2_0_MEMBER_0_MEMBER_0_1_STROKES"/>
+</g>
+
+<g transform="matrix( 1, 0, 0, 1, -21.35,-36.4) ">
+<use xlink:href="#icon_r_box_02_52_Layer2_0_MEMBER_0_MEMBER_1_MEMBER_0_1_STROKES"/>
+</g>
+
+<g transform="matrix( 1, 0, 0, 1, -21.35,-36.4) ">
+<use xlink:href="#icon_r_box_02_52_Layer2_0_MEMBER_0_MEMBER_1_MEMBER_1_1_STROKES"/>
+</g>
+
+<g transform="matrix( 1, 0, 0, 1, -21.35,-36.4) ">
+<use xlink:href="#icon_r_box_02_52_Layer2_0_MEMBER_0_MEMBER_2_FILL"/>
+
+<use xlink:href="#icon_r_box_02_52_Layer2_0_MEMBER_0_MEMBER_2_1_STROKES"/>
+</g>
+</g>
+</svg>

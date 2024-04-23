@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<root xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<location>
+		<name>신문 1</name>
+		<id>news1</id>
+	</location>
+	<location>
+		<name>신문 2</name>
+		<id>news2</id>
+	</location>
+	<location>
+		<name>보고서 1</name>
+		<id>report1</id>
+	</location>
+	<location>
+		<name>보고서 2</name>
+		<id>report2</id>
+	</location>
+	<location>
+		<name>SNS 1</name>
+		<id>SNS1</id>
+	</location>
+	<location>
+		<name>SNS 2</name>
+		<id>SNS2</id>
+	</location>
+	<location>
+		<name>노트 1</name>
+		<id>note1</id>
+	</location>
+	<location>
+		<name>노트 2</name>
+		<id>note2</id>
+	</location>
+	<!-- <location>
+		<name>인천광역시 부평구</name>
+		<id>map_04_0006</id>
+	</location>
+	<location>
+		<name>인천광역시 서구</name>
+		<id>map_04_0007</id>
+	</location>
+	<location>
+		<name>인천광역시 연수구</name>
+		<id>map_04_0008</id>
+	</location>
+	<location>
+		<name>인천광역시 옹진군</name>
+		<id>map_04_0009</id>
+	</location>
+	<location>
+		<name>인천광역시 중구</name>
+		<id>map_04_0010</id>
+	</location> -->
+</root>
