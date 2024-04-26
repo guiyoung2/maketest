@@ -88,6 +88,7 @@ var undoData; // 임시 되돌리기 배열
           // $(".aside-button-cont .btn-file").css("pointer-events","none")
           // $(".right-cont .btn-print").css("background","url(../images/btn_save_none.png) no-repeat center center;")
           // $(".right-cont .btn-print").css("pointer-events","none")
+          alert("모바일!!!!!!")
           $(".select-box .list-box .btn-file").css({
             "background": "#EAEAEA",
             "color": "#cccccc",
@@ -101,6 +102,7 @@ var undoData; // 임시 되돌리기 배열
           $(".right-cont .btn-print").css("background","url(../images/btn_save_none.png) no-repeat center center;")
           $(".right-cont .btn-print").css("pointer-events","none")
         } else {
+          alert("컴퓨터!!")
           $(".select-box .list-box .btn-file").css({
             "background": "#ffffff",
             "color": "#000000",
