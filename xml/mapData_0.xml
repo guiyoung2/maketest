@@ -2,34 +2,42 @@
 <root xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 	<location>
 		<name>세계</name>
+		<key>지명·음영·기후</key>
 		<id>map_01_0000</id>
 	</location>
 	<location>
 		<name>아시아</name>
+		<key>지명·음영·기후·환경</key>
 		<id>map_01_0001</id>
 	</location>
 	<location>
 		<name>유럽</name>
+		<key>지명·음영·기후·환경</key>
 		<id>map_01_0002</id>
 	</location>
 	<location>
 		<name>아프리카</name>
+		<key>지명·음영·기후·환경</key>
 		<id>map_01_0003</id>
 	</location>
 	<location>
 		<name>아메리카</name>
+		<key>지명·음영·기후·환경</key>
 		<id>map_01_0004</id>
 	</location>
 	<location>
 		<name>오세아니아</name>
+		<key>지명·음영·기후·환경</key>
 		<id>map_01_0005</id>
 	</location>
 	<location>
 		<name>북극권</name>
+		<key>음영·환경</key>
 		<id>map_01_0006</id>
 	</location>
 	<location>
 		<name>남극권</name>
+		<key>음영·환경</key>
 		<id>map_01_0007</id>
 	</location>
 	<!-- <location> -->

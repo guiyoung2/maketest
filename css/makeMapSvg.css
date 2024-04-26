@@ -120,10 +120,11 @@ header > .left-cont {
 header > .left-cont > .ico {
   position: relative;
   margin-top: 5px;
-  width: 90px;
-  height: 70px;
+  width: 76px;
+  height: 73px;
   /* background: url(../images/header_ico.svg) no-repeat; */
   background: url(../images/header_ico.png) no-repeat;
+  background-size: contain;
 }
 header > .left-cont > .title {
   font-family: NanumGothicEB;
@@ -166,7 +167,13 @@ header > .right-cont .btn-reset {
   background: #2abd71;
   border-radius: 33px;
 }
-
+.btn-bookLogo {
+  display: inline-block;
+  width: 200px;
+  height: 36px;
+  background: url("../images/bookLogo.png") no-repeat center center;
+  background-size: contain;
+}
 .link-manual-btn,
 .btn-save,
 .btn-print {
@@ -1197,8 +1204,8 @@ aside > .btns-etc .undo-btn.not-undo {
 
 .save-popup .input {
   position: absolute;
-  left: 690px;
-  top: 424px;
+  left: 695px;
+  top: 360px;
   pointer-events: auto;
   display: inline-block;
   box-sizing: border-box;
@@ -1207,8 +1214,8 @@ aside > .btns-etc .undo-btn.not-undo {
   font-size: 20px;
   padding: 0 10px;
   margin: 0 0 0 0;
-  width: 361px;
-  height: 40px;
+  width: 460px;
+  height: 32px;
   color: #000000;
   transition: none;
   outline: none !important;
@@ -1224,33 +1231,35 @@ aside > .btns-etc .undo-btn.not-undo {
 
 .save-popup .btns {
   position: absolute;
-  left: 668px;
-  top: 493px;
+  left: 751px;
+  top: 444px;
   display: flex;
   justify-content: space-between;
-  width: 400px;
-  padding: 0 80px;
+  width: 350px;
+  /* padding: 0 80px; */
   font-size: 20px;
 }
 
 .save-popup .button {
   display: inline-block;
   text-align: center;
-  width: 110px;
-  height: 34px;
-  line-height: 34px;
+  width: 150px;
+  height: 50px;
+  line-height: 50px;
   padding: 0;
   margin: 0;
-  font-family: NanumGothicB;
-  font-size: 15px;
-  color: #2abd71;
+  font-size: 24px;
+  font-family: 'NanumGothicB';
+  /* color: #2abd71; */
+  color: #979797;
   background: #fff;
-  border-radius: 34px;
-  border: 1px solid #2abd71;
+  border-radius: 30px;
+  border: 1px solid #979797;
 }
 .save-popup .btns > .button:hover {
   color: #fff;
-  background: #2abd71;
+  /* background: #2abd71; */
+  background: #155FEC;
 }
 
 /* body.save #wrap { */
@@ -1281,7 +1290,8 @@ aside > .btns-etc .undo-btn.not-undo {
   pointer-events: all;
   width: 40px;
   height: 54px;
-  background: url(../images/btn_opacity.png) no-repeat;
+  background: url(../images/btn_opacity.png) no-repeat center center;
+  background-size: contain;
   /* border-top: 32px solid #000000;
   border-left: 32px solid transparent;
   border-right: 32px solid transparent; */
@@ -1289,6 +1299,7 @@ aside > .btns-etc .undo-btn.not-undo {
   z-index: 1;
   display: none;
 }
+
 .button-opacity.open {
   background: url("../images/btn_opacity_open.png") no-repeat;
   width: 40px;

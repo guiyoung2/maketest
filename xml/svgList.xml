@@ -144,7 +144,7 @@
 		</list>
 	</location>
 
-	<location name="랜드마크">
+	<location name="대륙별 랜드마크">
 		<list>
 			<name>병원</name>
 			<file>./svg/svg_5_1.svg</file>
@@ -262,7 +262,7 @@
 		</list>
 	</location>
 
-	<location name="사람">
+	<location name="지속가능 발전 목표(SDGs)">
 		<list>
 			<name>산</name>
 			<file>./svg/svg_7_1.svg</file>
@@ -381,7 +381,7 @@
 		</list>
 	</location>
 
-	<location name="도형">
+	<location name="사람">
 		<list>
 			<name>핫도그</name>
 			<file>./svg/svg_8_1.svg</file>
@@ -519,7 +519,7 @@
 			<file>./svg/svg_8_34.svg</file>
 		</list>
 	</location>
-	<location name="지속가능 발전 목표(SDGs)">
+	<location name="도형">
 		<list>
 			<name>핫도그</name>
 			<file>./svg/svg_8_1.svg</file>

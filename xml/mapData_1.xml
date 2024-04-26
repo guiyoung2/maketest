@@ -2,22 +2,27 @@
 <root xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 	<location>
 		<name>우리나라 전도</name>
+		<key>고도·지명</key>
 		<id>map_02_0000</id>
 	</location>
 	<location>
 		<name>남한 전도</name>
+		<key>고도·행정구역</key>
 		<id>map_02_0001</id>
 	</location>
 	<location>
-		<name>북부 지역</name>
+		<name>중부 지역</name>
+		<key>고도·행정구역</key>
 		<id>map_02_0002</id>
 	</location>
 	<location>
-		<name>중부 지역</name>
+		<name>남부 지역</name>
+		<key>고도·행정구역</key>
 		<id>map_02_0003</id>
 	</location>
 	<location>
-		<name>남부 지역</name>
+		<name>북부 지역</name>
+		<key>고도</key>
 		<id>map_02_0004</id>
 	</location>
 	<!-- <location>

@@ -202,7 +202,7 @@
         // 기본값 셋팅;
         // console.log($(e.target).parent().hasClass("obj-text"));
         if($(e.target).parent().hasClass("obj-text")){      // 아이콘과 텍스트에 따른 최대 크기 조절 
-          ratioData = { min: 0.4, max: 1.8 }
+          ratioData = { min: 0.4, max: 2.5 }
         } else {
           ratioData = { min: 0.4, max: 2 }
         }
@@ -231,18 +231,20 @@
           height: data.height
         });
       }
-      if(this.touchMode == 'del'){              // 임시 삭제 추가
+      if(this.touchMode == 'del'){              // 삭제 추가
         // console.log($('.drawing-content').find('.obj.select').remove());
         
         // console.log(undoData);
         $('.drawing-content').find('.obj.select').remove();
-        
-        // $('.undo-btn').addClass("not-undo")
-        console.log()
-        
+        // $('.drawing-content .drawing-cont').find(`.${undoData[undoData.length - 1]}`).remove()
+          undoData.pop()
+          if($('.drawing-content .drawing-cont .obj').length === 0){
+            $('.undo-btn').addClass("not-undo")
+          }
+          // console.log(undoData);
       }
       }
-
+      
 
       // TODO: 이미지 스케일 
       function onTouchMove(e) {
@@ -634,20 +636,61 @@
           );
 
           var lineBreak = source.text().length;  // 텍스트 짜르기 
+          var koreanRegExp = /[ㄱ-ㅎ|ㅏ-ㅣ|가-힣]/;
+          var numberRegExp = /^-?\d+(\.\d+)?$/;
+
+          var linewidth = 0;
+          var lineNumWidth = 0;
+          var lineSliceNum = 0;
           
           var breakNum = Math.floor(lineBreak)
-          if(lineBreak > 20){
+          if(lineBreak > 27){
             var textBreak = source.text().split('');
-            // console.log(textBreak);
+
             for(let i = 0; i < breakNum; i++){
-              textBreak.splice((19 * i),0," ")
-              if(i === 10){
-                textBreak = textBreak.slice(0, 190)
+              if(koreanRegExp.test(textBreak[i]) || !numberRegExp.test(textBreak[i])){   // 한글과 숫자가 아닐때 줄바꿈
+                linewidth += 2  
+                // if( linewidth % (50 - (lineNumWidth * 2) ) === 0 || linewidth % 50 === 0) {
+                if(linewidth % 50 === 0) {
+                textBreak[i] += " "
+                linewidth = 0
+                lineNumWidth = 0
+                }
               }
+              if(numberRegExp.test(textBreak[i])){
+                lineNumWidth += 1
+                // if(((lineNumWidth * 2) + linewidth) % 50 === 0 || lineNumWidth % 39 === 0 ) {
+                if(lineNumWidth % 39 === 0 ) {   // 숫자일 때 줄바꿈 
+                textBreak[i] += " "
+                linewidth = 0
+                lineNumWidth = 0
+                }
+              }
+              if(linewidth != 0 && lineNumWidth != 0){
+                if( linewidth % (50 - (lineNumWidth * 2) ) === 0 || ((lineNumWidth * 2) + linewidth) % 50 === 0){   // 숫자와 한글이 섞일시에 줄바꿈
+                textBreak[i] += " "
+                console.log(linewidth, lineNumWidth);
+                linewidth = 0
+                lineNumWidth = 0
+                }
+              }
+              // console.log(linewidth);
+              // if(linewidth !=0 && linewidth % 50 === 0) {
+              // lineSliceNum ++
+              // console.log("Gdgd");
+              // textBreak[i] += " "
+              // textBreak.splice((textBreak[i]),0," ")
+              // }
+              // textBreak.splice((26 * i),0," ")
+
+              // if(i === 11){
+                // textBreak = textBreak.slice(0, 286)
+              // }
             }
+            // console.log(textBreak.indexOf(numberRegExp));
+            textBreak = textBreak.slice(0, 300)
             source = textBreak.join('');
           }
-
           
           obj.append(source);
           obj.append(rect);

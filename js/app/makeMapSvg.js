@@ -10,10 +10,11 @@ $(function () {
 /*
  *	MakeMapSvg :: require (raphael.js, raphael.free_transform.js, html2canvas.js)
  */
+var undoData; // 임시 되돌리기 배열
 (function ($) {
   'use strict';
 
-  var undoData = [] // 임시 되돌리기 배열
+  undoData = []
   var MakeMapSvg =
     MakeMapSvg ||
     (function () {
@@ -76,6 +77,18 @@ $(function () {
             selectBox.addClass('open');
           }
         });
+        // 모바일 일 때 비활성화 
+        if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
+          // 여기에 모바일 장치에서 실행할 코드 작성
+          $(".select-box .list-box .btn-file").css("background","#EAEAEA")
+          $(".select-box .list-box .btn-file").css("color","#cccccc")
+          $(".select-box .list-box .btn-file").css("pointer-events","none")
+          $(".aside-button-cont .btn-file").css("color","#cccccc")
+          $(".aside-button-cont .btn-file .rollout").attr("src","./images/drawTool/button_file_none.png")
+          $(".aside-button-cont .btn-file").css("pointer-events","none")
+          $(".right-cont .btn-print").css("background","url(../images/btn_save_none.png) no-repeat center center;")
+          $(".right-cont .btn-print").css("pointer-events","none")
+        }
 
         // 스크롤바 디자인 적용
         $('.scroll-box').each(function () {
@@ -129,7 +142,7 @@ $(function () {
 
           var type = $(this).data('type');
           if (type == 'cancel') {
-            // $('#opacity-tool').addClass('remove');
+            $('.button-opacity').css('display',"none");
             imgBg.remove();
             $('.bg-content').append(imgBgClone);
             imgBg = imgBgClone;
@@ -359,6 +372,7 @@ $(function () {
           opt.find('.text').text(obj.name);
           opt.attr('value', obj.name);
           opt.attr('img', obj.id);
+          opt.attr('key', obj.key)
           $('.select-cont .dep2 .list').append(opt);
 
           opt.on('click', function (e) {
@@ -367,11 +381,13 @@ $(function () {
 
             var idx = $(this).index();
             var txt = $(this).attr('value');
+            var opacityKey = $(this).attr('key');
+            
             if (idx < 0) return;
 
             var img = $(this).attr('img');
             // console.log(idx);
-            if (dep1 === '신문 보고서 양식') {
+            if (dep1 === '신문·보고서·SNS 양식' || dep1 === '시·도 백지도') {
               var file = './images/map/' + img + '.png';
               instance.setBg(file);
             } else {
@@ -389,6 +405,52 @@ $(function () {
                 instance.setBg(file, index);
               });
               // $('#opacity-tool').removeClass('remove');
+            }
+            
+            $("#opacity-tool .tool").css("display","none")
+
+            switch (opacityKey){
+              case "지명·음영·기후·환경":
+                console.log("지명·음영·기후·환경");
+                $("#opacity-tool .opacity-name").css("display","flex")
+                $("#opacity-tool .opacity-shadow").css("display","flex")
+                $("#opacity-tool .opacity-climate").css("display","flex")
+                $("#opacity-tool .opacity-humanities").css("display","flex")
+                break;
+
+              case "지명·음영·기후":
+                console.log("지명·음영·기후");
+                $("#opacity-tool .opacity-name").css("display","flex")
+                $("#opacity-tool .opacity-shadow").css("display","flex")
+                $("#opacity-tool .opacity-climate").css("display","flex")
+                break;
+
+              case "음영·환경":
+                console.log("음영·환경");
+                $("#opacity-tool .opacity-shadow").css("display","flex")
+                $("#opacity-tool .opacity-humanities").css("display","flex")
+                break;
+
+              case "고도·지명":
+                console.log("고도·지명");
+                $("#opacity-tool .opacity-altitude").css("display","flex")
+                $("#opacity-tool .opacity-name").css("display","flex")
+                break;
+
+              case "고도·행정구역":
+                console.log("고도·행정구역");
+                $("#opacity-tool .opacity-altitude").css("display","flex")
+                $("#opacity-tool .opacity-administration").css("display","flex")
+                break;
+                
+              case "고도":
+                console.log("고도");
+                $("#opacity-tool .opacity-altitude").css("display","flex")
+                break;
+
+              default :
+              
+                break;
             }
 
             $('.select-cont .dep1 .select .text').text(txt)  // 뎁스 2 클릭시 셀렉 제목 수정
@@ -437,6 +499,8 @@ $(function () {
             location[i].getElementsByTagName('name')[0].childNodes[0].nodeValue;
           obj.id =
             location[i].getElementsByTagName('id')[0].childNodes[0].nodeValue;
+          obj.key =
+            location[i].getElementsByTagName('key')[0].childNodes[0].nodeValue;
           array.push(obj);
         }
         dataDep2[instance.loadIdx] = array;
@@ -857,8 +921,12 @@ $(function () {
             $('.btns-scale').show();
             $('.button-opacity').css("display","block")
 
+            var cityDeps = $(".select-box .list > li")[2].classList.contains("active")  // 시·도 백지도일때 팝업 안뜨기
             var newsDeps = $(".select-box .list > li")[3].classList.contains("active")  // 신문 보고서 일때 팝업 안뜨기
-            if(newsDeps == true){
+            if(cityDeps == true){
+              $('.button-opacity').css("display","none")
+            }
+            if(newsDeps == true ){
               $('.popup-scale .select-box').removeClass('open');
               $('body').removeClass('bg-control');
               $(".bg-text").css("display","none")
@@ -1337,6 +1405,7 @@ $(function () {
   });
 
 })(jQuery);
+
 
 window.debug = function (str) {
   $('.debug').append(str + '\n');

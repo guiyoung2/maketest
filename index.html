@@ -76,6 +76,7 @@
 
         <div class="right-cont">
           <!-- <div class="link-manual-btn remove"></div> -->
+          <div class="btn-bookLogo"></div>
           <div class="link-manual-btn"></div>
           <div class="btn-print-save btn-save" data-type="save">저장하기</div>
           <div class="btn-print-save btn-print" data-type="print">인쇄하기</div>
@@ -195,13 +196,16 @@
               <div class="title">지도 중첩</div>
               <div class="tool-wrap">
 
-              
-              <div class="tool">
-                <input type="checkbox" name="" id="" data-index="1" />
+              <div class="tool opacity-altitude">
+                <input type="checkbox" name="" id="" data-index="5"/>
+                <span>해발 고도</span>
+              </div>
+              <div class="tool opacity-name">
+                <input type="checkbox" name="" id="" data-index="1"/>
                 <span>주요 지명</span>
               </div>
-              <div class="tool">
-                <input type="checkbox" name="" id="" data-index="2" />
+              <div class="tool opacity-shadow">
+                <input type="checkbox" name="" id="" data-index="2"/>
                 <span>지형 음영</span>
                 <input
                 type="range"
@@ -214,8 +218,8 @@
                 disabled
                 />
               </div>
-              <div class="tool">
-                <input type="checkbox" name="" id="" data-index="3" />
+              <div class="tool opacity-climate">
+                <input type="checkbox" name="" id="" data-index="3"/>
                 <span>기후 분포</span>
                 <input
                 type="range"
@@ -228,9 +232,13 @@
                 disabled
                 />
               </div>
-              <div class="tool">
-                <input type="checkbox" name="" id="" data-index="4" />
-                <span>인문 환경</span>
+              <div class="tool opacity-humanities">
+                <input type="checkbox" name="" id="" data-index="4"/>
+                <span>인문환경</span>
+              </div>
+              <div class="tool opacity-administration">
+                <input type="checkbox" name="" id="" data-index="6"/>
+                <span>상세 행정구역</span>
               </div>
             </div>
               <div class="opacity-close-btn"><span class="close-arrow"></span></div>

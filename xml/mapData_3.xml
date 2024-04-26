@@ -3,34 +3,42 @@
 	<location>
 		<name>신문 1</name>
 		<id>news1</id>
+		<key>blank</key>
 	</location>
 	<location>
 		<name>신문 2</name>
 		<id>news2</id>
+		<key>blank</key>
 	</location>
 	<location>
 		<name>보고서 1</name>
 		<id>report1</id>
+		<key>blank</key>
 	</location>
 	<location>
 		<name>보고서 2</name>
 		<id>report2</id>
+		<key>blank</key>
 	</location>
 	<location>
 		<name>SNS 1</name>
 		<id>SNS1</id>
+		<key>blank</key>
 	</location>
 	<location>
 		<name>SNS 2</name>
 		<id>SNS2</id>
+		<key>blank</key>
 	</location>
 	<location>
 		<name>노트 1</name>
 		<id>note1</id>
+		<key>blank</key>
 	</location>
 	<location>
 		<name>노트 2</name>
 		<id>note2</id>
+		<key>blank</key>
 	</location>
 	<!-- <location>
 		<name>인천광역시 부평구</name>

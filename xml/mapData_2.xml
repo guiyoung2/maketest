@@ -3,69 +3,86 @@
 	<location>
 		<name>서울특별시</name>
 		<id>map_03_0000</id>
+		<key>blank</key>
 	</location>
 	<location>
 		<name>부산광역시</name>
 		<id>map_03_0001</id>
+		<key>blank</key>
 	</location>
 	<location>
 		<name>대구광역시</name>
 		<id>map_03_0002</id>
+		<key>blank</key>
 	</location>
 	<location>
 		<name>인천광역시</name>
 		<id>map_03_0003</id>
+		<key>blank</key>
 	</location>
 	<location>
 		<name>광주광역시</name>
 		<id>map_03_0004</id>
+		<key>blank</key>
 	</location>
 	<location>
 		<name>대전광역시</name>
 		<id>map_03_0005</id>
+		<key>blank</key>
 	</location>
 	<location>
 		<name>울산광역시</name>
 		<id>map_03_0006</id>
+		<key>blank</key>
 	</location>
 	<location>
 		<name>세종특별자치시</name>
 		<id>map_03_0007</id>
+		<key>blank</key>
 	</location>
 	<location>
 		<name>경기도</name>
 		<id>map_03_0008</id>
+		<key>blank</key>
 	</location>
 	<location>
-		<name>강원도</name>
+		<name>강원특별자치도</name>
 		<id>map_03_0009</id>
+		<key>blank</key>
 	</location>
 	<location>
 		<name>충청북도</name>
 		<id>map_03_0010</id>
+		<key>blank</key>
 	</location>
 	<location>
 		<name>충청남도</name>
 		<id>map_03_0011</id>
+		<key>blank</key>
 	</location>
 	<location>
-		<name>전라북도</name>
+		<name>전북특별자치도</name>
 		<id>map_03_0012</id>
+		<key>blank</key>
 	</location>
 	<location>
 		<name>전라남도</name>
 		<id>map_03_0013</id>
+		<key>blank</key>
 	</location>
 	<location>
 		<name>경상북도</name>
 		<id>map_03_0014</id>
+		<key>blank</key>
 	</location>
 	<location>
 		<name>경상남도</name>
 		<id>map_03_0015</id>
+		<key>blank</key>
 	</location>
 	<location>
 		<name>제주특별자치도</name>
 		<id>map_03_0016</id>
+		<key>blank</key>
 	</location>
 </root>
