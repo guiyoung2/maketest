@@ -137,7 +137,9 @@ var undoData; // 임시 되돌리기 배열
             "pointer-events": "none"
           }); 
           $(".aside-button-cont .btn-file .rollout").attr("src","./images/drawTool/button_file_none.png")
-          $(".right-cont .btn-print").css("background","url(../images/btn_save_none.png) no-repeat center center;")
+          $(".right-cont .btn-print").css("background","url(./images/btn_print_none.png) no-repeat center center;")
+          $(".right-cont .btn-print").css("width","52px")
+          $(".right-cont .btn-print").css("height","52px")
           $(".right-cont .btn-print").css("pointer-events","none")
         } else {
           alert("컴퓨터!!")
@@ -151,9 +153,20 @@ var undoData; // 임시 되돌리기 배열
             "pointer-events": "all"
           }); 
           $(".aside-button-cont .btn-file .rollout").attr("src","./images/drawTool/button_file_over.png")
-          $(".right-cont .btn-print").css("background","url(../images/btn_save.png) no-repeat center center;")
+          $(".right-cont .btn-print").css("background","url(./images/btn_print.png) no-repeat center center")
+          $(".right-cont .btn-print").css("width","40px")
+          $(".right-cont .btn-print").css("height","40px")
           $(".right-cont .btn-print").css("pointer-events","all")
         }
+
+        var agent = navigator.userAgent.toLowerCase();
+if ( navigator.userAgent.match(/iPhone|iPad|iPod/i) != null ) {
+    if( agent.indexOf("crios") == -1 ) {
+        alert("safari");
+    }else{
+        alert("chrome");
+    }
+}
         
             // // 사용자 에이전트 문자열 가져오기
             // var isMobile = /Android|webOS|iPhone|iPod|BlackBerry|IEMobile|Opera Mini|Mobile|Tablet|iPad/i.test(navigator.userAgent);
