@@ -81,24 +81,11 @@ var undoData; // 임시 되돌리기 배열
       var objNum = 0;
       var duplicateNum = 0;
       var objLastNum = 0;
-      // 사용자 에이전트 문자열 가져오기
-var userAgent = navigator.userAgent;
+      
+      
+      function initFn() {
+        var owner = this;
 
-// 모바일인지 여부를 확인하는 정규 표현식
-var isMobile = /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(userAgent);
-
-function initFn() {
-  var owner = this;
-  
-  // 결과 출력
-  if (isMobile) {
-      console.log("이 사용자는 모바일 기기를 사용합니다.");
-      alert("모바일!!")
-  } else {
-      // console.log("이 사용자는 PC를 사용합니다.");
-      alert("컴퓨터!!")
-  }
-        
 
         
 
@@ -167,7 +154,20 @@ function initFn() {
         //   $(".right-cont .btn-print").css("background","url(../images/btn_save.png) no-repeat center center;")
         //   $(".right-cont .btn-print").css("pointer-events","all")
         // }
-
+        
+            // 사용자 에이전트 문자열 가져오기
+            var isMobile = /Android|webOS|iPhone|iPod|BlackBerry|IEMobile|Opera Mini|Mobile|Tablet|iPad/i.test(navigator.userAgent);
+            jQuery(document).ready(function($){
+                 if(isMobile) {
+                      //PC
+                      alert("모바일")
+                    } else {
+                      //MOBILE
+                      alert("컴퓨터")
+                 }
+            });
+            
+            
         // 스크롤바 디자인 적용
         $('.scroll-box').each(function () {
           let instance = $(this)
