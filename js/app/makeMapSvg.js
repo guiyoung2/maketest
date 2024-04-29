@@ -116,56 +116,56 @@ var undoData; // 임시 되돌리기 배열
           }
         });
         // // 모바일 일 때 비활성화 
-        // if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
-        //   // 여기에 모바일 장치에서 실행할 코드 작성
-        //   // $(".select-box .list-box .btn-file").css("background","#EAEAEA")
-        //   // $(".select-box .list-box .btn-file").css("color","#cccccc")
-        //   // $(".select-box .list-box .btn-file").css("pointer-events","none")
-        //   // $(".aside-button-cont .btn-file").css("color","#cccccc")
-        //   // $(".aside-button-cont .btn-file .rollout").attr("src","./images/drawTool/button_file_none.png")
-        //   // $(".aside-button-cont .btn-file").css("pointer-events","none")
-        //   // $(".right-cont .btn-print").css("background","url(../images/btn_save_none.png) no-repeat center center;")
-        //   // $(".right-cont .btn-print").css("pointer-events","none")
-        //   alert("모바일!!!!!!")
-        //   $(".select-box .list-box .btn-file").css({
-        //     "background": "#EAEAEA",
-        //     "color": "#cccccc",
-        //     "pointer-events": "none"
-        //   }); 
-        //   $(".aside-button-cont .btn-file").css({
-        //     "color": "#cccccc",
-        //     "pointer-events": "none"
-        //   }); 
-        //   $(".aside-button-cont .btn-file .rollout").attr("src","./images/drawTool/button_file_none.png")
-        //   $(".right-cont .btn-print").css("background","url(../images/btn_save_none.png) no-repeat center center;")
-        //   $(".right-cont .btn-print").css("pointer-events","none")
-        // } else {
-        //   alert("컴퓨터!!")
-        //   $(".select-box .list-box .btn-file").css({
-        //     "background": "#ffffff",
-        //     "color": "#000000",
-        //     "pointer-events": "all"
-        //   }); 
-        //   $(".aside-button-cont .btn-file").css({
-        //     "color": "#000000",
-        //     "pointer-events": "all"
-        //   }); 
-        //   $(".aside-button-cont .btn-file .rollout").attr("src","./images/drawTool/button_file_over.png")
-        //   $(".right-cont .btn-print").css("background","url(../images/btn_save.png) no-repeat center center;")
-        //   $(".right-cont .btn-print").css("pointer-events","all")
-        // }
+        if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
+          // 여기에 모바일 장치에서 실행할 코드 작성
+          // $(".select-box .list-box .btn-file").css("background","#EAEAEA")
+          // $(".select-box .list-box .btn-file").css("color","#cccccc")
+          // $(".select-box .list-box .btn-file").css("pointer-events","none")
+          // $(".aside-button-cont .btn-file").css("color","#cccccc")
+          // $(".aside-button-cont .btn-file .rollout").attr("src","./images/drawTool/button_file_none.png")
+          // $(".aside-button-cont .btn-file").css("pointer-events","none")
+          // $(".right-cont .btn-print").css("background","url(../images/btn_save_none.png) no-repeat center center;")
+          // $(".right-cont .btn-print").css("pointer-events","none")
+          alert("모바일!!!!!!")
+          $(".select-box .list-box .btn-file").css({
+            "background": "#EAEAEA",
+            "color": "#cccccc",
+            "pointer-events": "none"
+          }); 
+          $(".aside-button-cont .btn-file").css({
+            "color": "#cccccc",
+            "pointer-events": "none"
+          }); 
+          $(".aside-button-cont .btn-file .rollout").attr("src","./images/drawTool/button_file_none.png")
+          $(".right-cont .btn-print").css("background","url(../images/btn_save_none.png) no-repeat center center;")
+          $(".right-cont .btn-print").css("pointer-events","none")
+        } else {
+          alert("컴퓨터!!")
+          $(".select-box .list-box .btn-file").css({
+            "background": "#ffffff",
+            "color": "#000000",
+            "pointer-events": "all"
+          }); 
+          $(".aside-button-cont .btn-file").css({
+            "color": "#000000",
+            "pointer-events": "all"
+          }); 
+          $(".aside-button-cont .btn-file .rollout").attr("src","./images/drawTool/button_file_over.png")
+          $(".right-cont .btn-print").css("background","url(../images/btn_save.png) no-repeat center center;")
+          $(".right-cont .btn-print").css("pointer-events","all")
+        }
         
-            // 사용자 에이전트 문자열 가져오기
-            var isMobile = /Android|webOS|iPhone|iPod|BlackBerry|IEMobile|Opera Mini|Mobile|Tablet|iPad/i.test(navigator.userAgent);
-            jQuery(document).ready(function($){
-                 if(isMobile) {
-                      //PC
-                      alert("모바일")
-                    } else {
-                      //MOBILE
-                      alert("컴퓨터")
-                 }
-            });
+            // // 사용자 에이전트 문자열 가져오기
+            // var isMobile = /Android|webOS|iPhone|iPod|BlackBerry|IEMobile|Opera Mini|Mobile|Tablet|iPad/i.test(navigator.userAgent);
+            // jQuery(document).ready(function($){
+            //      if(isMobile) {
+            //           //PC
+            //           alert("모바일")
+            //         } else {
+            //           //MOBILE
+            //           alert("컴퓨터")
+            //      }
+            // });
             
             
         // 스크롤바 디자인 적용
