@@ -638,6 +638,7 @@
           var lineBreak = source.text().length;  // 텍스트 짜르기 
           var koreanRegExp = /[ㄱ-ㅎ|ㅏ-ㅣ|가-힣]/;
           var numberRegExp = /^-?\d+(\.\d+)?$/;
+          var englishRegExp = /^[a-zA-Z]+$/
 
           var linewidth = 0;
           var lineNumWidth = 0;
@@ -648,7 +649,7 @@
             var textBreak = source.text().split('');
 
             for(let i = 0; i < breakNum; i++){
-              if(koreanRegExp.test(textBreak[i]) || !numberRegExp.test(textBreak[i])){   // 한글과 숫자가 아닐때 줄바꿈
+              if(koreanRegExp.test(textBreak[i]) || !numberRegExp.test(textBreak[i]) || !englishRegExp.test(textBreak[i])){   // 한글과 숫자가 아닐때 줄바꿈
                 linewidth += 2  
                 // if( linewidth % (50 - (lineNumWidth * 2) ) === 0 || linewidth % 50 === 0) {
                 if(linewidth % 50 === 0) {
@@ -657,7 +658,7 @@
                 lineNumWidth = 0
                 }
               }
-              if(numberRegExp.test(textBreak[i])){
+              if(numberRegExp.test(textBreak[i]) || englishRegExp.test(textBreak[i])){
                 lineNumWidth += 1
                 // if(((lineNumWidth * 2) + linewidth) % 50 === 0 || lineNumWidth % 39 === 0 ) {
                 if(lineNumWidth % 39 === 0 ) {   // 숫자일 때 줄바꿈 
@@ -666,7 +667,7 @@
                 lineNumWidth = 0
                 }
               }
-              if(linewidth != 0 && lineNumWidth != 0){
+              if(linewidth != 0 && lineNumWidth != 0 ){
                 if( linewidth % (50 - (lineNumWidth * 2) ) === 0 || ((lineNumWidth * 2) + linewidth) % 50 === 0){   // 숫자와 한글이 섞일시에 줄바꿈
                 textBreak[i] += " "
                 console.log(linewidth, lineNumWidth);

@@ -96,9 +96,11 @@ var undoData; // 임시 되돌리기 배열
           }); 
           $(".aside-button-cont .btn-file .rollout").attr("src","./images/drawTool/button_file_none.png")
           $(".right-cont .btn-print").css("background","url(./images/btn_print_none.png)")
-          $(".right-cont .btn-print").css("width","52px")
-          $(".right-cont .btn-print").css("height","52px")
-          $(".right-cont .btn-print").css("pointer-events","none")
+          $(".right-cont .btn-print").css({
+            "width": "52px",
+            "height": "52px",
+            "pointer-events": "none"
+          }); 
         } else {
           console.log("pc");
           $(".select-box .list-box .btn-file").css({
@@ -112,9 +114,11 @@ var undoData; // 임시 되돌리기 배열
           }); 
           $(".aside-button-cont .btn-file .rollout").attr("src","./images/drawTool/button_file_over.png")
           $(".right-cont .btn-print").css("background","url(./images/btn_print.png) no-repeat center center")
-          $(".right-cont .btn-print").css("width","40px")
-          $(".right-cont .btn-print").css("height","40px")
-          $(".right-cont .btn-print").css("pointer-events","all")
+          $(".right-cont .btn-print").css({
+            "width": "40px",
+            "height": "40px",
+            "pointer-events": "all"
+          }); 
         }
 
             
