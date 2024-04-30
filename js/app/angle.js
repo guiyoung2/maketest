@@ -649,7 +649,7 @@
             var textBreak = source.text().split('');
 
             for(let i = 0; i < breakNum; i++){
-              if(koreanRegExp.test(textBreak[i]) || !numberRegExp.test(textBreak[i]) || !englishRegExp.test(textBreak[i])){   // 한글과 숫자가 아닐때 줄바꿈
+              if(koreanRegExp.test(textBreak[i]) || (!numberRegExp.test(textBreak[i]) && !englishRegExp.test(textBreak[i]))){   // 한글과 숫자,영어가 아닐 때 줄바꿈
                 linewidth += 2  
                 // if( linewidth % (50 - (lineNumWidth * 2) ) === 0 || linewidth % 50 === 0) {
                 if(linewidth % 50 === 0) {
@@ -670,23 +670,11 @@
               if(linewidth != 0 && lineNumWidth != 0 ){
                 if( linewidth % (50 - (lineNumWidth * 2) ) === 0 || ((lineNumWidth * 2) + linewidth) % 50 === 0){   // 숫자와 한글이 섞일시에 줄바꿈
                 textBreak[i] += " "
-                console.log(linewidth, lineNumWidth);
+                // console.log(linewidth, lineNumWidth);
                 linewidth = 0
                 lineNumWidth = 0
                 }
               }
-              // console.log(linewidth);
-              // if(linewidth !=0 && linewidth % 50 === 0) {
-              // lineSliceNum ++
-              // console.log("Gdgd");
-              // textBreak[i] += " "
-              // textBreak.splice((textBreak[i]),0," ")
-              // }
-              // textBreak.splice((26 * i),0," ")
-
-              // if(i === 11){
-                // textBreak = textBreak.slice(0, 286)
-              // }
             }
             // console.log(textBreak.indexOf(numberRegExp));
             textBreak = textBreak.slice(0, 300)

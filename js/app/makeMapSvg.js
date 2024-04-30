@@ -43,7 +43,7 @@ var undoData; // 임시 되돌리기 배열
       var objNum = 0;
       var duplicateNum = 0;
       var objLastNum = 0;
-      
+
       
       function initFn() {
         var owner = this;
@@ -77,10 +77,10 @@ var undoData; // 임시 되돌리기 배열
             selectBox.addClass('open');
           }
         });
+
         // // 모바일 일 때 비활성화 
         var agent = navigator.userAgent.toLowerCase();
         var safariException = agent.indexOf("mac")
-        console.log(agent.indexOf("mac"));
 
         if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) || (safariException && document.documentElement.clientWidth <= 1024)) {
           // 여기에 모바일 장치에서 실행할 코드 작성
@@ -121,7 +121,6 @@ var undoData; // 임시 되돌리기 배열
           }); 
         }
 
-            
         // 스크롤바 디자인 적용
         $('.scroll-box').each(function () {
           let instance = $(this)
@@ -228,7 +227,7 @@ var undoData; // 임시 되돌리기 배열
             duplicateNum = undoData.length
             undoData = [];
             // console.log(objNum);
-            console.log(objLastNum);
+            // console.log(objLastNum);
 
             for(let i =0; i<duplicateNum; i++){
               // undoData.push(`obj${++objNum}`)
@@ -254,7 +253,7 @@ var undoData; // 임시 되돌리기 배열
           // console.log($('.drawing-content .drawing-cont').find(`${undoData[undoData.length - 1]}`).remove())
           $('.drawing-content .drawing-cont').find(`.${undoData[undoData.length - 1]}`).remove()
           undoData.pop()
-          console.log(undoData);
+          // console.log(undoData);
 
 
           if($('.drawing-content .drawing-cont .obj').length === 0){
@@ -616,7 +615,7 @@ var undoData; // 임시 되돌리기 배열
             angleTool.addObj(data);
             undoData.push(`obj${objNum}`)  // 생성되는 아이콘 데이터 넣기  
             objLastNum = objNum
-            console.log(undoData);
+            // console.log(undoData);
             // undoData.push(`${imgName}`)  // 되돌리기 데이터 값 넣기
             // console.log(undoData);
             if($('.drawing-content .drawing-cont .obj').length > 0){  // undo 길이 0일때 이벤트 막기
@@ -1068,6 +1067,7 @@ var undoData; // 임시 되돌리기 배열
           // $('.undo-btn').removeClass('not-undo')
           objNum++
           undoData.push(`obj${objNum}`) 
+          objLastNum = objNum
           angleTool.addText(str, color);
           $('.add-text-box').addClass('remove');
           $('.add-text-box .color-select-box').removeClass('open');
