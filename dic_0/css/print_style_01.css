@@ -1,0 +1,75 @@
+/* 일반 페이지 A4 페이지에 인쇄 */
+@media print and (color) {
+    * {
+        -webkit-print-color-adjust: exact; /* 프린트시 background가 보이게 함 */
+        /* print-color-adjust: exact;  */
+        /* color-adjust: exact; */
+    }
+}
+@media print {
+    @page {
+        padding: 0;
+        margin: 0;
+        size: landscape;
+    
+        /* size: A4 landscape; */
+        /* size: A4 portrait; */
+        /* size: auto; */
+    }
+}
+
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 297mm;
+    height: 210mm;
+    /* -webkit-transform: rotate(-90deg);  */
+    /* -moz-transform:rotate(-90deg); */
+    /* -webkit-transform: rotate(-90deg) scale(.68,.68);  */
+    /* -moz-transform:rotate(-90deg) scale(.58,.58); */
+    /* zoom: 200%     */
+    /* background-color: sandybrown; */
+}
+
+.print-container {
+    position: relative;
+    /* width: 1280px; */
+    /* height: 800px; */
+    width: 980px;
+    height: 650px;
+
+    /*  
+    position: relative;
+    width: 980px;
+    height: 650px;
+    */
+}
+
+
+.draw-container {
+    position: relative;
+    margin: auto;
+    width: 100%;
+    height: 100%;
+    /* width: 1280px; */
+    /* height: 800px; */
+    /* border: 1px solid; */
+    background-color: white;
+}
+.bg-content {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+.bg-content .img-bg {
+    pointer-events: none;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    transform-origin: 50% 50%;
+    transform: scale(1);
+}

@@ -1,0 +1,97 @@
+@charset "utf-8";
+/* font */
+@font-face { 
+	font-family: "NanumGothicR"; 
+	src: url("../fonts/NanumGothicOTF-Regular.woff") format("woff"); 
+} 
+@font-face { 
+	font-family: "NanumGothicB"; 
+	src: url("../fonts/NanumGothicOTF-Bold.woff") format("woff"); 
+}  
+@font-face { 
+	font-family: "NanumGothicEB"; 
+	src: url("../fonts/NanumGothicOTF-ExtraBold.woff") format("woff"); 
+} 
+@font-face { 
+	font-family: "BMJUA_ttf"; 
+	src: url("../fonts/BMJUA_ttf.ttf"); 
+} 
+@font-face { 
+	font-family: "ONE\ Mobile\ POP.ttf"; 
+	src: url("../fonts/ONE\ Mobile\ POP.ttf"); 
+} 
+@font-face { 
+	font-family: "NanumSquareNeo-cBd.woff"; 
+	src: url("../fonts/NanumSquareNeoTTF-cBd.woff") ;
+} 
+@font-face { 
+	font-family: "NanumSquareNeo-dEb.woff"; 
+	src: url("../fonts/NanumSquareNeoTTF-dEb.woff") ;
+} 
+@font-face { 
+	font-family: "Cafe24Ssurround-v2.0.woff"; 
+	src: url("../fonts/Cafe24Ssurround-v2.0.woff") ;
+} 
+
+
+/* layout */
+body {
+	/* position: fixed !important; */
+	overflow: hidden;
+}
+
+/* 공통 */
+.disable {
+    pointer-events: none !important;
+}
+.remove {
+    display: none !important;
+}
+.hide {
+    visibility: hidden;
+}
+.hide-alpha {
+	opacity: 0;
+	pointer-events: none;
+}
+
+.inline {
+	position: static !important;
+	display: inline-block !important;
+	vertical-align: top;
+}
+
+/* ie 입력창 X 제거 */
+input[type=text]::-ms-clear {
+	display:none;
+}
+input:focus,
+textarea:focus {
+	outline: none !important;
+	border: none !important;
+	box-shadow: none !important;
+}
+input::placeholder {
+	color: #CCC;
+}
+
+.t-a-center {
+	text-align: center;
+}
+.t-a-left {
+	text-align: left;
+}
+.t-a-right {
+	text-align: right;
+}
+.t-a-justify {
+	text-align: justify;
+}
+
+/* flex align */
+.a-center {
+	align-items: center !important;
+}
+.j-center {
+	justify-content: center !important;
+}

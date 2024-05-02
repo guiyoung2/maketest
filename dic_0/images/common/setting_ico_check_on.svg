@@ -1,0 +1,34 @@
+
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="none" x="0px" y="0px" width="45px" height="44px" viewBox="0 0 45 44">
+<defs>
+<g id="icon_option_check_1_Layer0_0_MEMBER_0_FILL">
+<path fill="#FFFFFF" fill-opacity="0" stroke="none" d="
+M 957.4 1010.85
+L 897.4 1010.85 897.4 1070.8 957.4 1070.8 957.4 1010.85 Z"/>
+</g>
+
+<g id="icon_option_check_1_Layer0_0_MEMBER_1_FILL">
+<path fill="#4978FD" stroke="none" d="
+M 11.5 -11.7
+Q 6.8 -16.45 0 -16.45 -6.8 -16.45 -11.6 -11.7 -16.4 -6.85 -16.4 -0.1 -16.4 6.7 -11.6 11.5 -6.8 16.25 0 16.25 6.8 16.25 11.5 11.5 16.35 6.7 16.35 -0.1 16.35 -6.85 11.5 -11.7 Z"/>
+</g>
+
+<path id="icon_option_check_1_Layer0_0_MEMBER_2_1_STROKES" stroke="#FFFFFF" stroke-width="4" stroke-linejoin="round" stroke-linecap="round" fill="none" d="
+M 6.8 -4.55
+L -2 4.25 -7.1 -0.8"/>
+</defs>
+
+<g transform="matrix( 0.9994354248046875, 0, 0, 0.999603271484375, 22.55,22.5) ">
+<g transform="matrix( 0.7501678466796875, 0, 0, 0.750152587890625, -695.75,-780.8) ">
+<use xlink:href="#icon_option_check_1_Layer0_0_MEMBER_0_FILL"/>
+</g>
+
+<g transform="matrix( 1, 0, 0, 1, 0,0) ">
+<use xlink:href="#icon_option_check_1_Layer0_0_MEMBER_1_FILL"/>
+</g>
+
+<g transform="matrix( 1, 0, 0, 1, 0,0) ">
+<use xlink:href="#icon_option_check_1_Layer0_0_MEMBER_2_1_STROKES"/>
+</g>
+</g>
+</svg>

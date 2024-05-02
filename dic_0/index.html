@@ -1,0 +1,675 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0 user-scalable=0">
+
+    <title>용어 사전 1권</title>
+
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/common.css">
+    <link rel="stylesheet" href="./css/OverlayScrollbars.css">
+    <link rel="stylesheet" href="./css/dic.css">
+    <link rel="stylesheet" href="./css/content.css">
+
+</head>
+
+<body>
+    <div id="wrap" data-ui='resize-window' data-option='{"resize":true, "offsetTop":"0px"}'>
+        <div class="bg"></div>
+
+        <!-- 용어 사전 컨텐츠 -->
+        <div class="content-container dic" data-ui="app-dic" data-option='{}'>
+
+            <!-- 헤더 영역 -->
+            <header class="header">
+                <div class="header-bg"></div>
+                <div class="search">
+                    <div class="container">
+                        <input type="text" placeholder="검색어를 입력해 주세요.">
+                        <div class="ico"></div>
+                    </div>
+                </div>
+                <div class="btns">
+                    <div class="btn dic active"><span></span></div>
+                    <div class="btn card"><span></span></div>
+                </div>
+                <div class="link-manual-btn"></div>
+            </header>
+            <!-- //헤더 영역 -->
+
+            <!-- 바디 영역 -->
+            <section class="content-body">
+
+                <!-- 선택 영역 -->
+                <aside class="selector selector_dic">
+
+                    <div class="select-cont">
+                        <div class="select-box-cont lesson">
+                            <div class="select-box" data-value="">
+                                <div class="select">
+                                    <span class="text all">
+                                        단원 선택
+                                    </span>
+                                    <!-- 
+                                    <span class="text">
+                                        <span class="lesson lesson-01">1단원</span>
+                                        <span class="part">1</span>
+                                        <span class="title">지도로 본 우리 지역</span>
+                                    </span>
+                                     -->
+                                    <span class="ico"></span>
+                                </div>
+                                <div class="list-box scroll-box">
+                                    <ul class="list">
+                                        <!-- <li> -->
+                                            <!-- <span class="text"> -->
+                                                <!-- <span class="lesson">전체</span> -->
+                                                <!-- <span class="part">0</span> -->
+                                                <!-- <span class="title lesson-all">전체 단원</span> -->
+                                            <!-- </span> -->
+                                        <!-- </li> -->
+                                        <li>
+                                            <span class="text">
+                                                <span class="lesson lesson-01">1단원</span>
+                                                <!-- <span class="part">1</span> -->
+                                                <span class="title">세계화 시대,지리의 힘</span>
+                                            </span>
+                                        </li>
+                                        <li>
+                                            <span class="text">
+                                                <span class="lesson lesson-02">2단원</span>
+                                                <!-- <span class="part">2</span> -->
+                                                <span class="title">아시아</span>
+                                            </span>
+                                        </li>
+                                        <li>
+                                            <span class="text">
+                                                <span class="lesson lesson-03">3단원</span>
+                                                <!-- <span class="part">1</span> -->
+                                                <span class="title">유럽</span>
+                                            </span>
+                                        </li>
+                                        <li>
+                                            <span class="text">
+                                                <span class="lesson lesson-04">4단원</span>
+                                                <!-- <span class="part">2</span> -->
+                                                <span class="title">아프리카</span>
+                                            </span>
+                                        </li>
+                                        <li>
+                                            <span class="text">
+                                                <span class="lesson lesson-05">5단원</span>
+                                                <!-- <span class="part">1</span> -->
+                                                <span class="title">아메리카</span>
+                                            </span>
+                                        </li>
+                                        <li>
+                                            <span class="text">
+                                                <span class="lesson lesson-06">6단원</span>
+                                                <!-- <span class="part">2</span> -->
+                                                <span class="title">오세아니아와 극지방</span>
+                                            </span>
+                                        </li>
+                                        <li>
+                                            <span class="text">
+                                                <span class="lesson lesson-07">7단원</span>
+                                                <span class="title">인간과 사회생활</span>
+                                            </span>
+                                        </li>
+                                        <li>
+                                            <span class="text">
+                                                <span class="lesson lesson-08">8단원</span>
+                                                <span class="title">다양한 문화의 이해</span>
+                                            </span>
+                                        </li>
+                                        <li>
+                                            <span class="text">
+                                                <span class="lesson lesson-09">9단원</span>
+                                                <span class="title">민주주의와 시민</span>
+                                            </span>
+                                        </li>
+                                        <li>
+                                            <span class="text">
+                                                <span class="lesson lesson-10">10단원</span>
+                                                <span class="title">정치과정과 시민 참여</span>
+                                            </span>
+                                        </li>
+                                        <li>
+                                            <span class="text">
+                                                <span class="lesson lesson-11">11단원</span>
+                                                <span class="title">일상생활과 법</span>
+                                            </span>
+                                        </li>
+                                        <li>
+                                            <span class="text">
+                                                <span class="lesson lesson-12">12단원</span>
+                                                <span class="title">인권과 기본권</span>
+                                            </span>
+                                        </li>
+                                        <!-- <li>
+
+                                            <span class="text">
+                                            <span class="title lesson-all">전체 단원</span>
+                                        </span>
+                                        </li> -->
+                                        <!-- <li>
+                                            <span class="text">
+                                                <span class="title lesson-all">전체 단원</span>
+                                            </span>
+                                        </li> -->
+                                        <!-- 
+                                        <li>
+                                            <span class="text all">전체</span>
+                                        </li>
+                                         -->
+                                    </ul>
+                                </div>
+                                <div class="all-choice-list">
+                                    전체 단원
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="select-box-cont spelling">
+                            <div class="select-box" data-value="">
+                                <div class="select">
+                                    <span class="text all">
+                                        ㄱㄴㄷ
+                                        <!-- 전체 -->
+                                    </span>
+                                    <span class="ico"></span>
+                                </div>
+                                <div class="list-box">
+                                    <ul class="list">
+                                        <li class="spell">ㄱ</li>
+                                        <li class="spell">ㄴ</li>
+                                        <li class="spell">ㄷ</li>
+                                        <li class="spell">ㄹ</li>
+                                        <li class="spell">ㅁ</li>
+                                        <li class="spell">ㅂ</li>
+                                        <li class="spell">ㅅ</li>
+                                        <li class="spell">ㅇ</li>
+                                        <li class="spell">ㅈ</li>
+                                        <li class="spell">ㅊ</li>
+                                        <li class="spell">ㅋ</li>
+                                        <li class="spell">ㅌ</li>
+                                        <li class="spell">ㅍ</li>
+                                        <li class="spell">ㅎ</li>
+                                        <li class="all">
+                                            <span class="text all">전체</span>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="choice-cont dic_choice_cont">
+                        <div class="btn-choice-all box">
+                            <span class="check-box"></span>
+                            <span class="text-box">전체 선택</span>
+                        </div>
+                        <div class="choice-list-box scroll-box">
+                            <ul class="list">
+                                <!--  
+                                <li class="btn-choice box active">
+                                    <span class="check-box"></span>
+                                    <span class="text-box">등고선</span>
+                                </li>
+                                -->
+                                
+                            </ul>
+                        </div>
+                    </div>
+
+                    
+
+                </aside>
+                <aside class="selector selector_quiz">
+                    <div class="choice_title">
+                        단원 선택(중복 가능)
+                    </div>
+                    <div class="choice-cont quiz_choice_cont">
+                        <!-- <div class="quiz_btn-choice-all box">
+                            <span class="check-box"></span>
+                            <span class="text-box">전체 단원</span>
+                        </div> -->
+                        <div class="choice-list-box scroll-box">
+                            <ul class="quiz_list ">
+                                <li class="btn-choice box" value="0">
+                                    <span class="check-box"></span>
+                                    <span class="part">1단원</span>
+                                    <span class="title">세계화 시대, 지리의 힘</span>
+                                    <!-- <span class="text-box">1단원</span> -->
+                                </li>
+                                <li class="btn-choice box" value="1">
+                                    <span class="check-box"></span>
+                                    <span class="part">2단원</span>
+                                    <span class="title">아시아</span>
+                                </li>
+                                <li class="btn-choice box" value="2">
+                                    <span class="check-box"></span>
+                                    <span class="part">3단원</span>
+                                    <span class="title">유럽</span>
+                                </li>
+                                <li class="btn-choice box" value="3">
+                                    <span class="check-box"></span>
+                                    <span class="part">4단원</span>
+                                    <span class="title">아프리카</span>
+                                </li>
+                                <li class="btn-choice box" value="4">
+                                    <span class="check-box"></span>
+                                    <span class="part">5단원</span>
+                                    <span class="title">아메리카</span>
+                                </li>
+                                <li class="btn-choice box" value="5">
+                                    <span class="check-box"></span>
+                                    <span class="part">6단원</span>
+                                    <span class="title">오세아니아와 극지방</span>
+                                </li>
+                                <li class="btn-choice box" value="6">
+                                    <span class="check-box"></span>
+                                    <span class="part">7단원</span>
+                                    <span class="title">인간과 사회생활</span>
+                                </li>
+                                <li class="btn-choice box" value="7">
+                                    <span class="check-box"></span>
+                                    <span class="part">8단원</span>
+                                    <span class="title">다양한 문화의 이해</span>
+                                </li>
+                                <li class="btn-choice box" value="8">
+                                    <span class="check-box"></span>
+                                    <span class="part">9단원</span>
+                                    <span class="title">민주주의와 시민</span>
+                                </li>
+                                <li class="btn-choice box" value="9">
+                                    <span class="check-box"></span>
+                                    <span class="part">10단원</span>
+                                    <span class="title">정치과정과 시민 참여</span>
+                                </li>
+                                <li class="btn-choice box" value="10">
+                                    <span class="check-box"></span>
+                                    <span class="part">11단원</span>
+                                    <span class="title">일상생활과 법</span>
+                                </li>
+                                <li class="btn-choice box" value="11">
+                                    <span class="check-box"></span>
+                                    <span class="part">12단원</span>
+                                    <span class="title">인권과 기본권</span>
+                                </li>
+                               
+                               
+                                <!-- <div class="select-box-cont lesson">
+                                    <div class="select-box" data-value="">
+                                        <div class="list-box">
+                                            <ul class="list">
+                                                <li>
+                                                    <span class="text">
+                                                        <span class="check-box"></span>
+                                                        <span class="lesson lesson-01">1단원</span>
+                                                        <span class="part">1</span>
+                                                        <span class="title">지도의 읽기와 활용</span>
+                                                    </span>
+                                                </li>
+                                                <li>
+                                                    <span class="text">
+                                                        <span class="check-box"></span>
+                                                        <span class="lesson lesson-01">1단원</span>
+                                                        <span class="part">2</span>
+                                                        <span class="title">우리 지역의 위치와 특징</span>
+                                                    </span>
+                                                </li>
+                                                <li>
+                                                    <span class="text">
+                                                        <span class="check-box"></span>
+                                                        <span class="lesson lesson-02">2단원</span>
+                                                        <span class="part">1</span>
+                                                        <span class="title">지역의 문화유산</span>
+                                                    </span>
+                                                </li>
+                                                <li>
+                                                    <span class="text">
+                                                        <span class="check-box"></span>
+                                                        <span class="lesson lesson-02">2단원</span>
+                                                        <span class="part">2</span>
+                                                        <span class="title">지역의 박물관, 기념관, 유적지</span>
+                                                    </span>
+                                                </li>
+                                                <li>
+                                                    <span class="text">
+                                                        <span class="check-box"></span>
+                                                        <span class="lesson lesson-03">3단원</span>
+                                                        <span class="part">1</span>
+                                                        <span class="title">경제활동과 합리적 선택</span>
+                                                    </span>
+                                                </li>
+                                                <li>
+                                                    <span class="text">
+                                                        <span class="check-box"></span>
+                                                        <span class="lesson lesson-03">3단원</span>
+                                                        <span class="part">2</span>
+                                                        <span class="title">교류하며 발전하는 우리 지역</span>
+                                                    </span>
+                                                </li>
+                                                
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div> -->
+                            </ul>
+                        </div>
+                        <div class="quiz_btn-choice-all box">
+                            <span class="check-box"></span>
+                            <span class="text-box">전체 단원</span>
+                        </div>
+                    </div>
+                </aside>
+                <!-- //선택 영역 -->
+
+                <!-- 뷰어 영역 -->
+                <aside class="viewer">
+
+                    <div class="view view-dic active">
+                        <div class="view-box scroll-box">
+                            <div class="view-cont">
+                                <div class="word box">
+                                    <span>
+                                        <!-- 인천 근해 갯가노래 뱃노래 -->
+                                    </span>
+                                </div>
+
+                                    <div class="img box">
+                                        <div class="imgBig"></div>
+                                    </div>
+                                    <div class="mean box">
+                                        <!-- <span> -->
+                                            <!-- 음력 8월 15일로, 처음으로 거둔 곡식과 과일로 조상들께 고마움을 표현하는 날. 송편을 만들어 먹고, 차례를 지내거나 강강술래 등을 함. -->
+                                        <!-- </span> -->
+                                        <span class="explain-mean">
+                                        </span>
+                                        <span class="example-mean"></span>
+                                    </div>
+                            </div>
+                        </div>
+                        <div class="pager">
+                            <div class="mean-view-btns">
+                                <div class="explain-btn active">설명 보기</div>
+                                <div class="example-btn">예문 보기</div>
+                            </div>
+                            <div class="pager-cont">
+                                <div class="btn-prev"></div>
+                                <div class="num-current">1</div>
+                                <div class="num-slash"></div>
+                                <div class="num-total">1</div>
+                                <div class="btn-next"></div>
+                            </div>
+                        </div>
+                        <div class="btns">
+                            <div id="btn-setting-01" class="btn setting"></div>
+                            <div id="btn-zoomin" class="btn zoom"></div>
+                        </div>
+                    </div>
+
+                    <div class="view view-card">
+                        <div class="quiz_num_box"><span class="quiz_num">1</span></div>
+                        <div class="view-box">
+                            <div class="view-cont type-1">
+
+                                <div class="card">
+                                    <div class="inner">
+                                        <div class="word box">
+                                            <!-- <span> -->
+                                            <!-- </span> -->
+                                            <div class="ansWordLine"></div>
+                                            <div class="ansWordLineBreak"></div>
+                                            <div class="wordLine"></div>
+                                            <div class="wordLineBreak"></div>
+                                            
+                                        </div>
+                                        <div class="mean box">
+                                            <span></span>
+                                            <!-- <div class="hint">
+                                                <div class="hint-title">힌트</div>
+                                                <div class="hint-mean">
+                                                    우리는<span class="hint-box">ㅈㄷ</span>을/를 통해 세계 각 지역을 이해할 수 있다.
+                                                </div>
+                                            </div> -->
+                                        </div>
+                                        <!-- <div class="btn-image hide"></div> -->
+                                        <div class="quiz_character"></div>
+                                    </div>
+                                </div>
+
+                                <!-- <div class="card">
+                                    <div class="inner">
+                                        <div class="word box">
+                                            <span>
+                                            </span>
+                                        </div>
+                                        <div class="mean box">
+                                            <span>
+                                            </span>
+                                        </div>
+                                        <div class="btn-image hide"></div>
+                                    </div>
+                                </div>
+
+                                <div class="card">
+                                    <div class="inner">
+                                        <div class="word box">
+                                            <span>
+                                            </span>
+                                        </div>
+                                        <div class="mean box">
+                                            <span>
+                                            </span>
+                                        </div>
+                                        <div class="btn-image hide"></div>
+                                    </div>
+                                </div>
+
+                                <div class="card">
+                                    <div class="inner">
+                                        <div class="word box">
+                                            <span>
+                                            </span>
+                                        </div>
+                                        <div class="mean box">
+                                            <span>
+                                            </span>
+                                        </div>
+                                        <div class="btn-image hide"></div>
+                                    </div>
+                                </div>
+
+                                <div class="card">
+                                    <div class="inner">
+                                        <div class="word box">
+                                            <span>
+                                            </span>
+                                        </div>
+                                        <div class="mean box">
+                                            <span>
+                                            </span>
+                                        </div>
+                                        <div class="btn-image hide"></div>
+                                    </div>
+                                </div>
+
+                                <div class="card">
+                                    <div class="inner">
+                                        <div class="word box">
+                                            <span>
+                                            </span>
+                                        </div>
+                                        <div class="mean box">
+                                            <span>
+                                            </span>
+                                        </div>
+                                        <div class="btn-image hide"></div>
+                                    </div>
+                                </div> -->
+
+                            </div>
+                        </div>
+                        <div class="pager">
+                            <div class="pager-cont">
+                                <div class="btn-prev"></div>
+                                <div class="num-current">1</div>
+                                <div class="num-slash"></div>
+                                <div class="num-total">1</div>
+                                <div class="btn-next"></div>
+                            </div>
+                        </div>
+                        <div class="btns">
+                            <div id="btn-image-zoom" class="btn image-zoom"></div>
+                            <!-- <div id="btn-setting-02" class="btn setting"></div> -->
+                            <div id="btn-hint" class="btn btn-hint"></div>
+                            <div id="btn-game" class="btn game"></div>
+                            <!-- <div class="btn print"></div> -->
+                        </div>
+                    </div>
+                </aside>
+                <!-- //뷰어 영역 -->
+            </section>
+            <!-- 바디 영역 -->
+
+        </div>
+        <!-- //용어 사전 컨텐츠 -->
+
+        <!-- 용어 사전 팝업 :: 이미지 확대 팝업 -->
+        <div class="popup popup-dim popup-image-zoom" data-ui="popup" data-option='{"btn":"#null"}'>
+            <div class="inner">
+                <div class="cont-box">
+                    <div class="image-zoom-box">
+
+                        <div class="image"></div>
+                    </div>
+                    <div class="btn-close"></div>
+                </div>
+            </div>
+        </div>
+        <!-- //용어 사전 팝업 :: 이미지 확대 팝업 -->
+
+        <!-- 용어 사전 팝업 :: 보기 설정 팝업 -->
+        <div class="popup popup-dim popup-dic-setting" data-ui="popup" data-option='{"btn":"#btn-setting-01"}'>
+            <div class="inner">
+                <div class="cont-box">
+                    <div class="setting-title"></div>
+                    <div class="option">
+                        <div class="btn item active"></div>
+                        <div class="btn item"></div>
+                        <div class="btn item"></div>
+                        <!-- <div class="btn item"></div> -->
+                    </div>
+                    <div class="btn-close"></div>
+                </div>
+            </div>
+        </div>
+        <!-- //용어 사전 팝업 :: 보기 설정 팝업 -->
+
+        <!-- 퀴즈 팝업 :: 힌트 팝업 -->
+        <div class="popup popup-dim popup-hint" data-ui="popup" data-option='{"btn":"#null"}'>
+            <div class="inner">
+                <div class="cont-box">
+                    <!-- <div class="hint-inner"> -->
+                        <div class="hint-char-box">
+                            <div class="hint-char"></div>
+                            <div class="hint-char-arm"></div>
+                        </div>
+                        <div class="hint-mean">
+                                <span class="mean-front">우리는</span>
+                                <span class="hint-box">
+                                    <!-- 지도 -->
+                                    <span class="hint-answer">지도</span>
+                                    <span class="hint-initial">ㅈㄷ</span>
+                                </span> 
+                                <span class="mean-back">을/를 통해 세계 각 지역을 이해할 수 있다.</span>
+                        </div>
+                    <!-- </div> -->
+                </div>
+                <div class="btn-close"></div>
+            </div>
+        </div>
+        <!-- //퀴즈 팝업 :: 힌트 팝업 -->
+        
+        <!-- 낱말 카드 팝업 :: 보기 설정 팝업 -->
+        <div class="popup popup-dim popup-card-setting" data-ui="popup" data-option='{"btn":"#btn-setting-02"}'>
+            <div class="inner">
+                <div class="cont-box">
+                    <div class="setting-title"></div>
+                    <div class="option check">
+                        <div class="btn item active"></div>
+                        <div class="btn item"></div>
+                        <div class="btn item"></div>
+                    </div>
+                    <div class="option show-count">
+                        <div class="btn item active"></div>
+                        <div class="btn item"></div>
+                        <div class="btn item"></div>
+                    </div>
+
+                    <div class="btn-close"></div>
+                </div>
+            </div>
+        </div>
+        <!-- //낱말 카드 팝업 :: 보기 설정 팝업 -->
+
+        <div class="popup popup-dim popup-image" data-ui="popup">
+            <div class="inner">
+                <div class="cont-box">
+                    <div class="view scroll-box">
+                        <div class="image"></div>
+                    </div>
+                    <div class="btn-close"></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="popup popup-dim popup-game" data-ui="popup">
+            <div class="inner">
+                <div class="cont-box">
+                    <div class="item word">
+                        <span>
+                        </span>
+                    </div>
+                    <div class="item mean">
+                        <span>
+                        </span>
+                    </div>
+                    <!-- <div class="item image">
+                        <div class="img"></div>
+                    </div> -->
+
+                    <div class="pager">
+                        <div class="pager-cont">
+                            <div class="btn-prev"></div>
+                            <div class="num-current">1</div>
+                            <div class="num-slash"></div>
+                            <div class="num-total">1</div>
+                            <div class="btn-next"></div>
+                        </div>
+                    </div>
+                    <div class="btn-close"></div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- common -->
+    <script src="./js/plugins/jquery-2.2.4.js"></script>
+    <script src="./js/plugins/TweenMax.js"></script>
+    <script src="./js/plugins/plugins.js"></script>
+    <script src="./js/plugins/jquery.overlayScrollbars.js"></script>
+
+    <script src="./js/common.js"></script>
+    <script src="./js/dicData.js"></script>
+    <script src="./js/dic.js"></script>
+</body>
+
+</html>

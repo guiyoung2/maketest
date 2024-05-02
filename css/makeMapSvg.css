@@ -173,6 +173,7 @@ header > .right-cont .btn-reset {
   height: 36px;
   background: url("../images/bookLogo.png") no-repeat center center;
   background-size: contain;
+  pointer-events: none;
 }
 .link-manual-btn,
 .btn-save,
