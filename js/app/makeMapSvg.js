@@ -82,7 +82,7 @@ var undoData; // 임시 되돌리기 배열
         var agent = navigator.userAgent.toLowerCase();
         var safariException = agent.indexOf("mac")
 
-        if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) || (safariException && document.documentElement.clientWidth <= 1024)) {
+        if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) || (safariException > 0 && document.documentElement.clientWidth <= 1240)) {
           // 여기에 모바일 장치에서 실행할 코드 작성
           console.log("모바일");
           $(".select-box .list-box .btn-file").css({
@@ -182,7 +182,7 @@ var undoData; // 임시 되돌리기 배열
             instance.endBgControl();
             $('.btn-reset').trigger(touchstart);
           } else {
-            console.log(location_dep2_select);
+            // console.log(location_dep2_select);
             // var txt = $('.select-cont .dep2 .list-box .list > li')
             var txt = $('.dep2 .list-box .list > li')
               .eq(location_dep2_select)
@@ -418,25 +418,39 @@ var undoData; // 임시 되돌리기 배열
 
             var img = $(this).attr('img');
             // console.log(idx);
-            if (dep1 === '신문·보고서·SNS 양식' || dep1 === '시·도 백지도') {
-              var file = './images/map/' + img + '.png';
-              instance.setBg(file);
-            } else {
-              const fileArr = [];
-              var map = './images/map/' + img + '.png';
-              var placeName = './images/map/' + img + '_1.png';
-              var land = './images/map/' + img + '_2.png';
-              var climate = './images/map/' + img + '_3.png';
-              fileArr.push(map);
-              fileArr.push(placeName);
-              fileArr.push(land);
-              fileArr.push(climate);
+            // if (dep1 === '신문·보고서·SNS 양식' || dep1 === '시·도 백지도') {
+            //   var file = './images/map/' + img + '.png';
+            //   instance.setBg(file);
+            // } 
+            // else {
+            //   const fileArr = [];
+            //   var map = './images/map/' + img + '.png';
+            //   var placeName = './images/map/' + img + '_1.png';
+            //   var land = './images/map/' + img + '_2.png';
+            //   var climate = './images/map/' + img + '_3.png';
+            //   fileArr.push(map);
+            //   fileArr.push(placeName);
+            //   fileArr.push(land);
+            //   fileArr.push(climate);
 
-              fileArr.forEach((file, index) => {
-                instance.setBg(file, index);
-              });
-              // $('#opacity-tool').removeClass('remove');
-            }
+            //   fileArr.forEach((file, index) => {
+            //     instance.setBg(file, index);
+            //   });
+            //   // $('#opacity-tool').removeClass('remove');
+            // }
+            
+            const fileArr = [];
+            var map = './images/map/' + img + '.png';     // 기본
+            var administration = './images/map/' + img + '_1.png'; // 상세 행정
+            var placeName = './images/map/' + img + '_2.png';  // 지명
+            var humanities = './images/map/' + img + '_3.png';  // 환경
+            var shadow = './images/map/' + img + '_4.png';  // 음영
+            var climate = './images/map/' + img + '_5.png';  // 기후
+            var altitude = './images/map/' + img + '_6.png';  // 고도
+
+            fileArr.push(map)
+
+            
             
             $("#opacity-tool .tool").css("display","none")
 
@@ -447,6 +461,12 @@ var undoData; // 임시 되돌리기 배열
                 $("#opacity-tool .opacity-shadow").css("display","flex")
                 $("#opacity-tool .opacity-climate").css("display","flex")
                 $("#opacity-tool .opacity-humanities").css("display","flex")
+                $("#opacity-tool").css("height","185px")
+                $("#opacity-tool .tool-wrap").css("height","125px")
+                fileArr.push(placeName)
+                fileArr.push(shadow)
+                fileArr.push(climate)
+                fileArr.push(humanities)
                 break;
 
               case "지명·음영·기후":
@@ -454,34 +474,72 @@ var undoData; // 임시 되돌리기 배열
                 $("#opacity-tool .opacity-name").css("display","flex")
                 $("#opacity-tool .opacity-shadow").css("display","flex")
                 $("#opacity-tool .opacity-climate").css("display","flex")
+                $("#opacity-tool").css("height","155px")
+                $("#opacity-tool .tool-wrap").css("height","95px")
+                fileArr.push(placeName)
+                fileArr.push(shadow)
+                fileArr.push(climate)
                 break;
 
               case "음영·환경":
                 console.log("음영·환경");
                 $("#opacity-tool .opacity-shadow").css("display","flex")
                 $("#opacity-tool .opacity-humanities").css("display","flex")
+                $("#opacity-tool").css("height","125px")
+                $("#opacity-tool .tool-wrap").css("height","65px")
+                fileArr.push(shadow)
+                fileArr.push(humanities)
                 break;
 
               case "고도·지명":
                 console.log("고도·지명");
                 $("#opacity-tool .opacity-altitude").css("display","flex")
                 $("#opacity-tool .opacity-name").css("display","flex")
+                $("#opacity-tool").css("height","125px")
+                $("#opacity-tool .tool-wrap").css("height","65px")
+                fileArr.push(altitude)
+                fileArr.push(placeName)
                 break;
 
               case "고도·행정구역":
                 console.log("고도·행정구역");
                 $("#opacity-tool .opacity-altitude").css("display","flex")
                 $("#opacity-tool .opacity-administration").css("display","flex")
+                $("#opacity-tool").css("height","125px")
+                $("#opacity-tool .tool-wrap").css("height","65px")
+                fileArr.push(altitude)
+                fileArr.push(administration)
                 break;
                 
               case "고도":
                 console.log("고도");
                 $("#opacity-tool .opacity-altitude").css("display","flex")
+                $("#opacity-tool").css("height","95px")
+                $("#opacity-tool .tool-wrap").css("height","35px")
+                fileArr.push(altitude)
                 break;
 
               default :
+              break;
+            }
+
+            $("#opacity-tool input[type='range']").attr("style", "");
+
+            if (dep1 === '신문·보고서·SNS 양식' || dep1 === '시·도 백지도') {
+              var file = './images/map/' + img + '.png';
+              $(".button-opacity").css("display","none")
+              $("#opacity-tool").css("display","none")
               
-                break;
+              instance.setBg(file);
+            } else {
+              $(".button-opacity").css("display","block")
+              $(".button-opacity").css("pointer-events","all")
+              if(!$(".button-opacity").hasClass("open")){
+                $(".button-opacity").removeClass("open")
+              }
+              fileArr.forEach((file, index) => {
+                instance.setBg(file, index);
+              });
             }
 
             $('.select-cont .dep1 .select .text').text(txt)  // 뎁스 2 클릭시 셀렉 제목 수정
@@ -599,7 +657,7 @@ var undoData; // 임시 되돌리기 배열
             GlobalAudio.play('button');
             objNum++ //  오브젝트 생성 개수
 
-            const svg = `./svg/svg_${idx}_${$(this).index()}.svg`;
+            const svg = `./svg/png_${idx}_${$(this).index()}.png`;
             const imgName = $(this).find("span").text() // 이미지 이름
             // var svg = $(this).find('img').attr('src');
             // instance.loadXML(svg, $.proxy(loadedSvg, this));
@@ -607,8 +665,8 @@ var undoData; // 임시 되돌리기 배열
             var data = {
               key: 'obj-svg',
               width: 130,
-              height: 115,
-              // height: 90,
+              // height: 115,
+              height: 90,
               source: source
             };
             
@@ -714,7 +772,8 @@ var undoData; // 임시 되돌리기 배열
           var data = {
             key: 'obj-svg',
             width: 130,
-            height: 115,
+            // height: 115,
+            height: 90,
             source: source
           };
           
@@ -746,7 +805,7 @@ var undoData; // 임시 되돌리기 배열
         }
 
         var txt = Math.round(scale * 10) * 10;
-        console.log(txt);
+        // console.log(txt);
         $('.popup-scale .select .text').text(txt + '%');
         $('.btns-scale .text').text(txt + '%');
       }
@@ -915,7 +974,7 @@ var undoData; // 임시 되돌리기 배열
               var x = (paper.width - bound.width) / 2;
               var y = (paper.height - bound.height) / 2;
               TweenLite.set(image, {
-                width: index !== undefined ? bound.width : '100%',
+                // width: index !== undefined ? bound.width : '100%',
                 height: index !== undefined ? bound.height : '100%',
                 x: index !== undefined ? x : 0,
                 y: index !== undefined ? y : 0
@@ -928,19 +987,24 @@ var undoData; // 임시 되돌리기 배열
                 display: index !== undefined ? 'inherit' : 'none'
               });
               // 이미지들의 가로세로 비율 확인
-              // const imgRatio = bound.width / bound.height;
-              // console.log(imgRatio, index);
+              const imgRatio = bound.width / bound.height;
+              console.log(imgRatio, index);
               startBgControl();
             });
-
+            let imgNum = imgUrl.match(/(\d+)\.png$/) 
+            // imgNum ? imgNum[1] : null;
+            // console.log(imgUrl);
+            // console.log(imgNum[1]);
             image.src = imgUrl;
             if (index !== undefined) {
-              image.style.zIndex = index === 0 ? -5 : -index;
+              image.style.zIndex = index === 0 ? 1 : -imgNum[1]; 
               image.setAttribute(
                 'class',
-                `bg-${index}${index > 0 ? ' remove' : ''}`
+                // `bg-${index}${index > 0 ? ' remove' : ''}`
+                // `bg-${imgUrl.slice(-5,-4)}${index > 0 ? ' remove' : ''}`
+                `bg-${imgNum[1]}${index > 0 ? ' remove' : ''}`
               );
-              image.style.opacity = index > 1 && index !== NaN ? 0.5 : 1;
+              // image.style.opacity = index > 1 && index !== NaN ? 0.5 : 1;
             }
 
           }

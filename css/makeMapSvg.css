@@ -134,6 +134,7 @@ header > .left-cont > .title {
   height: 34px;
   background: url(../images/header_title.png) no-repeat;
   background-size: contain;
+  margin-left: 20px;
 }
 header > .left-cont > .title span {
   padding: 0 7px;
@@ -151,6 +152,9 @@ header > .right-cont {
 }
 header > .right-cont > div {
   margin: 0 15px;
+}
+header > .right-cont > div.btn-bookLogo {
+  margin-right: 95px;
 }
 header > .right-cont .btn-reset {
   display: inline-flex;
@@ -280,7 +284,7 @@ aside > .svg-list > ul > li > span {
   width: 100%;
   height: 25px;
 
-  font-size: 15px;
+  font-size: 13px;
   line-height: 25px;
   text-align: center;
   font-family: 'NanumSquareRoundB';
@@ -612,6 +616,7 @@ aside > .btns-etc .undo-btn.not-undo {
   transform-origin: 50% 50%;
   transform: scale(1);
   will-change: auto;
+  background-color: #ECEFF4;
 }
 .make-map-svg .bg-content .img-bg > .box {
   position: absolute;
@@ -629,7 +634,7 @@ aside > .btns-etc .undo-btn.not-undo {
   position: absolute;
   left: 0;
   top: 0;
-  width: 100%;
+  /* width: 100%; */
   height: 100%;
   /* border: 1px solid #2ABD71; */
 }
@@ -934,6 +939,11 @@ aside > .btns-etc .undo-btn.not-undo {
 .bg-control .bg-text,
 .hasBG .bg-text {
   display: none;
+}
+
+.bg-control .img-bg,
+.hasBG .img-bg{
+background-color: #fff !important;
 }
 
 .add-text-box {
@@ -1281,6 +1291,8 @@ aside > .btns-etc .undo-btn.not-undo {
 /* 24.03.14 */
 .img-bg img {
   position: absolute;
+  left: 50% !important;
+  transform: translateX(-50%) !important;
 }
 
 /* 레이어 투명도 조절 */
@@ -1313,8 +1325,8 @@ aside > .btns-etc .undo-btn.not-undo {
   top: 10px;
   width: 200px;
   display: none;
-  border-radius: 12px 12px 10px 10px;
-  background: #b9d9ff;
+  border-radius: 17px 17px 10px 10px;
+  background: #B9D0FF;
   height: 185px;
 }
 
@@ -1323,7 +1335,7 @@ aside > .btns-etc .undo-btn.not-undo {
   font-size: 18px;
   height: 40px;
   line-height: 40px;
-  border-radius: 12px 12px 0 0;
+  border-radius: 17px 17px 17px 0;
   background: #3b69c7;
   color: #fff;
   font-family: 'NanumGothicEB';
@@ -1353,6 +1365,7 @@ aside > .btns-etc .undo-btn.not-undo {
   justify-content: space-around;
   align-items: center;
 }
+
 #opacity-tool input[type='checkbox'] {
   width: 20px;
   height: 20px;
@@ -1385,6 +1398,9 @@ aside > .btns-etc .undo-btn.not-undo {
   margin: 0 0 0 10px;
   padding: 0;
   cursor: pointer;
+}
+.bg-3,.bg-4,.bg-5,.bg-6 {
+  opacity: 0.5;
 }
 
 #opacity-tool input[type='range']:focus {
@@ -1438,7 +1454,9 @@ input[type='range']::-webkit-slider-thumb {
   background: linear-gradient(to right, #3793FF 0%, #3793FF calc(var(--value)*100%), #7FA1E5 calc(var(--value)*100%), #7FA1E5 100%);
   border-radius: 2px;
 }
-
+#opacity-tool .tool-wrap .tool .humanities-box {
+  margin-right: 5px;
+}
 
 aside .aside-button-cont {
   position: absolute;
@@ -1650,3 +1668,12 @@ aside .btn-file span {
 /* .add-file .cont .main .file-explain span { */
   /* font-size: 15px; */
 /* } */
+.bg-7 {
+  z-index: 1 !important;
+}
+.bg-1 , .bg-2{
+  z-index: 3 !important;
+}
+/* .bg-3 {
+  z-index: 2 !important;
+} */

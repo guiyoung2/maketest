@@ -16,15 +16,15 @@
         {
           key: 'protractor',
           width: 130,
-          height: 115,
-          // height: 90,
+          // height: 115,
+          height: 90,
           source: '<img src="./svg/svg_1_1.svg" alt="">'
         },
         {
           key: 'ruler',
           width: 130,
-          height: 115,
-          // height: 90,
+          // height: 115,
+          height: 90,
           source: '<img src="./svg/svg_1_2.svg" alt="">'
         }
         // {key:"protractor", width:620, height:337, source:'<img src="../common/images/app_angle_tool/obj_protractor.svg" alt="">'},
@@ -707,7 +707,8 @@
             // console.log($(obj).children().eq(0)[0].tagName);
             if($(obj).children().eq(0)[0].tagName == "IMG"){
               $(obj).children().eq(0).css("width", "130px");
-              $(obj).children().eq(0).css("height", "115px");
+              // $(obj).children().eq(0).css("height", "115px");
+              $(obj).children().eq(0).css("height", "90px");
             }
             // console.log($(obj).children().eq(0));
           }

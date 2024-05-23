@@ -197,30 +197,54 @@
               <div class="tool-wrap">
 
               <div class="tool opacity-altitude">
-                <input type="checkbox" name="" id="" data-index="5"/>
+                <input type="checkbox" name="" id="" data-index="6"/>
                 <span>해발 고도</span>
+                <input
+                type="range"
+                value="50"
+                name=""
+                id=""
+                data-img="bg-6"
+                min="0"
+                max="100"
+                disabled
+                />
               </div>
               <div class="tool opacity-name">
-                <input type="checkbox" name="" id="" data-index="1"/>
+                <input type="checkbox" name="" id="" data-index="2"/>
                 <span>주요 지명</span>
               </div>
               <div class="tool opacity-shadow">
-                <input type="checkbox" name="" id="" data-index="2"/>
+                <input type="checkbox" name="" id="" data-index="4"/>
                 <span>지형 음영</span>
                 <input
                 type="range"
                 value="50"
                 name=""
                 id=""
-                data-img="bg-2"
+                data-img="bg-4"
                 min="0"
                 max="100"
                 disabled
                 />
               </div>
               <div class="tool opacity-climate">
-                <input type="checkbox" name="" id="" data-index="3"/>
+                <input type="checkbox" name="" id="" data-index="5"/>
                 <span>기후 분포</span>
+                <input
+                type="range"
+                value="50"
+                name=""
+                id=""
+                data-img="bg-5"
+                min="0"
+                max="100"
+                disabled
+                />
+              </div>
+              <div class="tool opacity-humanities">
+                <input type="checkbox" name="" id="" data-index="3"/>
+                <span class="humanities-box">인문환경</span>
                 <input
                 type="range"
                 value="50"
@@ -232,12 +256,8 @@
                 disabled
                 />
               </div>
-              <div class="tool opacity-humanities">
-                <input type="checkbox" name="" id="" data-index="4"/>
-                <span>인문환경</span>
-              </div>
               <div class="tool opacity-administration">
-                <input type="checkbox" name="" id="" data-index="6"/>
+                <input type="checkbox" name="" id="" data-index="1"/>
                 <span>상세 행정구역</span>
               </div>
             </div>
@@ -368,7 +388,6 @@
                 <div class="list" data-color="#275DBE"></div>
                 <div class="list" data-color="#FF82FE"></div>
                 <div class="list" data-color="#632CAE"></div>
-
                 <!-- <div class="list" data-color="#EA6EE4">T</div>
                 <div class="list" data-color="#FF0000">T</div>
                 <div class="list" data-color="#FFD91C">T</div>
@@ -410,12 +429,12 @@
                 type="text"
                 class="upload-name"
                 value=""
-                placeholder="첨부파일"
+                placeholder="첨부 파일"
               />
             </div>
             <div class="file-explain">
               <span>내 컴퓨터에 저장된 JPG, PNG이미지 파일을 올릴 수 있습니다.</span>
-              <span>N MB까지 올리기 가능합니다.</span>
+              <!-- <span>N MB까지 올리기 가능합니다.</span> -->
             </div>
             <input type="button" id="file-input" class="file-input" />
             <input
@@ -637,9 +656,11 @@
           GlobalAudio.play('button');
 
           console.log('manual');
-          var url = '백지도 활동 방법.pdf';
+          // var url = '백지도 활동 방법.pdf';
+          var url = '디지털 제작 활동 사용 방법.pdf';
 
-          var pathData = window.jj ? '../../../data/' : '../../../data/';
+          // var pathData = window.jj ? '../../../data/' : '../../../data/';
+          var pathData = window.jj ? './helper/' : './helper/';
           var src = pathData + url;
 
           // window.alert("src :: "+"/resource/"+url);
@@ -748,28 +769,38 @@
 
 
       opacityToolCheck.on('change', function (e) {
-        const index = this.dataset.index;
+        // const index = this.dataset.index;
+        const index = $(this).data('index');
         const check = $(this).prop('checked');
 
         if (check) {
           img = $(`.bg-${index}`);
           img.removeClass('remove');
+          if($(this).parent().find('input[type="range"]').length){
+            $(this).parent().find('input[type="range"]').prop('disabled', false)
+          }
         } else if (!check) {
           img = $(`.bg-${index}`);
           img.addClass('remove');
+          if($(this).parent().find('input[type="range"]').length){
+            $(this).parent().find('input[type="range"]').prop('disabled', true)
+          }
         }
 
-        if (index != 1 && check) {
-          opacityToolRange.eq(index - 2).prop('disabled', false);
-        } else if (index != 1 && !check) {
-          opacityToolRange.eq(index - 2).prop('disabled', true);
-        }
+        // if (index != 1 && check) {
+        //   // opacityToolRange.eq(index - 1).prop('disabled', false);
+        //   opacityToolRange.prop('disabled', false);
+        // } else if (index != 1 && !check) {
+        //   // opacityToolRange.eq(index - 1).prop('disabled', true);
+        //   opacityToolRange.prop('disabled', true);
+        // }
       });
 
       opacityToolRange.on('input', function (e) {
         const cn = this.dataset.img;
         img = $(`.${cn}`);
 
+        console.log(cn);
         const value = $(this).val();
         img.css('opacity', value / 100);
       });

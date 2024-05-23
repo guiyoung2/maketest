@@ -3,385 +3,1045 @@
 	<location name="자연환경">
 		<list>
 			<name>산</name>
-			<file>./svg/svg_1_1.svg</file>
+			<file>./svg/list_png_0_0.png</file>
 		</list>
 		<list>
 			<name>숲</name>
-			<file>./svg/svg_1_2.svg</file>
+			<file>./svg/list_png_0_1.png</file>
+		</list>
+		<list>
+			<name>평야</name>
+			<file>./svg/list_png_0_2.png</file>
+		</list>
+		<list>
+			<name>하천</name>
+			<file>./svg/list_png_0_3.png</file>
+		</list>
+		<list>
+			<name>해안</name>
+			<file>./svg/list_png_0_4.png</file>
+		</list>
+		<list>
+			<name>섬</name>
+			<file>./svg/list_png_0_5.png</file>
+		</list>
+		<list>
+			<name>만년설 쌓인 산</name>
+			<file>./svg/list_png_0_6.png</file>
+		</list>
+		<list>
+			<name>화산</name>
+			<file>./svg/list_png_0_7.png</file>
+		</list>
+		<list>
+			<name>바다</name>
+			<file>./svg/list_png_0_8.png</file>
+		</list>
+		<list>
+			<name>산호섬</name>
+			<file>./svg/list_png_0_9.png</file>
+		</list>
+		<list>
+			<name>산맥 1</name>
+			<file>./svg/list_png_0_10.png</file>
+		</list>
+		<list>
+			<name>산맥 2</name>
+			<file>./svg/list_png_0_11.png</file>
 		</list>
 		<list>
 			<name>호수</name>
-			<file>./svg/svg_1_3.svg</file>
+			<file>./svg/list_png_0_12.png</file>
 		</list>
 		<list>
 			<name>폭포</name>
-			<file>./svg/svg_1_4.svg</file>
-		</list>
-		<!-- <list>
-			<name>샘플1</name>
-			<file>./svg/svg_1_5.svg</file>
+			<file>./svg/list_png_0_13.png</file>
 		</list>
 		<list>
-			<name>샘플2</name>
-			<file>./svg/svg_1_6.svg</file>
+			<name>숲(열대 밀림)</name>
+			<file>./svg/list_png_0_14.png</file>
 		</list>
 		<list>
-			<name>샘플3</name>
-			<file>./svg/svg_1_7.svg</file>
+			<name>초원(열대)</name>
+			<file>./svg/list_png_0_15.png</file>
 		</list>
 		<list>
-			<name>샘플4</name>
-			<file>./svg/svg_1_8.svg</file>
-		</list> -->
+			<name>초원(건조)</name>
+			<file>./svg/list_png_0_16.png</file>
+		</list>
+		<list>
+			<name>사막(모래)</name>
+			<file>./svg/list_png_0_17.png</file>
+		</list>
+		<list>
+			<name>사막(자갈)</name>
+			<file>./svg/list_png_0_18.png</file>
+		</list>
+		<list>
+			<name>숲(온대)</name>
+			<file>./svg/list_png_0_19.png</file>
+		</list>
+		<list>
+			<name>숲(냉대)</name>
+			<file>./svg/list_png_0_20.png</file>
+		</list>
+		<list>
+			<name>풀과 이끼(한대)</name>
+			<file>./svg/list_png_0_21.png</file>
+		</list>
+		<list>
+			<name>눈과 얼음</name>
+			<file>./svg/list_png_0_22.png</file>
+		</list>
+		<list>
+			<name>돌산</name>
+			<file>./svg/list_png_0_23.png</file>
+		</list>
+		<list>
+			<name>흙산</name>
+			<file>./svg/list_png_0_24.png</file>
+		</list>
+		<list>
+			<name>석회 동굴</name>
+			<file>./svg/list_png_0_25.png</file>
+		</list>
+		<list>
+			<name>황사</name>
+			<file>./svg/list_png_0_26.png</file>
+		</list>
+		<list>
+			<name>가뭄</name>
+			<file>./svg/list_png_0_27.png</file>
+		</list>
+		<list>
+			<name>폭염</name>
+			<file>./svg/list_png_0_28.png</file>
+		</list>
+		<list>
+			<name>홍수</name>
+			<file>./svg/list_png_0_29.png</file>
+		</list>
+		<list>
+			<name>태풍</name>
+			<file>./svg/list_png_0_30.png</file>
+		</list>
+		<list>
+			<name>한파</name>
+			<file>./svg/list_png_0_31.png</file>
+		</list>
+		<list>
+			<name>폭설</name>
+			<file>./svg/list_png_0_32.png</file>
+		</list>
+		<list>
+			<name>산사태</name>
+			<file>./svg/list_png_0_33.png</file>
+		</list>
+		<list>
+			<name>지진</name>
+			<file>./svg/list_png_0_34.png</file>
+		</list>
+		<list>
+			<name>해</name>
+			<file>./svg/list_png_0_35.png</file>
+		</list>
+		<list>
+			<name>구름</name>
+			<file>./svg/list_png_0_36.png</file>
+		</list>
+		<list>
+			<name>비</name>
+			<file>./svg/list_png_0_37.png</file>
+		</list>
+		<list>
+			<name>눈</name>
+			<file>./svg/list_png_0_38.png</file>
+		</list>
 	</location>
 	
 	<location name="인문환경">
 		<list>
+			<name>도시</name>
+			<file>./svg/list_png_1_0.png</file>
+		</list>
+		<list>
 			<name>시·도청</name>
-			<file>./svg/svg_2_1.svg</file>
+			<file>./svg/list_png_1_1.png</file>
 		</list>
 		<list>
 			<name>시·군·구청</name>
-			<file>./svg/svg_2_2.svg</file>
+			<file>./svg/list_png_1_2.png</file>
+		</list>
+		<list>
+			<name>기차역</name>
+			<file>./svg/list_png_1_3.png</file>
+		</list>
+		<list>
+			<name>지하철역</name>
+			<file>./svg/list_png_1_4.png</file>
+		</list>
+		<list>
+			<name>빌딩</name>
+			<file>./svg/list_png_1_5.png</file>
+		</list>
+		<list>
+			<name>공장</name>
+			<file>./svg/list_png_1_6.png</file>
 		</list>
 		<list>
 			<name>학교</name>
-			<file>./svg/svg_2_3.svg</file>
+			<file>./svg/list_png_1_7.png</file>
+		</list>
+				<list>
+			<name>고속버스 터미널</name>
+			<file>./svg/list_png_1_8.png</file>
+		</list>
+		<list>
+			<name>공항</name>
+			<file>./svg/list_png_1_9.png</file>
+		</list>
+		<list>
+			<name>다리</name>
+			<file>./svg/list_png_1_10.png</file>
+		</list>
+		<list>
+			<name>항구</name>
+			<file>./svg/list_png_1_11.png</file>
+		</list>
+		<list>
+			<name>자동차</name>
+			<file>./svg/list_png_1_12.png</file>
+		</list>
+		<list>
+			<name>자원 개발</name>
+			<file>./svg/list_png_1_13.png</file>
+		</list>
+		<list>
+			<name>크리스트교</name>
+			<file>./svg/list_png_1_14.png</file>
+		</list>
+		<list>
+			<name>힌두교</name>
+			<file>./svg/list_png_1_15.png</file>
+		</list>
+		<list>
+			<name>이슬람교</name>
+			<file>./svg/list_png_1_16.png</file>
+		</list>
+		<list>
+			<name>불교</name>
+			<file>./svg/list_png_1_17.png</file>
+		</list>
+		<list>
+			<name>무역선</name>
+			<file>./svg/list_png_1_18.png</file>
+		</list>
+		<list>
+			<name>화물 트럭</name>
+			<file>./svg/list_png_1_19.png</file>
+		</list>
+		<list>
+			<name>화물 열차</name>
+			<file>./svg/list_png_1_20.png</file>
+		</list>
+		<list>
+			<name>열차(승객)</name>
+			<file>./svg/list_png_1_21.png</file>
+		</list>
+		<list>
+			<name>전철</name>
+			<file>./svg/list_png_1_22.png</file>
+		</list>
+		<list>
+			<name>시내버스</name>
+			<file>./svg/list_png_1_23.png</file>
+		</list>
+		<list>
+			<name>광역 버스</name>
+			<file>./svg/list_png_1_24.png</file>
+		</list>
+		<list>
+			<name>비행기</name>
+			<file>./svg/list_png_1_25.png</file>
 		</list>
 		<list>
 			<name>경찰서</name>
-			<file>./svg/svg_2_4.svg</file>
+			<file>./svg/list_png_1_26.png</file>
 		</list>
 		<list>
 			<name>소방서</name>
-			<file>./svg/svg_2_5.svg</file>
+			<file>./svg/list_png_1_27.png</file>
 		</list>
 		<list>
 			<name>보건소</name>
-			<file>./svg/svg_2_6.svg</file>
+			<file>./svg/list_png_1_28.png</file>
 		</list>
 		<list>
 			<name>우체국</name>
-			<file>./svg/svg_2_7.svg</file>
+			<file>./svg/list_png_1_29.png</file>
 		</list>
 		<list>
 			<name>법원</name>
-			<file>./svg/svg_2_8.svg</file>
+			<file>./svg/list_png_1_30.png</file>
 		</list>
 		<list>
 			<name>박물관</name>
-			<file>./svg/svg_2_9.svg</file>
+			<file>./svg/list_png_1_31.png</file>
 		</list>
 		<list>
 			<name>도서관</name>
-			<file>./svg/svg_2_10.svg</file>
+			<file>./svg/list_png_1_32.png</file>
 		</list>
 		<list>
 			<name>체육관</name>
-			<file>./svg/svg_2_11.svg</file>
+			<file>./svg/list_png_1_33.png</file>
 		</list>
 		<list>
 			<name>공원</name>
-			<file>./svg/svg_2_12.svg</file>
+			<file>./svg/list_png_1_34.png</file>
+		</list>
+		<list>
+			<name>병원</name>
+			<file>./svg/list_png_1_35.png</file>
+		</list>
+		<list>
+			<name>은행</name>
+			<file>./svg/list_png_1_36.png</file>
+		</list>
+		<list>
+			<name>전통 시장</name>
+			<file>./svg/list_png_1_37.png</file>
+		</list>
+		<list>
+			<name>대형 할인점</name>
+			<file>./svg/list_png_1_38.png</file>
+		</list>
+		<list>
+			<name>교회</name>
+			<file>./svg/list_png_1_39.png</file>
+		</list>
+		<list>
+			<name>영화관</name>
+			<file>./svg/list_png_1_40.png</file>
+		</list>
+		<list>
+			<name>백화점</name>
+			<file>./svg/list_png_1_41.png</file>
+		</list>
+		<list>
+			<name>아파트</name>
+			<file>./svg/list_png_1_42.png</file>
+		</list>
+		<list>
+			<name>주택</name>
+			<file>./svg/list_png_1_43.png</file>
+		</list>
+		<list>
+			<name>운동장</name>
+			<file>./svg/list_png_1_44.png</file>
 		</list>
 	</location>
 
 	<location name="생활 모습">
 		<list>
-			<name>고인돌</name>
-			<file>./svg/svg_3_1.svg</file>
+			<name>화전 농업</name>
+			<file>./svg/list_png_2_0.png</file>
 		</list>
 		<list>
-			<name>탑</name>
-			<file>./svg/svg_3_2.svg</file>
+			<name>바나나 농장</name>
+			<file>./svg/list_png_2_1.png</file>
 		</list>
 		<list>
-			<name>절</name>
-			<file>./svg/svg_3_3.svg</file>
+			<name>오아시스 농업</name>
+			<file>./svg/list_png_2_2.png</file>
 		</list>
 		<list>
-			<name>불상</name>
-			<file>./svg/svg_3_4.svg</file>
+			<name>논농사</name>
+			<file>./svg/list_png_2_3.png</file>
 		</list>
 		<list>
-			<name>궁궐</name>
-			<file>./svg/svg_3_5.svg</file>
+			<name>밭농사</name>
+			<file>./svg/list_png_2_4.png</file>
 		</list>
 		<list>
-			<name>능묘</name>
-			<file>./svg/svg_3_6.svg</file>
+			<name>어업</name>
+			<file>./svg/list_png_2_5.png</file>
 		</list>
 		<list>
-			<name>선사 주거지</name>
-			<file>./svg/svg_3_7.svg</file>
+			<name>낙농업</name>
+			<file>./svg/list_png_2_6.png</file>
+		</list>
+		<list>
+			<name>지중해식 농업</name>
+			<file>./svg/list_png_2_7.png</file>
+		</list>
+		<list>
+			<name>순록 유목</name>
+			<file>./svg/list_png_2_8.png</file>
+		</list>
+		<list>
+			<name>교회</name>
+			<file>./svg/list_png_2_9.png</file>
+		</list>
+		<list>
+			<name>성당</name>
+			<file>./svg/list_png_2_10.png</file>
+		</list>
+		<list>
+			<name>불교 사원</name>
+			<file>./svg/list_png_2_11.png</file>
+		</list>
+		<list>
+			<name>이슬람 사원</name>
+			<file>./svg/list_png_2_12.png</file>
+		</list>
+		<list>
+			<name>힌두 사원</name>
+			<file>./svg/list_png_2_13.png</file>
+		</list>
+		<list>
+			<name>축제</name>
+			<file>./svg/list_png_2_14.png</file>
+		</list>
+		<list>
+			<name>저출산</name>
+			<file>./svg/list_png_2_15.png</file>
+		</list>
+		<list>
+			<name>고령화</name>
+			<file>./svg/list_png_2_16.png</file>
+		</list>
+		<list>
+			<name>갈등</name>
+			<file>./svg/list_png_2_17.png</file>
+		</list>
+		<list>
+			<name>옷(여름)</name>
+			<file>./svg/list_png_2_18.png</file>
+		</list>
+		<list>
+			<name>옷(봄·가을)</name>
+			<file>./svg/list_png_2_19.png</file>
+		</list>
+		<list>
+			<name>옷(겨울)</name>
+			<file>./svg/list_png_2_20.png</file>
+		</list>
+		<list>
+			<name>고상 가옥</name>
+			<file>./svg/list_png_2_21.png</file>
+		</list>
+		<list>
+			<name>흙집</name>
+			<file>./svg/list_png_2_22.png</file>
+		</list>
+		<list>
+			<name>게르</name>
+			<file>./svg/list_png_2_23.png</file>
+		</list>
+		<list>
+			<name>흰색 가옥</name>
+			<file>./svg/list_png_2_24.png</file>
+		</list>
+		<list>
+			<name>한옥</name>
+			<file>./svg/list_png_2_25.png</file>
+		</list>
+		<list>
+			<name>통나무집</name>
+			<file>./svg/list_png_2_26.png</file>
+		</list>
+		<list>
+			<name>이글루</name>
+			<file>./svg/list_png_2_27.png</file>
 		</list>
 	</location>
 
 	<location name="자원·산업">
 		<list>
-			<name>기차역</name>
-			<file>./svg/svg_4_1.svg</file>
+			<name>석탄</name>
+			<file>./svg/list_png_3_0.png</file>
 		</list>
 		<list>
-			<name>지하철역</name>
-			<file>./svg/svg_4_2.svg</file>
+			<name>석유</name>
+			<file>./svg/list_png_3_1.png</file>
 		</list>
 		<list>
-			<name>버스 터미널</name>
-			<file>./svg/svg_4_3.svg</file>
+			<name>천연가스</name>
+			<file>./svg/list_png_3_2.png</file>
 		</list>
 		<list>
-			<name>공항</name>
-			<file>./svg/svg_4_4.svg</file>
+			<name>철광석</name>
+			<file>./svg/list_png_3_3.png</file>
 		</list>
 		<list>
-			<name>다리</name>
-			<file>./svg/svg_4_5.svg</file>
+			<name>구리</name>
+			<file>./svg/list_png_3_4.png</file>
 		</list>
 		<list>
-			<name>항구</name>
-			<file>./svg/svg_4_6.svg</file>
+			<name>주석</name>
+			<file>./svg/list_png_3_5.png</file>
+		</list>
+		<list>
+			<name>금</name>
+			<file>./svg/list_png_3_6.png</file>
+		</list>
+		<list>
+			<name>다이아몬드</name>
+			<file>./svg/list_png_3_7.png</file>
+		</list>
+		<list>
+			<name>코발트</name>
+			<file>./svg/list_png_3_8.png</file>
+		</list>
+		<list>
+			<name>쌀</name>
+			<file>./svg/list_png_3_9.png</file>
+		</list>
+		<list>
+			<name>밀</name>
+			<file>./svg/list_png_3_10.png</file>
+		</list>
+		<list>
+			<name>커피</name>
+			<file>./svg/list_png_3_11.png</file>
+		</list>
+		<list>
+			<name>차</name>
+			<file>./svg/list_png_3_12.png</file>
+		</list>
+		<list>
+			<name>카카오</name>
+			<file>./svg/list_png_3_13.png</file>
+		</list>
+		<list>
+			<name>육류</name>
+			<file>./svg/list_png_3_14.png</file>
+		</list>
+		<list>
+			<name>생선</name>
+			<file>./svg/list_png_3_15.png</file>
+		</list>
+		<list>
+			<name>채소</name>
+			<file>./svg/list_png_3_16.png</file>
+		</list>
+		<list>
+			<name>과실</name>
+			<file>./svg/list_png_3_17.png</file>
+		</list>
+		<list>
+			<name>유제품</name>
+			<file>./svg/list_png_3_18.png</file>
+		</list>
+		<list>
+			<name>천연고무</name>
+			<file>./svg/list_png_3_19.png</file>
+		</list>
+		<list>
+			<name>팜유</name>
+			<file>./svg/list_png_3_20.png</file>
+		</list>
+		<list>
+			<name>농업</name>
+			<file>./svg/list_png_3_21.png</file>
+		</list>
+		<list>
+			<name>낙농업</name>
+			<file>./svg/list_png_3_22.png</file>
+		</list>
+		<list>
+			<name>공업</name>
+			<file>./svg/list_png_3_23.png</file>
+		</list>
+		<list>
+			<name>관광</name>
+			<file>./svg/list_png_3_24.png</file>
+		</list>
+		<list>
+			<name>교육</name>
+			<file>./svg/list_png_3_25.png</file>
+		</list>
+		<list>
+			<name>유통·물류</name>
+			<file>./svg/list_png_3_26.png</file>
+		</list>
+		<list>
+			<name>본사</name>
+			<file>./svg/list_png_3_27.png</file>
+		</list>
+		<list>
+			<name>건설</name>
+			<file>./svg/list_png_3_28.png</file>
+		</list>
+		<list>
+			<name>정보 통신(IT)</name>
+			<file>./svg/list_png_3_29.png</file>
+		</list>
+		<list>
+			<name>반도체</name>
+			<file>./svg/list_png_3_30.png</file>
+		</list>
+		<list>
+			<name>로봇</name>
+			<file>./svg/list_png_3_31.png</file>
+		</list>
+		<list>
+			<name>인공 지능(AI)</name>
+			<file>./svg/list_png_3_32.png</file>
+		</list>
+		<list>
+			<name>의료</name>
+			<file>./svg/list_png_3_33.png</file>
+		</list>
+		<list>
+			<name>콜센터</name>
+			<file>./svg/list_png_3_34.png</file>
+		</list>
+		<list>
+			<name>과학 기지</name>
+			<file>./svg/list_png_3_35.png</file>
+		</list>
+		<list>
+			<name>한류</name>
+			<file>./svg/list_png_3_36.png</file>
+		</list>
+		<list>
+			<name>태양광</name>
+			<file>./svg/list_png_3_37.png</file>
+		</list>
+		<list>
+			<name>풍력</name>
+			<file>./svg/list_png_3_38.png</file>
+		</list>
+		<list>
+			<name>수력</name>
+			<file>./svg/list_png_3_39.png</file>
+		</list>
+		<list>
+			<name>조력</name>
+			<file>./svg/list_png_3_40.png</file>
+		</list>
+		<list>
+			<name>지열</name>
+			<file>./svg/list_png_3_41.png</file>
+		</list>
+		<list>
+			<name>바이오</name>
+			<file>./svg/list_png_3_42.png</file>
 		</list>
 	</location>
 
 	<location name="대륙별 랜드마크">
 		<list>
-			<name>병원</name>
-			<file>./svg/svg_5_1.svg</file>
+			<name>사마르칸트</name>
+			<file>./svg/list_png_4_0.png</file>
 		</list>
 		<list>
-			<name>은행</name>
-			<file>./svg/svg_5_2.svg</file>
+			<name>만리장성</name>
+			<file>./svg/list_png_4_1.png</file>
 		</list>
 		<list>
-			<name>전통 시장</name>
-			<file>./svg/svg_5_3.svg</file>
+			<name>순다르반</name>
+			<file>./svg/list_png_4_2.png</file>
 		</list>
 		<list>
-			<name>대형 마트</name>
-			<file>./svg/svg_5_4.svg</file>
+			<name>할롱 베이</name>
+			<file>./svg/list_png_4_3.png</file>
 		</list>
 		<list>
-			<name>교회</name>
-			<file>./svg/svg_5_5.svg</file>
+			<name>앙코르 와트</name>
+			<file>./svg/list_png_4_4.png</file>
 		</list>
 		<list>
-			<name>영화관</name>
-			<file>./svg/svg_5_6.svg</file>
+			<name>광화문</name>
+			<file>./svg/list_png_4_5.png</file>
 		</list>
 		<list>
-			<name>백화점</name>
-			<file>./svg/svg_5_7.svg</file>
+			<name>예루살렘</name>
+			<file>./svg/list_png_4_6.png</file>
 		</list>
 		<list>
-			<name>아파트</name>
-			<file>./svg/svg_5_8.svg</file>
+			<name>타지마할</name>
+			<file>./svg/list_png_4_7.png</file>
 		</list>
 		<list>
-			<name>주택</name>
-			<file>./svg/svg_5_9.svg</file>
+			<name>후지산</name>
+			<file>./svg/list_png_4_8.png</file>
 		</list>
 		<list>
-			<name>건물 1</name>
-			<file>./svg/svg_5_10.svg</file>
+			<name>부르즈 할리파</name>
+			<file>./svg/list_png_4_9.png</file>
 		</list>
 		<list>
-			<name>건물 2</name>
-			<file>./svg/svg_5_11.svg</file>
+			<name>할그림스키르캬 교회</name>
+			<file>./svg/list_png_4_10.png</file>
 		</list>
 		<list>
-			<name>건물 3</name>
-			<file>./svg/svg_5_12.svg</file>
+			<name>에펠 탑</name>
+			<file>./svg/list_png_4_11.png</file>
 		</list>
 		<list>
-			<name>건물 4</name>
-			<file>./svg/svg_5_13.svg</file>
+			<name>사그라다 파밀리아 성당</name>
+			<file>./svg/list_png_4_12.png</file>
+		</list>
+		<list>
+			<name>타워 브리지</name>
+			<file>./svg/list_png_4_13.png</file>
+		</list>
+		<list>
+			<name>콜로세움</name>
+			<file>./svg/list_png_4_14.png</file>
+		</list>
+		<list>
+			<name>성 바실리 성당</name>
+			<file>./svg/list_png_4_15.png</file>
+		</list>
+		<list>
+			<name>베를린 장벽</name>
+			<file>./svg/list_png_4_16.png</file>
+		</list>
+		<list>
+			<name>파르테논 신전</name>
+			<file>./svg/list_png_4_17.png</file>
+		</list>
+		<list>
+			<name>시베리아 횡단 철도</name>
+			<file>./svg/list_png_4_18.png</file>
+		</list>
+		<list>
+			<name>피라미드</name>
+			<file>./svg/list_png_4_19.png</file>
+		</list>
+		<list>
+			<name>킬리만자로산</name>
+			<file>./svg/list_png_4_20.png</file>
+		</list>
+		<list>
+			<name>젠네 대사원</name>
+			<file>./svg/list_png_4_21.png</file>
+		</list>
+		<list>
+			<name>세렝게티 국립 공원</name>
+			<file>./svg/list_png_4_22.png</file>
+		</list>
+		<list>
+			<name>바오밥 애비뉴</name>
+			<file>./svg/list_png_4_23.png</file>
+		</list>
+		<list>
+			<name>자유의 여신상</name>
+			<file>./svg/list_png_4_24.png</file>
+		</list>
+		<list>
+			<name>그랜드 캐니언</name>
+			<file>./svg/list_png_4_25.png</file>
+		</list>
+		<list>
+			<name>나이아가라 폭포</name>
+			<file>./svg/list_png_4_26.png</file>
+		</list>
+		<list>
+			<name>예수상</name>
+			<file>./svg/list_png_4_27.png</file>
+		</list>
+		<list>
+			<name>치첸이트사</name>
+			<file>./svg/list_png_4_28.png</file>
+		</list>
+		<list>
+			<name>마추픽추</name>
+			<file>./svg/list_png_4_29.png</file>
+		</list>
+		<list>
+			<name>적도의 탑</name>
+			<file>./svg/list_png_4_30.png</file>
+		</list>
+		<list>
+			<name>오페라 하우스</name>
+			<file>./svg/list_png_4_31.png</file>
+		</list>
+		<list>
+			<name>울룰루</name>
+			<file>./svg/list_png_4_32.png</file>
+		</list>
+		<list>
+			<name>대보초</name>
+			<file>./svg/list_png_4_33.png</file>
+		</list>
+		<list>
+			<name>스카이 타워</name>
+			<file>./svg/list_png_4_34.png</file>
 		</list>
 	</location>
 
 	<location name="지도 기호">
 		<list>
-			<name>원</name>
-			<file>./svg/svg_6_1.svg</file>
+			<name>특별시·광역시·도청</name>
+			<file>./svg/list_png_5_0.png</file>
 		</list>
 		<list>
-			<name>삼각형</name>
-			<file>./svg/svg_6_2.svg</file>
+			<name>인구 300만 이상 도시</name>
+			<file>./svg/list_png_5_1.png</file>
 		</list>
 		<list>
-			<name>사각형</name>
-			<file>./svg/svg_6_3.svg</file>
+			<name>인구 100~300만 도시</name>
+			<file>./svg/list_png_5_2.png</file>
 		</list>
 		<list>
-			<name>화살표</name>
-			<file>./svg/svg_6_4.svg</file>
+			<name>인구 50~100만 도시</name>
+			<file>./svg/list_png_5_3.png</file>
 		</list>
 		<list>
-			<name>별</name>
-			<file>./svg/svg_6_5.svg</file>
+			<name>인구 10~50만 도시</name>
+			<file>./svg/list_png_5_4.png</file>
 		</list>
 		<list>
-			<name>하트</name>
-			<file>./svg/svg_6_6.svg</file>
+			<name>인구 10만 미만 도시</name>
+			<file>./svg/list_png_5_5.png</file>
 		</list>
 		<list>
-			<name>클로버</name>
-			<file>./svg/svg_6_7.svg</file>
+			<name>세계 유산</name>
+			<file>./svg/list_png_5_6.png</file>
 		</list>
-		<list>
-			<name>번개</name>
-			<file>./svg/svg_6_8.svg</file>
-		</list>
-		<list>
-			<name>꽃</name>
-			<file>./svg/svg_6_9.svg</file>
-		</list>
-		<list>
-			<name>스마일 1</name>
-			<file>./svg/svg_6_10.svg</file>
-		</list>
-		<list>
-			<name>스마일 2</name>
-			<file>./svg/svg_6_11.svg</file>
-		</list>
-		<list>
-			<name>스마일 3</name>
-			<file>./svg/svg_6_12.svg</file>
-		</list>
-		<list>
-			<name>스마일 4</name>
-			<file>./svg/svg_6_13.svg</file>
-		</list>
-		<list>
-			<name>스마일 5</name>
-			<file>./svg/svg_6_14.svg</file>
-		</list>
-		<list>
-			<name>스마일 6</name>
-			<file>./svg/svg_6_15.svg</file>
-		</list>
-	</location>
-
-	<location name="지속가능 발전 목표(SDGs)">
 		<list>
 			<name>산</name>
-			<file>./svg/svg_7_1.svg</file>
+			<file>./svg/list_png_5_7.png</file>
+		</list>
+		<list>
+			<name>화산</name>
+			<file>./svg/list_png_5_8.png</file>
+		</list>
+		<list>
+			<name>사막</name>
+			<file>./svg/list_png_5_9.png</file>
 		</list>
 		<list>
 			<name>호수</name>
-			<file>./svg/svg_7_2.svg</file>
+			<file>./svg/list_png_5_10.png</file>
 		</list>
 		<list>
 			<name>폭포</name>
-			<file>./svg/svg_7_3.svg</file>
+			<file>./svg/list_png_5_11.png</file>
 		</list>
 		<list>
 			<name>논</name>
-			<file>./svg/svg_7_4.svg</file>
+			<file>./svg/list_png_5_12.png</file>
 		</list>
 		<list>
 			<name>밭</name>
-			<file>./svg/svg_7_5.svg</file>
+			<file>./svg/list_png_5_13.png</file>
 		</list>
 		<list>
 			<name>과수원</name>
-			<file>./svg/svg_7_6.svg</file>
+			<file>./svg/list_png_5_14.png</file>
 		</list>
 		<list>
 			<name>다리</name>
-			<file>./svg/svg_7_7.svg</file>
+			<file>./svg/list_png_5_15.png</file>
 		</list>
 		<list>
 			<name>기차역</name>
-			<file>./svg/svg_7_8.svg</file>
+			<file>./svg/list_png_5_16.png</file>
 		</list>
 		<list>
 			<name>버스 터미널</name>
-			<file>./svg/svg_7_9.svg</file>
+			<file>./svg/list_png_5_17.png</file>
 		</list>
 		<list>
 			<name>공항</name>
-			<file>./svg/svg_7_10.svg</file>
+			<file>./svg/list_png_5_18.png</file>
 		</list>
 		<list>
 			<name>항구</name>
-			<file>./svg/svg_7_11.svg</file>
+			<file>./svg/list_png_5_19.png</file>
 		</list>
 		<list>
 			<name>등대</name>
-			<file>./svg/svg_7_12.svg</file>
+			<file>./svg/list_png_5_20.png</file>
 		</list>
 		<list>
-			<name>특별시·광역시·도청</name>
-			<file>./svg/svg_7_13.svg</file>
-		</list>
-		<list>
-			<name>시청</name>
-			<file>./svg/svg_7_14.svg</file>
-		</list>
-		<list>
-			<name>군‧구청</name>
-			<file>./svg/svg_7_15.svg</file>
+			<name>광산</name>
+			<file>./svg/list_png_5_21.png</file>
 		</list>
 		<list>
 			<name>명승고적</name>
-			<file>./svg/svg_7_16.svg</file>
+			<file>./svg/list_png_5_22.png</file>
 		</list>
 		<list>
 			<name>절</name>
-			<file>./svg/svg_7_17.svg</file>
+			<file>./svg/list_png_5_23.png</file>
 		</list>
 		<list>
 			<name>교회·성당</name>
-			<file>./svg/svg_7_18.svg</file>
+			<file>./svg/list_png_5_24.png</file>
 		</list>
 		<list>
 			<name>초·중·고교</name>
-			<file>./svg/svg_7_19.svg</file>
+			<file>./svg/list_png_5_25.png</file>
 		</list>
 		<list>
 			<name>대학교</name>
-			<file>./svg/svg_7_20.svg</file>
+			<file>./svg/list_png_5_26.png</file>
 		</list>
 		<list>
 			<name>경찰서</name>
-			<file>./svg/svg_7_21.svg</file>
+			<file>./svg/list_png_5_27.png</file>
 		</list>
 		<list>
 			<name>소방서</name>
-			<file>./svg/svg_7_22.svg</file>
+			<file>./svg/list_png_5_28.png</file>
 		</list>
 		<list>
 			<name>우체국</name>
-			<file>./svg/svg_7_23.svg</file>
+			<file>./svg/list_png_5_29.png</file>
 		</list>
 		<list>
 			<name>병원·보건소</name>
-			<file>./svg/svg_7_24.svg</file>
+			<file>./svg/list_png_5_30.png</file>
 		</list>
 		<list>
 			<name>법원</name>
-			<file>./svg/svg_7_25.svg</file>
+			<file>./svg/list_png_5_31.png</file>
 		</list>
 		<list>
 			<name>공장</name>
-			<file>./svg/svg_7_26.svg</file>
+			<file>./svg/list_png_5_32.png</file>
 		</list>
 		<list>
 			<name>해수욕장</name>
-			<file>./svg/svg_7_27.svg</file>
+			<file>./svg/list_png_5_33.png</file>
 		</list>
 		<list>
 			<name>능</name>
-			<file>./svg/svg_7_28.svg</file>
+			<file>./svg/list_png_5_34.png</file>
 		</list>
 		<list>
 			<name>온천</name>
-			<file>./svg/svg_7_29.svg</file>
+			<file>./svg/list_png_5_35.png</file>
 		</list>
 	</location>
 
-	<location name="사람">
+	<location name="지속가능 발전">
+	<list>
+			<name>지속가능 발전 목표</name>
+			<file>./svg/list_png_6_0.png</file>
+		</list>
+		<list>
+			<name>목표 1</name>
+			<file>./svg/list_png_6_1.png</file>
+		</list>
+		<list>
+			<name>목표 2</name>
+			<file>./svg/list_png_6_2.png</file>
+		</list>
+		<list>
+			<name>목표 3</name>
+			<file>./svg/list_png_6_3.png</file>
+		</list>
+		<list>
+			<name>목표 4</name>
+			<file>./svg/list_png_6_4.png</file>
+		</list>
+		<list>
+			<name>목표 5</name>
+			<file>./svg/list_png_6_5.png</file>
+		</list>
+		<list>
+			<name>목표 6</name>
+			<file>./svg/list_png_6_6.png</file>
+		</list>
+		<list>
+			<name>목표 7</name>
+			<file>./svg/list_png_6_7.png</file>
+		</list>
+		<list>
+			<name>목표 8</name>
+			<file>./svg/list_png_6_8.png</file>
+		</list>
+		<list>
+			<name>목표 9</name>
+			<file>./svg/list_png_6_9.png</file>
+		</list>
+		<list>
+			<name>목표 10</name>
+			<file>./svg/list_png_6_10.png</file>
+		</list>
+		<list>
+			<name>목표 11</name>
+			<file>./svg/list_png_6_11.png</file>
+		</list>
+		<list>
+			<name>목표 12</name>
+			<file>./svg/list_png_6_12.png</file>
+		</list>
+		<list>
+			<name>목표 13</name>
+			<file>./svg/list_png_6_13.png</file>
+		</list>
+		<list>
+			<name>목표 14</name>
+			<file>./svg/list_png_6_14.png</file>
+		</list>
+		<list>
+			<name>목표 15</name>
+			<file>./svg/list_png_6_15.png</file>
+		</list>
+		<list>
+			<name>목표 16</name>
+			<file>./svg/list_png_6_16.png</file>
+		</list>
+		<list>
+			<name>목표 17</name>
+			<file>./svg/list_png_6_17.png</file>
+		</list>
+		<list>
+			<name>지구 온난화</name>
+			<file>./svg/list_png_6_18.png</file>
+		</list>
+		<list>
+			<name>대기 오염</name>
+			<file>./svg/list_png_6_19.png</file>
+		</list>
+		<list>
+			<name>토양 오염</name>
+			<file>./svg/list_png_6_20.png</file>
+		</list>
+		<list>
+			<name>수질 오염</name>
+			<file>./svg/list_png_6_21.png</file>
+		</list>
+		<list>
+			<name>원유 유출</name>
+			<file>./svg/list_png_6_22.png</file>
+		</list>
+		<list>
+			<name>열대림 파괴</name>
+			<file>./svg/list_png_6_23.png</file>
+		</list>
+		<list>
+			<name>전자 쓰레기</name>
+			<file>./svg/list_png_6_24.png</file>
+		</list>
+		<list>
+			<name>웰빙</name>
+			<file>./svg/list_png_6_25.png</file>
+		</list>
+		<list>
+			<name>친환경</name>
+			<file>./svg/list_png_6_26.png</file>
+		</list>
+		<list>
+			<name>재활용</name>
+			<file>./svg/list_png_6_27.png</file>
+		</list>
+		<list>
+			<name>자전거</name>
+			<file>./svg/list_png_6_28.png</file>
+		</list>
+	</location>
+
+	<!-- <location name="사람">
 		<list>
 			<name>핫도그</name>
 			<file>./svg/svg_8_1.svg</file>
@@ -438,88 +1098,9 @@
 			<name>고양이</name>
 			<file>./svg/svg_8_14.svg</file>
 		</list>
-		<list>
-			<name>우산</name>
-			<file>./svg/svg_8_15.svg</file>
 		</list>
-		<list>
-			<name>나뭇잎</name>
-			<file>./svg/svg_8_16.svg</file>
-		</list>
-		<list>
-			<name>해설사 1</name>
-			<file>./svg/svg_8_17.svg</file>
-		</list>
-		<list>
-			<name>해설사 2</name>
-			<file>./svg/svg_8_18.svg</file>
-		</list>
-		<list>
-			<name>학생 3</name>
-			<file>./svg/svg_8_19.svg</file>
-		</list>
-		<list>
-			<name>학생 4</name>
-			<file>./svg/svg_8_20.svg</file>
-		</list>
-		<list>
-			<name>선생님 1</name>
-			<file>./svg/svg_8_21.svg</file>
-		</list>
-		<list>
-			<name>선생님 2</name>
-			<file>./svg/svg_8_22.svg</file>
-		</list>
-		<list>
-			<name>사진 금지</name>
-			<file>./svg/svg_8_23.svg</file>
-		</list>
-		<list>
-			<name>음식물 반입 금지</name>
-			<file>./svg/svg_8_24.svg</file>
-		</list>
-		<list>
-			<name>오디오 설명</name>
-			<file>./svg/svg_8_25.svg</file>
-		</list>
-		<list>
-			<name>큐아르(QR) 코드</name>
-			<file>./svg/svg_8_26.svg</file>
-		</list>
-		<list>
-			<name>안전 가드</name>
-			<file>./svg/svg_8_27.svg</file>
-		</list>
-		<list>
-			<name>비상구 표시</name>
-			<file>./svg/svg_8_28.svg</file>
-		</list>
-		<list>
-			<name>오디오 가이드</name>
-			<file>./svg/svg_8_29.svg</file>
-		</list>
-		<list>
-			<name>해설 로봇</name>
-			<file>./svg/svg_8_30.svg</file>
-		</list>
-		<list>
-			<name>입간판</name>
-			<file>./svg/svg_8_31.svg</file>
-		</list>
-		<list>
-			<name>화분 1</name>
-			<file>./svg/svg_8_32.svg</file>
-		</list>
-		<list>
-			<name>화분 2</name>
-			<file>./svg/svg_8_33.svg</file>
-		</list>
-		<list>
-			<name>화분 3</name>
-			<file>./svg/svg_8_34.svg</file>
-		</list>
-	</location>
-	<location name="도형">
+	</location> -->
+	<!-- <location name="도형">
 		<list>
 			<name>핫도그</name>
 			<file>./svg/svg_8_1.svg</file>
@@ -528,5 +1109,5 @@
 			<name>자동차</name>
 			<file>./svg/svg_8_2.svg</file>
 		</list>
-	</location>
+	</location> -->
 </root>
